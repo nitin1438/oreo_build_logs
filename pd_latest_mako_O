@@ -1,0 +1,184 @@
+--------- beginning of main
+09-18 14:06:01.046     0   174 I SELinux : SELinux: Loaded service_contexts from:
+09-18 14:06:01.050     0   174 I SELinux :     /vndservice_contexts
+09-18 14:06:01.067     0   172 I SELinux : SELinux: Loaded service_contexts from:
+09-18 14:06:01.069     0   172 I SELinux :     /plat_service_contexts
+09-18 14:06:01.069     0   172 I SELinux :     /nonplat_service_contexts
+09-18 14:05:55.453   171   171 W auditd  : type=2000 audit(0.0:1): initialized
+09-18 14:05:56.540   171   171 I auditd  : type=1403 audit(0.0:2): policy loaded auid=4294967295 ses=4294967295
+09-18 14:05:57.170     1     1 I init    : type=1400 audit(0.0:3): avc: denied { create } for name="sdcard" scontext=u:r:init:s0 tcontext=u:object_r:tmpfs:s0 tclass=lnk_file permissive=1
+09-18 14:05:57.290   158   158 W e2fsck  : type=1400 audit(0.0:4): avc: granted { getattr } for path="/vendor" dev="rootfs" ino=4768 scontext=u:r:fsck:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+09-18 14:05:57.340   158   158 W e2fsck  : type=1400 audit(0.0:5): avc: granted { read } for name="online" dev="sysfs" ino=34 scontext=u:r:fsck:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+09-18 14:05:57.350   158   158 W e2fsck  : type=1400 audit(0.0:6): avc: granted { read open } for name="online" dev="sysfs" ino=34 scontext=u:r:fsck:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+09-18 14:05:57.350   158   158 W e2fsck  : type=1400 audit(0.0:7): avc: granted { getattr } for path="/sys/devices/system/cpu/online" dev="sysfs" ino=34 scontext=u:r:fsck:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+09-18 14:05:57.350   158   158 I e2fsck  : type=1400 audit(0.0:8): avc: denied { read } for name="mmcblk0p22" dev="tmpfs" ino=8600 scontext=u:r:fsck:s0 tcontext=u:object_r:block_device:s0 tclass=blk_file permissive=1
+09-18 14:05:57.360   158   158 I e2fsck  : type=1400 audit(0.0:9): avc: denied { open } for name="mmcblk0p22" dev="tmpfs" ino=8600 scontext=u:r:fsck:s0 tcontext=u:object_r:block_device:s0 tclass=blk_file permissive=1
+09-18 14:05:57.360   158   158 I e2fsck  : type=1400 audit(0.0:10): avc: denied { write } for name="mmcblk0p22" dev="tmpfs" ino=8600 scontext=u:r:fsck:s0 tcontext=u:object_r:block_device:s0 tclass=blk_file permissive=1
+09-18 14:06:01.023   174   174 I vndservicemanag: type=1400 audit(0.0:20): avc: denied { read } for name="online" dev="sysfs" ino=34 scontext=u:r:vndservicemanager:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:01.023   174   174 I vndservicemanag: type=1400 audit(0.0:21): avc: denied { open } for name="online" dev="sysfs" ino=34 scontext=u:r:vndservicemanager:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:01.023   174   174 I vndservicemanag: type=1400 audit(0.0:22): avc: denied { getattr } for path="/sys/devices/system/cpu/online" dev="sysfs" ino=34 scontext=u:r:vndservicemanager:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:01.043   172   172 I servicemanager: type=1400 audit(0.0:23): avc: denied { read } for name="online" dev="sysfs" ino=34 scontext=u:r:servicemanager:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:01.043   172   172 I servicemanager: type=1400 audit(0.0:24): avc: denied { open } for name="online" dev="sysfs" ino=34 scontext=u:r:servicemanager:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:01.043   172   172 I servicemanager: type=1400 audit(0.0:25): avc: denied { getattr } for path="/sys/devices/system/cpu/online" dev="sysfs" ino=34 scontext=u:r:servicemanager:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:01.053   171   171 I logd    : type=1400 audit(0.0:26): avc: denied { read } for name="online" dev="sysfs" ino=34 scontext=u:r:logd:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:01.053   171   171 I logd    : type=1400 audit(0.0:27): avc: denied { open } for name="online" dev="sysfs" ino=34 scontext=u:r:logd:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:01.053   171   171 I logd    : type=1400 audit(0.0:28): avc: denied { getattr } for path="/sys/devices/system/cpu/online" dev="sysfs" ino=34 scontext=u:r:logd:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:01.103   173   173 I hwservicemanage: type=1400 audit(0.0:29): avc: denied { read } for name="online" dev="sysfs" ino=34 scontext=u:r:hwservicemanager:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:01.103   173   173 I hwservicemanage: type=1400 audit(0.0:30): avc: denied { open } for name="online" dev="sysfs" ino=34 scontext=u:r:hwservicemanager:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:01.103   173   173 I hwservicemanage: type=1400 audit(0.0:31): avc: denied { getattr } for path="/sys/devices/system/cpu/online" dev="sysfs" ino=34 scontext=u:r:hwservicemanager:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:01.128   173   173 E hwservicemanager: BINDER_SET_INHERIT_FIFO_PRIO failed with error -1
+09-18 14:06:01.203   183   183 I vdc     : type=1400 audit(0.0:32): avc: denied { read } for name="online" dev="sysfs" ino=34 scontext=u:r:vdc:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:01.203   183   183 I vdc     : type=1400 audit(0.0:33): avc: denied { open } for name="online" dev="sysfs" ino=34 scontext=u:r:vdc:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:01.203   183   183 I vdc     : type=1400 audit(0.0:34): avc: denied { getattr } for path="/sys/devices/system/cpu/online" dev="sysfs" ino=34 scontext=u:r:vdc:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+--------- beginning of system
+09-18 14:06:01.237   180   180 I vold    : Vold 3.0 (the awakening) firing up
+09-18 14:06:01.238   180   180 V vold    : Detected support for: ext4 f2fs vfat
+09-18 14:06:01.242   180   180 I vold    : [libfs_mgr]fs_mgr_read_fstab_dt(): failed to read fstab from dt
+09-18 14:06:01.251   180   186 D vold    : e4crypt_init_user0
+09-18 14:06:01.251   180   186 D vold    : e4crypt_prepare_user_storage for volume null, user 0, serial 0, flags 1
+09-18 14:06:01.251   180   186 D vold    : Preparing: /data/system/users/0
+09-18 14:06:01.252   180   186 D vold    : Preparing: /data/misc/profiles/cur/0
+09-18 14:06:01.252   180   186 D vold    : Preparing: /data/system_de/0
+09-18 14:06:01.252   180   186 D vold    : Preparing: /data/misc_de/0
+09-18 14:06:01.253   180   186 D vold    : Preparing: /data/user_de/0
+09-18 14:06:01.253   180   186 D vold    : e4crypt_unlock_user_key 0 serial=0 token_present=0
+09-18 14:06:01.253   180   186 E vold    : Failed to chmod /data/system_ce/0: No such file or directory
+09-18 14:06:01.253   180   186 E vold    : Failed to chmod /data/misc_ce/0: No such file or directory
+09-18 14:06:03.335   187   187 I tzdatacheck: type=1400 audit(0.0:35): avc: denied { read } for name="online" dev="sysfs" ino=34 scontext=u:r:tzdatacheck:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:03.335   187   187 I tzdatacheck: type=1400 audit(0.0:36): avc: denied { open } for name="online" dev="sysfs" ino=34 scontext=u:r:tzdatacheck:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:03.335   187   187 I tzdatacheck: type=1400 audit(0.0:37): avc: denied { getattr } for path="/sys/devices/system/cpu/online" dev="sysfs" ino=34 scontext=u:r:tzdatacheck:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:03.347   187   187 I /system/bin/tzdatacheck: timezone distro dir /data/misc/zoneinfo/current does not exist. No action required.
+09-18 14:06:03.766   193   193 I logd    : type=1400 audit(0.0:38): avc: denied { read } for name="online" dev="sysfs" ino=34 scontext=u:r:logd:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:03.766   193   193 I logd    : type=1400 audit(0.0:39): avc: denied { open } for name="online" dev="sysfs" ino=34 scontext=u:r:logd:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:03.766   193   193 I logd    : type=1400 audit(0.0:40): avc: denied { getattr } for path="/sys/devices/system/cpu/online" dev="sysfs" ino=34 scontext=u:r:logd:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:03.806   206   206 I adbd    : type=1400 audit(0.0:41): avc: denied { read } for name="online" dev="sysfs" ino=34 scontext=u:r:adbd:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:03.806   206   206 I adbd    : type=1400 audit(0.0:42): avc: denied { open } for name="online" dev="sysfs" ino=34 scontext=u:r:adbd:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:03.806   206   206 I adbd    : type=1400 audit(0.0:43): avc: denied { getattr } for path="/sys/devices/system/cpu/online" dev="sysfs" ino=34 scontext=u:r:adbd:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:03.826   195   195 I android.hardwar: type=1400 audit(0.0:44): avc: denied { read } for name="online" dev="sysfs" ino=34 scontext=u:r:hal_configstore_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:03.826   195   195 I android.hardwar: type=1400 audit(0.0:45): avc: denied { open } for name="online" dev="sysfs" ino=34 scontext=u:r:hal_configstore_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:03.826   195   195 I android.hardwar: type=1400 audit(0.0:46): avc: denied { getattr } for path="/sys/devices/system/cpu/online" dev="sysfs" ino=34 scontext=u:r:hal_configstore_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:03.826   194   194 I android.hidl.al: type=1400 audit(0.0:47): avc: denied { read } for name="online" dev="sysfs" ino=34 scontext=u:r:hal_allocator_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:03.826   194   194 I android.hidl.al: type=1400 audit(0.0:48): avc: denied { open } for name="online" dev="sysfs" ino=34 scontext=u:r:hal_allocator_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:03.826   194   194 I android.hidl.al: type=1400 audit(0.0:49): avc: denied { getattr } for path="/sys/devices/system/cpu/online" dev="sysfs" ino=34 scontext=u:r:hal_allocator_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:03.844   195   195 I ServiceManagement: Removing namespace from process name android.hardware.configstore@1.0-service to configstore@1.0.
+09-18 14:06:03.844   194   194 I ServiceManagement: Removing namespace from process name android.hidl.allocator@1.0-service to allocator@1.0-s.
+09-18 14:06:03.846   205   205 I sh      : type=1400 audit(0.0:50): avc: denied { read } for name="online" dev="sysfs" ino=34 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:03.846   205   205 I sh      : type=1400 audit(0.0:51): avc: denied { open } for name="online" dev="sysfs" ino=34 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:03.846   205   205 I sh      : type=1400 audit(0.0:52): avc: denied { getattr } for path="/sys/devices/system/cpu/online" dev="sysfs" ino=34 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:03.861   199   199 I lowmemorykiller: Using in-kernel low memory killer interface
+09-18 14:06:03.863   173   173 W /system/bin/hwservicemanager: getTransportFromManifest: Cannot find entry android.hardware.health@1.0::IHealth in either framework or device manifest, using default transport.
+09-18 14:06:03.876   196   196 I ServiceManagement: Removing namespace from process name android.hardware.usb@1.0-service to usb@1.0-service.
+09-18 14:06:03.878   196   196 I android.hardware.usb@1.0-service: USB HAL Ready.
+09-18 14:06:03.918   197   197 I android.hardware.wifi@1.0-service: Wifi Hal is starting up...
+09-18 14:06:03.918   197   197 I ServiceManagement: Removing namespace from process name android.hardware.wifi@1.0-service to wifi@1.0-servic.
+09-18 14:06:04.032   173   173 W /system/bin/hwservicemanager: getTransportFromManifest: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs in either framework or device manifest, using default transport.
+09-18 14:06:04.034   200   200 I /system/bin/surfaceflinger: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::maxFrameBufferAcquiredBuffers retrieved: 2 (default)
+09-18 14:06:04.035   173   173 W /system/bin/hwservicemanager: getTransportFromManifest: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs in either framework or device manifest, using default transport.
+09-18 14:06:04.036   200   200 I /system/bin/surfaceflinger: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::startGraphicsAllocatorService retrieved: 0
+09-18 14:06:04.039   200   200 I SurfaceFlinger: SurfaceFlinger is starting
+09-18 14:06:04.039   173   173 W /system/bin/hwservicemanager: getTransportFromManifest: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs in either framework or device manifest, using default transport.
+09-18 14:06:04.040   200   200 I /system/bin/surfaceflinger: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::vsyncEventPhaseOffsetNs retrieved: 1000000 (default)
+09-18 14:06:04.041   173   173 W /system/bin/hwservicemanager: getTransportFromManifest: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs in either framework or device manifest, using default transport.
+09-18 14:06:04.042   200   200 I /system/bin/surfaceflinger: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::vsyncSfEventPhaseOffsetNs retrieved: 1000000 (default)
+09-18 14:06:04.043   173   173 W /system/bin/hwservicemanager: getTransportFromManifest: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs in either framework or device manifest, using default transport.
+09-18 14:06:04.044   200   200 I /system/bin/surfaceflinger: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::maxVirtualDisplaySize retrieved: 0 (default)
+09-18 14:06:04.046   173   173 W /system/bin/hwservicemanager: getTransportFromManifest: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs in either framework or device manifest, using default transport.
+09-18 14:06:04.047   200   200 I /system/bin/surfaceflinger: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasSyncFramework retrieved: 1
+09-18 14:06:04.049   173   173 W /system/bin/hwservicemanager: getTransportFromManifest: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs in either framework or device manifest, using default transport.
+09-18 14:06:04.051   200   200 I /system/bin/surfaceflinger: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::useContextPriority retrieved: 0 (default)
+09-18 14:06:04.052   173   173 W /system/bin/hwservicemanager: getTransportFromManifest: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs in either framework or device manifest, using default transport.
+09-18 14:06:04.054   200   200 I /system/bin/surfaceflinger: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::presentTimeOffsetFromVSyncNs retrieved: 0
+09-18 14:06:04.054   173   173 W /system/bin/hwservicemanager: getTransportFromManifest: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs in either framework or device manifest, using default transport.
+09-18 14:06:04.055   200   200 I /system/bin/surfaceflinger: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::useHwcForRGBtoYUV retrieved: 0
+09-18 14:06:04.055   200   200 I /system/bin/surfaceflinger: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::maxFrameBufferAcquiredBuffers retrieved: 2 (default)
+09-18 14:06:04.055   200   200 I SurfaceFlinger: Enabling HWC virtual displays
+09-18 14:06:04.055   200   200 I SurfaceFlinger: Disabling Triple Buffering
+09-18 14:06:04.055   200   200 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+09-18 14:06:04.056   200   200 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/egl/libEGL_adreno.so from the current namespace instead.
+09-18 14:06:04.067   200   200 D libEGL  : loaded /vendor/lib/egl/libEGL_adreno.so
+09-18 14:06:04.068   200   200 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/egl/libGLESv1_CM_adreno.so from the current namespace instead.
+09-18 14:06:04.072   200   200 D libEGL  : loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+09-18 14:06:04.093   200   200 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/egl/libGLESv2_adreno.so from the current namespace instead.
+09-18 14:06:04.177   200   200 D libEGL  : loaded /vendor/lib/egl/libGLESv2_adreno.so
+09-18 14:06:04.196   200   200 I surfaceflinger: type=1400 audit(0.0:53): avc: denied { read write } for name="kgsl-3d0" dev="tmpfs" ino=8619 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+09-18 14:06:04.196   200   200 I surfaceflinger: type=1400 audit(0.0:54): avc: denied { open } for name="kgsl-3d0" dev="tmpfs" ino=8619 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+09-18 14:06:04.206   200   200 I surfaceflinger: type=1400 audit(0.0:55): avc: denied { ioctl } for path="/dev/kgsl-3d0" dev="tmpfs" ino=8619 ioctlcmd=902 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+09-18 14:06:04.215   200   200 I Adreno-EGL: <qeglDrvAPI_eglInitialize:379>: QUALCOMM Build: 10/21/15, 369a2ea, I96aee987eb
+09-18 14:06:04.220   200   200 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/hw/gralloc.msm8960.so from the current namespace instead.
+09-18 14:06:04.226   200   200 I qdgralloc: using (fd=13)
+09-18 14:06:04.226   200   200 I qdgralloc: id           = msmfb44_80601
+09-18 14:06:04.226   200   200 I qdgralloc: xres         = 768 px
+09-18 14:06:04.226   200   200 I qdgralloc: yres         = 1280 px
+09-18 14:06:04.226   200   200 I qdgralloc: xres_virtual = 768 px
+09-18 14:06:04.226   200   200 I qdgralloc: yres_virtual = 3840 px
+09-18 14:06:04.226   200   200 I qdgralloc: bpp          = 32
+09-18 14:06:04.226   200   200 I qdgralloc: r            = 24:8
+09-18 14:06:04.226   200   200 I qdgralloc: g            = 16:8
+09-18 14:06:04.226   200   200 I qdgralloc: b            =  8:8
+09-18 14:06:04.226   200   200 I qdgralloc: width        = 122 mm (159.895081 dpi)
+09-18 14:06:04.226   200   200 I qdgralloc: height       = 203 mm (160.157639 dpi)
+09-18 14:06:04.226   200   200 I qdgralloc: refresh rate = 60.00 Hz
+09-18 14:06:04.226   200   200 D qdutils : DEBUG_CALC_FPS: 0
+09-18 14:06:04.226   200   200 D qdutils : period: 10
+09-18 14:06:04.226   200   200 D qdutils : ignorethresh_us: 500000
+09-18 14:06:04.226   200   200 D qdutils : DEBUG_CALC_FPS: 0
+09-18 14:06:04.226   200   200 D qdutils : period: 10
+09-18 14:06:04.226   200   200 D qdutils : ignorethresh_us: 500000
+09-18 14:06:04.237   200   200 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/hw/hwcomposer.msm8960.so from the current namespace instead.
+09-18 14:06:04.668   200   200 D qdoverlay: initoverlay:: opening the device:: /dev/graphics/fb0
+09-18 14:06:04.669   200   200 D qdoverlay: initoverlay:: opening the device:: /dev/graphics/fb1
+09-18 14:06:04.669   200   200 D qdoverlay: initoverlay:: opening the device:: /dev/graphics/fb2
+09-18 14:06:04.693   200   200 D qdoverlay: initoverlay:: opening the device:: /dev/graphics/fb0
+09-18 14:06:04.693   200   200 D qdoverlay: initoverlay:: opening the device:: /dev/graphics/fb1
+09-18 14:06:04.693   200   200 D qdoverlay: initoverlay:: opening the device:: /dev/graphics/fb2
+09-18 14:06:04.717   200   200 I surfaceflinger: type=1400 audit(0.0:56): avc: denied { write } for name="hpd" dev="sysfs" ino=8773 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+09-18 14:06:04.726   200   200 I qdhwcomposer: Initializing Qualcomm Hardware Composer
+09-18 14:06:04.726   200   200 I qdhwcomposer: MDP version: 440
+09-18 14:06:04.726   200   200 D qdhwcomposer: connectPPDaemon: CABL is disabled
+09-18 14:06:04.726   200   200 I SurfaceFlinger: Using composer version 1.2
+09-18 14:06:04.726   200   200 I qdhwcomposer: hwc_registerProcs
+09-18 14:06:04.726   200   200 I qdhwcomposer: Initializing UEVENT Thread
+09-18 14:06:04.727   200   200 I qdhwcomposer: Initializing VSYNC Thread
+09-18 14:06:04.727   200   200 D qdhwcomposer: hwc_getDisplayAttributes disp = 0, width = 768
+09-18 14:06:04.727   200   200 D qdhwcomposer: hwc_getDisplayAttributes disp = 0, height = 1280
+09-18 14:06:04.746   200   200 I SurfaceFlinger: EGL information:
+09-18 14:06:04.746   200   200 I SurfaceFlinger: vendor    : Android
+09-18 14:06:04.746   200   200 I SurfaceFlinger: version   : 1.4 Android META-EGL
+09-18 14:06:04.747   200   200 I SurfaceFlinger: extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_swap_buffers_with_damage EGL_ANDROID_get_native_client_buffer EGL_ANDROID_front_buffer_auto_refresh EGL_ANDROID_get_frame_timestamps EGL_KHR_image EGL_KHR_image_base EGL_KHR_lock_surface EGL_KHR_gl_colorspace EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_KHR_partial_update EGL_IMG_context_priority 
+09-18 14:06:04.747   200   200 I SurfaceFlinger: Client API: OpenGL_ES
+09-18 14:06:04.747   200   200 I SurfaceFlinger: EGLSurface: 8-8-8-8, config=0x5
+09-18 14:06:04.750   200   200 I SurfaceFlinger: OpenGL ES informations:
+09-18 14:06:04.750   200   200 I SurfaceFlinger: vendor    : Qualcomm
+09-18 14:06:04.750   200   200 I SurfaceFlinger: renderer  : Adreno (TM) 320
+09-18 14:06:04.750   200   200 I SurfaceFlinger: version   : OpenGL ES 3.0 V@127.0 AU@  (GIT@I96aee987eb)
+09-18 14:06:04.750   200   200 I SurfaceFlinger: extensions: GL_AMD_compressed_ATC_texture GL_AMD_performance_monitor GL_AMD_program_binary_Z400 GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_robustness GL_EXT_texture_format_BGRA8888 GL_EXT_texture_type_2_10_10_10_REV GL_NV_fence GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_depth24 GL_OES_EGL_image GL_OES_EGL_sync GL_OES_EGL_image_external GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_fragment_precision_high GL_OES_get_program_binary GL_OES_packed_depth_stencil GL_OES_depth_texture_cube_map GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_vertex_type_10_10_10_2 GL_OES_vertex_array_object GL_QCOM_alpha_test GL_QCOM_binning_control GL_QCOM_driver_control GL_QCOM_perfmon_global_mode GL_QCOM_extended_get GL_QCOM_extended_get2 GL_QCOM_tiled_rendering GL_QCOM_writeonly_rendering GL_EXT_sRGB GL_EXT_sRGB_write_con
+09-18 14:06:04.750   200   200 I SurfaceFlinger: GL_MAX_TEXTURE_SIZE = 4096
+09-18 14:06:04.750   200   200 I SurfaceFlinger: GL_MAX_VIEWPORT_DIMS = 4096
+09-18 14:06:04.758   200   200 I SurfaceFlinger: EGL information:
+09-18 14:06:04.758   200   200 I SurfaceFlinger: vendor    : Android
+09-18 14:06:04.758   200   200 I SurfaceFlinger: version   : 1.4 Android META-EGL
+09-18 14:06:04.758   200   200 I SurfaceFlinger: extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_swap_buffers_with_damage EGL_ANDROID_get_native_client_buffer EGL_ANDROID_front_buffer_auto_refresh EGL_ANDROID_get_frame_timestamps EGL_KHR_image EGL_KHR_image_base EGL_KHR_lock_surface EGL_KHR_gl_colorspace EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_KHR_partial_update EGL_IMG_context_priority 
+09-18 14:06:04.758   200   200 I SurfaceFlinger: Client API: OpenGL_ES
+09-18 14:06:04.758   200   200 I SurfaceFlinger: EGLSurface: 8-8-8-8, config=0x5
+09-18 14:06:04.758   200   200 W Adreno-EGL: <qeglDrvAPI_eglGetConfigAttrib:607>: EGL_BAD_ATTRIBUTE
+09-18 14:06:04.760   200   200 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/hw/gralloc.msm8960.so from the current namespace instead.
+09-18 14:06:05.017   200   200 D SurfaceFlinger: shader cache generated - 24 shaders in 246.337891 ms
+09-18 14:06:05.019   200   200 D SurfaceFlinger: Set power mode=2, type=0 flinger=0xb2f52000
+09-18 14:06:05.137   173   173 W /system/bin/hwservicemanager: getTransportFromManifest: Cannot find entry android.hardware.graphics.mapper@2.0::IMapper in either framework or device manifest, using default transport.
+09-18 14:06:05.148   200   200 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/hw/gralloc.msm8960.so from the current namespace instead.
+09-18 14:06:05.157   200   200 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/hw/gralloc.msm8960.so from the current namespace instead.
+09-18 14:06:06.243   228   233 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/egl/libEGL_adreno.so from the current namespace instead.
+09-18 14:06:06.246   228   233 D libEGL  : loaded /vendor/lib/egl/libEGL_adreno.so
+09-18 14:06:06.254   228   233 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/egl/libGLESv1_CM_adreno.so from the current namespace instead.
+09-18 14:06:06.257   228   233 D libEGL  : loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+09-18 14:06:06.319   228   233 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/egl/libGLESv2_adreno.so from the current namespace instead.
+09-18 14:06:06.331   228   233 D libEGL  : loaded /vendor/lib/egl/libGLESv2_adreno.so
+09-18 14:06:06.358   233   233 I BootAnimation: type=1400 audit(0.0:57): avc: denied { read write } for name="kgsl-3d0" dev="tmpfs" ino=8619 scontext=u:r:bootanim:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+09-18 14:06:06.358   233   233 I BootAnimation: type=1400 audit(0.0:58): avc: denied { open } for name="kgsl-3d0" dev="tmpfs" ino=8619 scontext=u:r:bootanim:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+09-18 14:06:06.358   233   233 I BootAnimation: type=1400 audit(0.0:59): avc: denied { ioctl } for path="/dev/kgsl-3d0" dev="tmpfs" ino=8619 ioctlcmd=902 scontext=u:r:bootanim:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+09-18 14:06:06.363   228   233 I Adreno-EGL: <qeglDrvAPI_eglInitialize:379>: QUALCOMM Build: 10/21/15, 369a2ea, I96aee987eb
+09-18 14:06:06.366   228   233 W Adreno-EGL: <qeglDrvAPI_eglGetConfigAttrib:607>: EGL_BAD_ATTRIBUTE
+09-18 14:06:06.367   228   233 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/hw/gralloc.msm8960.so from the current namespace instead.
+09-18 14:06:06.499   228   233 D BootAnimation: BootAnimationShownTiming start time: 11836ms
+09-18 14:06:06.627   173   173 W /system/bin/hwservicemanager: getTransportFromManifest: Cannot find entry android.hardware.graphics.mapper@2.0::IMapper in either framework or device manifest, using default transport.
+09-18 14:06:06.631   228   233 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/hw/gralloc.msm8960.so from the current namespace instead.
