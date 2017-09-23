@@ -1,0 +1,2028 @@
+[    0.000000] Booting Linux on physical CPU 0
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Linux version 3.4.108-g9cc62ca (root@oreo-by-nitin) (gcc version 4.9.x 20150123 (prerelease) (GCC) ) #1 SMP PREEMPT Sat Sep 23 02:26:14 UTC 2017
+[    0.000000] CPU: ARMv7 Processor [510f06f2] revision 2 (ARMv7), cr=10c5387d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, PIPT instruction cache
+[    0.000000] Machine: QCT APQ8064 MAKO
+[    0.000000] Truncating memory at 0xc0000000 to fit in 32-bit physical address space
+[    0.000000] memory pool 3 (start fe9ff000 size 1600000) initialized
+[    0.000000] Initialized persistent memory from 88700000-887fffff
+[    0.000000] Memory policy: ECC disabled, Data cache writealloc
+[    0.000000] smem_find(137, 80): wrong size 72
+[    0.000000] socinfo_init: v6, id=109, ver=1.1, raw_id=1817, raw_ver=1817, hw_plat=8,  hw_plat_ver=65536
+[    0.000000]  accessory_chip=0 hw_plat_subtype=1
+[    0.000000] allocating 21626880 bytes at c25c0000 (827c0000 physical) for fb
+[    0.000000] PERCPU: Embedded 7 pages/cpu @c3a63000 s15872 r0 d12800 u32768
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 479747
+[    0.000000] Kernel command line: console=ttyHSL0,115200,n8 androidboot.hardware=mako lpj=67677 user_debug=31 buildvariant=userdebug uart_console=enable lcd_maker_id=primary lge.hreset=off lge.reset=mode_reset gpt=enable lge.kcal=0|0|0|x lge.rev=rev_10 androidboot.emmc=true androidboot.serialno=0047d3a090939955 androidboot.bootloader=MAKOZ30f androidboot.baseband=mdm bootreason=reboot
+[    0.000000] UART CONSOLE : enable
+[    0.000000] kcal is 0|0|0|x
+[    0.000000] kcal not calibrated yet : 120
+[    0.000000] set to default : 255
+[    0.000000] BOARD : LGE input rev_10 
+[    0.000000] BOARD : LGE matched rev_10 
+[    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+[    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+[    0.000000] Memory: 134MB 74MB 7MB 1MB 253MB 1420MB = 1889MB total
+[    0.000000] Memory: 1875584k/1995392k available, 59772k reserved, 1286140K highmem
+[    0.000000] Virtual kernel memory layout:
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+[    0.000000]     vmalloc : 0xf0000000 - 0xff000000   ( 240 MB)
+[    0.000000]     lowmem  : 0xc0000000 - 0xef800000   ( 760 MB)
+[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+[    0.000000]       .text : 0xc0008000 - 0xc0d1b308   (13389 kB)
+[    0.000000]       .init : 0xc0e00000 - 0xc0f03e00   (1040 kB)
+[    0.000000]       .data : 0xc0f04000 - 0xc0f6cb70   ( 419 kB)
+[    0.000000]        .bss : 0xc1045844 - 0xc12404a4   (2028 kB)
+[    0.000000] SLUB: Genslabs=11, HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+[    0.000000] Preemptible hierarchical RCU implementation.
+[    0.000000] 	RCU dyntick-idle grace-period acceleration is enabled.
+[    0.000000] NR_IRQS:921
+[    0.000000] sched_clock: 32 bits at 32kHz, resolution 30517ns, wraps every 131071999ms
+[    0.000122] Calibrating delay loop (skipped) preset value.. 13.53 BogoMIPS (lpj=67677)
+[    0.000152] pid_max: default: 32768 minimum: 301
+[    0.000396] Security Framework initialized
+[    0.000427] SELinux:  Initializing.
+[    0.000640] Mount-cache hash table entries: 512
+[    0.001953] Initializing cgroup subsys debug
+[    0.001983] Initializing cgroup subsys cpuacct
+[    0.001983] Initializing cgroup subsys freezer
+[    0.002014] Initializing cgroup subsys bfqio
+[    0.002044] CPU: Testing write buffer coherency: ok
+[    0.002349] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+[    0.002380] hw perfevents: enabled with ARMv7 Krait PMU driver, 5 counters available
+[    0.002471] Setting up static identity map for 0x80b12cc0 - 0x80b12d48
+[    0.005859] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+[    0.008361] CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+[    0.010894] CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+[    0.011016] Brought up 4 CPUs
+[    0.011047] SMP: Total of 4 processors activated (54.14 BogoMIPS).
+[    0.027252] dummy: 
+[    0.027679] NET: Registered protocol family 16
+[    0.028686] AXI: msm_bus_fabric_init_driver(): msm_bus_fabric_init_driver
+[    0.031372] meminfo_init: smem ram ptable found: ver: 0 len: 6
+[    0.031402] Found 2 memory banks grouped into 16 memory regions
+[    0.031616] gpiochip_add: registered GPIOs 0 to 151 on device: msmgpio
+[    0.032379] smem_find(137, 80): wrong size 72
+[    0.032501] socinfo_init: v6, id=109, ver=1.1, raw_id=1817, raw_ver=1817, hw_plat=8,  hw_plat_ver=65536
+[    0.032501]  accessory_chip=0 hw_plat_subtype=1
+[    0.032531] msm_rpm_init: RPM firmware 3.0.16842886
+[    0.052856] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.052856] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.052856] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.052886] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.052886] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.052917] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.052917] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.052917] msm_rpm_get_status(): Status id 433 not defined for target
+[    0.071380] pm8921_probe: PMIC revision 1: F4
+[    0.071411] pm8921_probe: PMIC revision 2: 06
+[    0.071411] pm8921_probe: PMIC version: PM8921 rev 3.0
+[    0.071441] pm8921_probe: PMIC Restart Reason: Triggered by Hard Reset
+[    0.072601] gpiochip_add: registered GPIOs 152 to 195 on device: pm-gpio
+[    0.073120] pm_gpio_probe: OK: base=152, ngpio=44
+[    0.073425] gpiochip_add: registered GPIOs 196 to 207 on device: pm8xxx-mpp
+[    0.073516] pm8xxx_mpp_probe: OK: base=196, ngpio=12
+[    0.075653] pm8821_probe: PMIC revision 1: PM8821 rev F3
+[    0.075683] pm8821_probe: PMIC revision 2: PM8821 rev 0B
+[    0.075683] pm8821_probe: PMIC version: PM8821 ver 2.1
+[    0.076293] gpiochip_add: registered GPIOs 208 to 211 on device: pm8xxx-mpp
+[    0.076354] pm8xxx_mpp_probe: OK: base=208, ngpio=4
+[    0.076904] gpio_vreg_probe: id=86, name=ext_dsv_load, gpio=86, gpio_label=ext_dsv_load_en
+[    0.078216] saw_probe: id=0, name=8921_s5
+[    0.078582] saw_probe: id=1, name=8921_s6
+[    0.078918] saw_probe: id=2, name=8821_s0
+[    0.079315] saw_probe: id=3, name=8821_s1
+[    0.088500] persistent_ram: found existing buffer, size 46968, start 46968
+[    0.266357] console [ram-1] enabled
+[    0.267730] [NORMAL-DEBUG] apq8064_device_uart_gsbi4.id : 0
+[    0.267974] [DEBUG] uart_enable : 1
+[    0.270721] [Touch D] apq8064_init_input: NOT DCM KDDI, reg synaptics driver 
+[    0.272094] ------------[ cut here ]------------
+[    0.272247] WARNING: at /home/coltos0517/unlegacy-android/kernel/qcom/msm8960/arch/arm/mach-msm/subsystem_restart.c:617 subsys_restart_init+0x120/0x158()
+[    0.272552] [<c0013094>] (unwind_backtrace+0x0/0xec) from [<c007a2f8>] (warn_slowpath_null+0x38/0x50)
+[    0.272827] [<c007a2f8>] (warn_slowpath_null+0x38/0x50) from [<c0e0cf68>] (subsys_restart_init+0x120/0x158)
+[    0.273101] [<c0e0cf68>] (subsys_restart_init+0x120/0x158) from [<c0e00ae0>] (do_one_initcall+0xa0/0x19c)
+[    0.273345] [<c0e00ae0>] (do_one_initcall+0xa0/0x19c) from [<c0e00d2c>] (kernel_init+0x150/0x234)
+[    0.273620] [<c0e00d2c>] (kernel_init+0x150/0x234) from [<c000e740>] (kernel_thread_exit+0x0/0x8)
+[    0.273803] ---[ end trace da227214a82491b7 ]---
+[    0.276550] sps:BAM 0x12244000 enabled: ver:0x5, number of pipes:20
+[    0.276702] sps:BAM 0x12244000 is registered.
+[    0.277465] sps:sps is ready.
+[    0.308349] bio: create slab <bio-0> at 0
+[    0.309326] ION heap vmalloc created
+[    0.309600] ION heap mm created at a0000000 with size 5c00000
+[    0.309783] ION heap mm_fw created at 9fe00000 with size 1e0000
+[    0.310058] ION heap mfc created at a5c00000 with size 2000
+[    0.310211] ION heap iommu created
+[    0.310485] ION heap qsecom created at fea07000 with size 780000
+[    0.310668] ION heap audio created at ff187000 with size 4cf000
+[    0.312164] pm8xxx_pwm_probe: OK
+[    0.312927] SCSI subsystem initialized
+[    0.313385] sps:BAM 0x28084000 enabled: ver:0x12, number of pipes:31
+[    0.313659] sps:BAM 0x28084000 is registered.
+[    0.314636] usbcore: registered new interface driver usbfs
+[    0.315093] usbcore: registered new interface driver hub
+[    0.315368] usbcore: registered new device driver usb
+[    0.316070] input: pmic8xxx_pwrkey as /devices/platform/msm_ssbi.0/pm8921-core/pm8xxx-pwrkey/input/input0
+[    0.316955] Linux media interface: v0.10
+[    0.317321] Linux video capture interface: v2.00
+[    0.319580] msm_iommu_dev: device vpe mapped at f0400000, with 2 ctx banks
+[    0.319946] msm_iommu_dev: device mdp0 mapped at f0600000, with 2 ctx banks
+[    0.320220] msm_iommu_dev: device mdp1 mapped at f0800000, with 2 ctx banks
+[    0.320587] msm_iommu_dev: device rot mapped at f0a00000, with 2 ctx banks
+[    0.320953] msm_iommu_dev: device ijpeg mapped at f0c00000, with 2 ctx banks
+[    0.321228] msm_iommu_dev: device vfe mapped at f0e00000, with 2 ctx banks
+[    0.321594] msm_iommu_dev: device vcodec_a mapped at f1000000, with 2 ctx banks
+[    0.321868] msm_iommu_dev: device vcodec_b mapped at f1200000, with 2 ctx banks
+[    0.322143] msm_iommu_dev: device gfx3d mapped at f1400000, with 3 ctx banks
+[    0.322509] msm_iommu_dev: device jpegd mapped at f1600000, with 2 ctx banks
+[    0.322753] msm_iommu_dev: device gfx3d1 mapped at f1800000, with 3 ctx banks
+[    0.323150] msm_iommu_dev: device vcap mapped at f1a00000, with 2 ctx banks
+[    0.323791] msm_iommu_ctx msm_iommu_ctx.2: context vpe_src using bank 0
+[    0.324066] msm_iommu_ctx msm_iommu_ctx.3: context vpe_dst using bank 1
+[    0.324493] msm_iommu_ctx msm_iommu_ctx.4: context mdp_port0_cb0 using bank 0
+[    0.324829] msm_iommu_ctx msm_iommu_ctx.5: context mdp_port0_cb1 using bank 1
+[    0.325225] msm_iommu_ctx msm_iommu_ctx.6: context mdp_port1_cb0 using bank 0
+[    0.325653] msm_iommu_ctx msm_iommu_ctx.7: context mdp_port1_cb1 using bank 1
+[    0.325958] msm_iommu_ctx msm_iommu_ctx.8: context rot_src using bank 0
+[    0.326354] msm_iommu_ctx msm_iommu_ctx.9: context rot_dst using bank 1
+[    0.326812] msm_iommu_ctx msm_iommu_ctx.10: context ijpeg_src using bank 0
+[    0.327087] msm_iommu_ctx msm_iommu_ctx.11: context ijpeg_dst using bank 1
+[    0.327514] msm_iommu_ctx msm_iommu_ctx.12: context vfe_imgwr using bank 0
+[    0.327819] msm_iommu_ctx msm_iommu_ctx.13: context vfe_misc using bank 1
+[    0.328216] msm_iommu_ctx msm_iommu_ctx.14: context vcodec_a_stream using bank 0
+[    0.328674] msm_iommu_ctx msm_iommu_ctx.15: context vcodec_a_mm1 using bank 1
+[    0.329010] msm_iommu_ctx msm_iommu_ctx.16: context vcodec_b_mm2 using bank 0
+[    0.329467] msm_iommu_ctx msm_iommu_ctx.17: context gfx3d_user using bank 0
+[    0.329803] msm_iommu_ctx msm_iommu_ctx.18: context gfx3d_priv using bank 1
+[    0.330200] msm_iommu_ctx msm_iommu_ctx.0: context jpegd_src using bank 0
+[    0.330596] msm_iommu_ctx msm_iommu_ctx.1: context jpegd_dst using bank 1
+[    0.330963] msm_iommu_ctx msm_iommu_ctx.19: context gfx3d1_user using bank 0
+[    0.331451] msm_iommu_ctx msm_iommu_ctx.20: context gfx3d1_priv using bank 1
+[    0.331848] msm_iommu_ctx msm_iommu_ctx.21: context vcap_vc using bank 0
+[    0.332122] msm_iommu_ctx msm_iommu_ctx.22: context vcap_vp using bank 1
+[    0.332489] Advanced Linux Sound Architecture Driver Version 1.0.25.
+[    0.333190] Bluetooth: Core ver 2.16
+[    0.333496] NET: Registered protocol family 31
+[    0.333648] Bluetooth: HCI device and connection manager initialized
+[    0.333892] Bluetooth: HCI socket layer initialized
+[    0.334045] Bluetooth: L2CAP socket layer initialized
+[    0.334411] Bluetooth: SCO socket layer initialized
+[    0.334991] cfg80211: Calling CRDA to update world regulatory domain
+[    0.335144] cfg80211: World regulatory domain updated:
+[    0.335388] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp)
+[    0.335662] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[    0.335815] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[    0.336059] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
+[    0.336303] cfg80211:   (5170000 KHz - 5250000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[    0.336456] cfg80211:   (5735000 KHz - 5835000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[    0.337371] earjack debugger probed
+[    0.338470] Switching to clocksource gp_timer
+[    0.375549] NET: Registered protocol family 2
+[    0.384460] IP route cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.385284] TCP established hash table entries: 131072 (order: 8, 1048576 bytes)
+[    0.386657] TCP bind hash table entries: 65536 (order: 7, 524288 bytes)
+[    0.387481] TCP: Hash tables configured (established 131072 bind 65536)
+[    0.387725] TCP: reno registered
+[    0.387878] UDP hash table entries: 512 (order: 2, 16384 bytes)
+[    0.388061] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+[    0.388671] NET: Registered protocol family 1
+[    0.389190] Trying to unpack rootfs image as initramfs...
+[    0.506958] Freeing initrd memory: 1788K
+[    0.508880] Detected 5 counters on the L2CC PMU.
+[    0.511352] pil_qdsp6v4 pil_qdsp6v4.0: using secure boot
+[    0.513122] pil_riva pil_riva: using secure boot
+[    0.516204] pil_dsps pil_dsps: using secure boot
+[    0.517883] pil_gss pil_gss: using secure boot
+[    0.520294] smd_channel_probe_worker: allocation table not initialized
+[    0.526519] msm_dsps driver version 4.03.
+[    0.528076] NET: Registered protocol family 27
+[    0.531311] lpass_fatal_init: lpass SSR driver init'ed.
+[    0.531616] wcnss_8960: module initialized
+[    0.532043] gss_8064_init: gss fatal driver init'ed.
+[    0.532806] acpuclk-8064 acpuclk-8064: SPEED BIN: 0
+[    0.532958] acpuclk-8064 acpuclk-8064: ACPU PVS: 1
+[    0.535766] acpuclk-8064 acpuclk-8064: CPU0: 12 frequencies supported
+[    0.535919] acpuclk-8064 acpuclk-8064: CPU1: 12 frequencies supported
+[    0.536193] acpuclk-8064 acpuclk-8064: CPU2: 12 frequencies supported
+[    0.536346] acpuclk-8064 acpuclk-8064: CPU3: 12 frequencies supported
+[    0.537109] kcal_ctrl_init 
+[    0.538360] msm_rpm_log_probe: OK
+[    0.541870] mdm_modem_probe: registered mdm id 0
+[    0.542510] mdm_do_first_power_on:id 0: Powering on modem for the first time
+[    0.543273] mdm_pblrdy_change: mdm id 0: pbl ready:0
+[    0.577331] mdm_pblrdy_change: mdm id 0: pbl ready:1
+[    0.820068] usbcore: registered new interface driver hsic_sysmon
+[    0.821350] audit: initializing netlink socket (disabled)
+[    0.821777] type=2000 audit(0.800:1): initialized
+[    0.824859] highmem bounce pool size: 64 pages
+[    0.844665] fuse init (API version 7.18)
+[    0.851684] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 248)
+[    0.852050] io scheduler noop registered
+[    0.852661] io scheduler deadline registered
+[    0.853057] io scheduler cfq registered (default)
+[    0.854095] io scheduler bfq registered
+[    0.854705] BFQ I/O-scheduler: v7r8
+[    0.855895] lm3530 probed
+[    0.859985] mipi_dsi base phy_addr = 0x4700000 virt = 0xf1c00000
+[    0.860656] mmss_sfpb  base phy_addr = 0x5700000,virt = 0xf00f8000
+[    0.862060] mipi_lgit_lcd_probe start
+[    0.862670] setting pdata->panel_info.fb_num to 3. type: 8
+[    0.875427] FrameBuffer[0] 768x1280 size=11796480 bytes is registered successfully!
+[    0.875885] load_565rle_image: Can not open /initlogo.rle
+[    0.877807] setting pdata->panel_info.fb_num to 1. type: 7
+[    0.879272] FrameBuffer[1] 1920x1080 size=0 bytes is registered successfully!
+[    0.879577] load_565rle_image: Can not open /initlogo.rle
+[    0.880249] mdp4_dtv_vsync_init: ndx=0
+[    0.880554] hdmi_msm hdmi_msm.1: external_common_state_create: sysfs group cf8cce08
+[    0.880859] hdmi_msm hdmi_msm.1: hdmi_msm_config_hdcp_feature: HDCP Feature: Enabled
+[    0.881774] setting pdata->panel_info.fb_num to 1. type: 10
+[    0.882110] Inside writeback_driver_init
+[    0.882507] Inside writeback_probe
+[    0.883636] FrameBuffer[2] 1280x720 size=0 bytes is registered successfully!
+[    0.883911] load_565rle_image: Can not open /initlogo.rle
+[    0.885742] 
+[    0.885742]  msm_vidc_enc: Inside vid_enc_init()
+[    0.886260] 
+[    0.886260]  msm_vidc_enc: Inside vid_enc_vcd_init()
+[    0.887481] smux_init: unable to create log context
+[    0.888427] msm_serial_hs module loaded
+[    0.888946] msm_serial_hsl: detected port #0
+[    0.889282] msm_serial_hsl.0: ttyHSL0 at MMIO 0x16340000 (irq = 184) is a MSM
+[    0.889648] msm_serial_hsl: console setup on port #0
+[    0.889984] console [ttyHSL0] enabled
+[    0.890411] msm_serial_hsl: driver initialized
+[    0.892211] msm_rotator_probe: rotator_hw_revision=2
+[    0.897460] diagchar initialized now
+[    0.900695] kgsl kgsl-3d0: |kgsl_iommu_init| MMU type set for device is IOMMU
+[    0.920410] brd: module loaded
+[    0.928863] loop: module loaded
+[    0.931915] anx7808 init gpio
+[    0.969177] anx7808 dvdd is already on 
+[    0.999298] sp_tx_hardware_poweron: anx7808 power on
+[    1.000701] ANX7808 is found.
+[    1.002105] 3.3V output disabled
+[    1.059204] sp_tx_hardware_powerdown: anx7808 power down
+[    1.059814] SP_TX To System State: 
+[    1.060150] STATE_CABLE_PLUG
+[    1.061553] tabla2x-slim tabla2x-slim: Platform data from board file
+[    1.127075] wcd9xxx_check_codec_type: codec is tabla_codec
+[    1.127227] wcd9xxx_check_codec_type: Read codec idbytes & version
+[    1.127258] byte_0[00000002] byte_1[00000000] byte_2[00000000]
+[    1.127258]  byte_3[00000001] version = 2
+[    1.128906] i2c-core: driver [tabla-i2c-core] using legacy suspend method
+[    1.129028] i2c-core: driver [tabla-i2c-core] using legacy resume method
+[    1.130096] bcm2079x-i2c 0-a1fa: bcm2079x_probe, probing bcm2079x driver flags = 10
+[    1.130493] bcm2079x-i2c 0-a1fa: requesting IRQ 317
+[    1.130767] bcm2079x-i2c 0-a1fa: bcm2079x_probe, probing bcm2079x driver exited successfully
+[    1.131561] SCSI Media Changer driver v0.25 
+[    1.132690] tun: Universal TUN/TAP device driver, 1.6
+[    1.132965] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+[    1.133209] rmnet_init: BAM devices[8]
+[    1.147521] PPP generic driver version 2.4.2
+[    1.147827] PPP BSD Compression module registered
+[    1.147979] PPP Deflate Compression module registered
+[    1.148864] PPP MPPE Compression module registered
+[    1.149261] NET: Registered protocol family 24
+[    1.149963] SLIP: version 0.8.4-NET3.019-NEWTTY (dynamic channels, max=256) (6 bit encapsulation enabled).
+[    1.150299] CSLIP: code copyright 1989 Regents of the University of California.
+[    1.151092] wcnss_wlan probed in built-in mode
+[    1.152832] usbcore: registered new interface driver asix
+[    1.153533] usbcore: registered new interface driver cdc_ether
+[    1.153961] usbcore: registered new interface driver net1080
+[    1.154663] usbcore: registered new interface driver cdc_subset
+[    1.155090] usbcore: registered new interface driver zaurus
+[    1.156036] usbcore: registered new interface driver cdc_ncm
+[    1.157684] msm_otg msm_otg: msm_otg probe
+[    1.158355] msm_otg msm_otg: failed to get phy_clk
+[    1.158813] msm_otg msm_otg: OTG regs = f01f2000
+[    1.162567] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    1.175933] msm_hsic_host msm_hsic_host: Qualcomm EHCI Host Controller using HSIC
+[    1.176239] msm_hsic_host msm_hsic_host: new USB bus registered, assigned bus number 1
+[    1.199279] msm_hsic_host msm_hsic_host: irq 261, io mem 0x12510000
+[    1.219268] msm_hsic_host msm_hsic_host: USB 2.0 started, EHCI 1.00
+[    1.219787] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[    1.219940] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.220214] usb usb1: Product: Qualcomm EHCI Host Controller using HSIC
+[    1.220489] usb usb1: Manufacturer: Linux 3.4.108-g9cc62ca ehci_hcd
+[    1.220611] usb usb1: SerialNumber: msm_hsic_host
+[    1.221252] hub 1-0:1.0: USB hub found
+[    1.221435] hub 1-0:1.0: 1 port detected
+[    1.222900] usbcore: registered new interface driver cdc_acm
+[    1.223144] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+[    1.223297] Initializing USB Mass Storage driver...
+[    1.223632] usbcore: registered new interface driver usb-storage
+[    1.223785] USB Mass Storage support registered.
+[    1.224090] usbcore: registered new interface driver ums-alauda
+[    1.224273] usbcore: registered new interface driver ums-cypress
+[    1.224578] usbcore: registered new interface driver ums-datafab
+[    1.224761] usbcore: registered new interface driver ums-freecom
+[    1.225067] usbcore: registered new interface driver ums-isd200
+[    1.225280] usbcore: registered new interface driver ums-jumpshot
+[    1.225585] usbcore: registered new interface driver ums-karma
+[    1.225769] usbcore: registered new interface driver ums-onetouch
+[    1.226074] usbcore: registered new interface driver ums-sddr09
+[    1.226379] usbcore: registered new interface driver ums-sddr55
+[    1.226562] usbcore: registered new interface driver ums-usbat
+[    1.226928] usbcore: registered new interface driver usbserial
+[    1.227081] usbserial: USB Serial Driver core
+[    1.227264] usbcore: registered new interface driver qc_csvt
+[    1.227569] USB Serial support registered for qc_csvt
+[    1.227783] usbcore: registered new interface driver usb_ehset_test
+[    1.228118] usbcore: registered new interface driver diag_bridge
+[    1.228515] usbcore: registered new interface driver mdm_bridge
+[    1.229766] usbcore: registered new interface driver ks_bridge
+[    1.230041] ksb_init: init done
+[    1.230468] msm_otg msm_otg: phy_reset: success
+[    1.231384] msm_hsusb msm_hsusb: [ci13xxx_start] hw_ep_max = 32
+[    1.231872] mbim_init: initialize 1 instances
+[    1.232116] mbim_init: Initialized 1 ports
+[    1.234680] rndis_qc_init: initialize rndis QC instance
+[    1.235961] android_usb gadget: Mass Storage Function, version: 2009/09/11
+[    1.236602] android_usb gadget: Number of LUNs=1
+[    1.236968]  lun0: LUN: removable file: (no medium)
+[    1.238128] android_usb gadget: android_usb ready
+[    1.241180] input: keypad_8064 as /devices/platform/msm_ssbi.0/pm8921-core/pm8xxx-keypad/input/input1
+[    1.242553] usbcore: registered new interface driver xpad
+[    1.242980] usbcore: registered new interface driver usb_acecad
+[    1.243713] usbcore: registered new interface driver aiptek
+[    1.244140] usbcore: registered new interface driver gtco
+[    1.244842] usbcore: registered new interface driver hanwang
+[    1.245269] usbcore: registered new interface driver kbtab
+[    1.246002] usbcore: registered new interface driver wacom
+[    1.247009] [Touch D]touch enable
+[    1.449890] input: touch_dev as /devices/virtual/input/input2
+[    1.471618] [Touch] common[1] finger[17] flash[52] button[0]
+[    1.472839] [Touch] IC is 7020, H pattern, panel is G2, Firmware: E028.
+[    1.475036] [Touch] fw_rev[0:0] product_id[PLG137:PLG137] force_upgrade[0]
+[    1.475097] [Touch] Touch driver is initialized
+[    1.476287] [Touch] DO NOT UPDATE 7020 G2 H pattern FW-upgrade is not executed
+[    1.476867] using rtc device, pm8xxx_rtc, for alarms
+[    1.476898] rtc-pm8xxx rtc-pm8xxx: rtc core: registered pm8xxx_rtc as rtc0
+[    1.477325] i2c /dev entries driver
+[    1.478912] __jrchoi: msm_sensor_init_module: E
+[    1.507263] msm_eeprom_probe probe_fail
+[    1.507904] msm_server_update_sensor_info mctl_node_name[0] = video1
+[    1.537536] msm_eeprom_probe probe_fail
+[    1.538146] msm_server_update_sensor_info mctl_node_name[1] = video3
+[    1.542694] msm_cam_server_request_irq IRQ Router hw is not present. 
+[    1.543609] lm3559_init
+[    1.544769] usbcore: registered new interface driver uvcvideo
+[    1.544921] USB Video Class driver (1.1.1)
+[    1.559448] usb 1-1: new high-speed USB device number 2 using msm_hsic_host
+[    1.569946] pm8xxx_tm_probe: OK
+[    1.571411] pm8xxx_tm_probe: OK
+[    1.573211] device-mapper: uevent: version 1.0.3
+[    1.574127] device-mapper: ioctl: 4.22.0-ioctl (2011-10-19) initialised: dm-devel@redhat.com
+[    1.576690] cpuidle: using governor ladder
+[    1.577026] cpuidle: using governor menu
+[    1.578216] mmc0: SDCC Version: 0x0000001a
+[    1.580230] mmc0: bam physical base=0x12402000
+[    1.580505] mmc0: bam virtual base=0xf0334000
+[    1.580657] sps:BAM 0x12402000 is registered.
+[    1.580810] mmc0: BAM device registered. bam_handle=0xeeff9200
+[    1.581359] sps:BAM 0x12402000 enabled: ver:0x5, number of pipes:6
+[    1.582000] mmc0: Qualcomm MSM SDCC-BAM at 0x0000000012402000 irq 130
+[    1.582397] mmc0: Qualcomm MSM SDCC-DML at 0x0000000012400800
+[    1.582611] mmc0: No card detect facilities available
+[    1.584625] mmc0: Qualcomm MSM SDCC-core at 0x0000000012400000 irq 136,0 dma -1 dmacrcri -1
+[    1.584899] mmc0: Controller capabilities: 0x0000039e
+[    1.585021] mmc0: 8 bit data mode enabled
+[    1.585174] mmc0: 4 bit data mode disabled
+[    1.585479] mmc0: polling status mode disabled
+[    1.585601] mmc0: MMC clock 400000 -> 96000000 Hz, PCLK 0 Hz
+[    1.585876] mmc0: Slot eject status = 0
+[    1.585998] mmc0: Power save feature enable = 1
+[    1.586181] mmc0: SPS-BAM data transfer mode available
+[    1.589385] usbcore: registered new interface driver usbhid
+[    1.589538] usbhid: USB HID core driver
+[    1.590606] ashmem: initialized
+[    1.591461] usbcore: registered new interface driver snd-usb-audio
+[    1.593292] tabla_probe
+[    1.594207] amp_enable: amp enable bypass(2)
+[    1.594360] amp_enable: AMP_EN is set to 0
+[    1.595520] msm_pcm_probe: dev name msm-voip-dsp
+[    1.596099] msm-dai-q6-mi2s msm-dai-q6-mi2s: msm_dai_q6_mi2s_platform_data_validation: playback sdline 0 capture sdline 8
+[    1.596374] msm-dai-q6-mi2s msm-dai-q6-mi2s: msm_dai_q6_mi2s_platform_data_validation: playback ch_max 0 capture ch_mx 8
+[    1.597900] msm_pcm_probe: dev name msm-pcm-dsp
+[    1.598388] msm_pcm_probe: dev name msm-multi-ch-pcm-dsp
+[    1.598968] msm_pcm_probe: dev name msm-lowlatency-pcm-dsp
+[    1.599121] adding pm_qos request in low latency driver
+[    1.599426] done adding pm_qos request in low latency driver
+[    1.600555] msm_compr_probe: dev name msm-compr-dsp
+[    1.601531] msm-pcm-lpa msm-pcm-lpa: msm_pcm_probe: dev name msm-pcm-lpa
+[    1.602722] msm8930_audio_init: Not the right machine type
+[    1.602996] msm_audio_init: Not the right machine type
+[    1.603149] msm_audio_init: Not APQ8064 in I2S mode
+[    1.621582] usb 1-1: New USB device found, idVendor=05c6, idProduct=9008
+[    1.621917] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    1.622497] usb 1-1: Product: QHSUSB__BULK
+[    1.622833] usb 1-1: Manufacturer: Qualcomm CDMA Technologies MSM
+[    1.718841] mmc0: new HS200 MMC card at address 0001
+[    1.720611] mmcblk0: mmc0:0001 016G92 14.6 GiB 
+[    1.726745] Alternate GPT is invalid, using primary GPT.
+[    1.727661]  mmcblk0: p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25
+[    1.738189] asoc: snd-soc-dummy-dai <-> MultiMedia1 mapping ok
+[    1.739135] asoc: snd-soc-dummy-dai <-> MultiMedia2 mapping ok
+[    1.740203] asoc: snd-soc-dummy-dai <-> CS-VOICE mapping ok
+[    1.741149] asoc: snd-soc-dummy-dai <-> VoIP mapping ok
+[    1.742095] asoc: snd-soc-dummy-dai <-> MultiMedia3 mapping ok
+[    1.743011] asoc: snd-soc-dummy-dai <-> SLIMBUS0_HOSTLESS mapping ok
+[    1.744049] asoc: snd-soc-dummy-dai <-> INT_FM_HOSTLESS mapping ok
+[    1.744812] asoc: msm-stub-rx <-> msm-dai-q6.241 mapping ok
+[    1.745727] asoc: msm-stub-tx <-> msm-dai-q6.240 mapping ok
+[    1.746612] asoc: snd-soc-dummy-dai <-> MultiMedia4 mapping ok
+[    1.747619] asoc: snd-soc-dummy-dai <-> AUXPCM_HOSTLESS mapping ok
+[    1.748504] asoc: snd-soc-dummy-dai <-> HDMI_HOSTLESS mapping ok
+[    1.749420] asoc: snd-soc-dummy-dai <-> VOICE_STUB mapping ok
+[    1.750457] asoc: snd-soc-dummy-dai <-> VoLTE mapping ok
+[    1.751525] asoc: snd-soc-dummy-dai <-> MultiMedia5 mapping ok
+[    1.753936] asoc: tabla_rx1 <-> msm-dai-q6.16384 mapping ok
+[    1.761535] asoc: tabla_tx1 <-> msm-dai-q6.16385 mapping ok
+[    1.762786] asoc: msm-stub-rx <-> msm-dai-q6.12288 mapping ok
+[    1.763793] asoc: msm-stub-tx <-> msm-dai-q6.12289 mapping ok
+[    1.765106] asoc: msm-stub-rx <-> msm-dai-q6.12292 mapping ok
+[    1.766174] asoc: msm-stub-tx <-> msm-dai-q6.12293 mapping ok
+[    1.767578] asoc: msm-stub-rx <-> msm-dai-q6-hdmi.8 mapping ok
+[    1.768615] asoc: msm-stub-rx <-> msm-dai-q6.224 mapping ok
+[    1.769927] asoc: msm-stub-tx <-> msm-dai-q6.225 mapping ok
+[    1.770904] asoc: msm-stub-rx <-> msm-dai-q6.2 mapping ok
+[    1.772247] asoc: msm-stub-tx <-> msm-dai-q6.3 mapping ok
+[    1.773223] asoc: tabla_rx2 <-> msm-dai-stub mapping ok
+[    1.774230] asoc: tabla_tx1 <-> msm-dai-stub mapping ok
+[    1.775634] asoc: msm-stub-rx <-> msm-dai-q6.16386 mapping ok
+[    1.776672] asoc: msm-stub-tx <-> msm-dai-q6.16387 mapping ok
+[    1.778076] asoc: tabla_tx2 <-> msm-dai-q6.16389 mapping ok
+[    1.779174] asoc: tabla_rx3 <-> msm-dai-q6.16388 mapping ok
+[    1.780761] asoc: msm-stub-rx <-> msm-dai-q6.16392 mapping ok
+[    1.781799] asoc: msm-stub-tx <-> msm-dai-q6.16393 mapping ok
+[    1.783172] asoc: tabla_tx3 <-> msm-dai-stub mapping ok
+[    1.784240] asoc: msm-stub-rx <-> msm-dai-q6.16390 mapping ok
+[    1.785552] asoc: msm-stub-tx <-> msm-dai-q6.16391 mapping ok
+[    1.789581] input: apq8064-tabla-snd-card Button Jack as /devices/platform/soc-audio.0/sound/card0/input3
+[    1.790771] input: apq8064-tabla-snd-card Headset Jack as /devices/platform/soc-audio.0/sound/card0/input4
+[    1.798095] u32 classifier
+[    1.798400]     Actions configured
+[    1.799041] Netfilter messages via NETLINK v0.30.
+[    1.799591] nf_conntrack version 0.5.0 (16384 buckets, 65536 max)
+[    1.801757] ctnetlink v0.93: registering with nfnetlink.
+[    1.802185] NF_TPROXY: Transparent proxy support initialized, version 4.1.0
+[    1.802825] NF_TPROXY: Copyright (c) 2006-2007 BalaBit IT Ltd.
+[    1.803833] xt_time: kernel timezone is -0000
+[    1.805358] ip_tables: (C) 2000-2006 Netfilter Core Team
+[    1.806365] arp_tables: (C) 2002 David S. Miller
+[    1.806854] TCP: cubic registered
+[    1.807464] Initializing XFRM netlink socket
+[    1.809509] NET: Registered protocol family 10
+[    1.817504] Mobile IPv6
+[    1.817932] ip6_tables: (C) 2000-2006 Netfilter Core Team
+[    1.818725] IPv6 over IPv4 tunneling driver
+[    1.820739] NET: Registered protocol family 17
+[    1.821166] NET: Registered protocol family 15
+[    1.821807] Bluetooth: RFCOMM TTY layer initialized
+[    1.822448] Bluetooth: RFCOMM socket layer initialized
+[    1.822784] Bluetooth: RFCOMM ver 1.11
+[    1.823394] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[    1.823730] Bluetooth: BNEP filters: protocol multicast
+[    1.824066] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+[    1.824829] L2TP core driver, V2.0
+[    1.825195] PPPoL2TP kernel driver, V2.0
+[    1.827636] VFP support v0.3: implementor 51 architecture 64 part 6f variant 0 rev 2
+[    1.828369] Registering SWP/SWPB emulation handler
+[    1.829010] clock_late_init: Removing enables held for handed-off clocks
+[    1.841003] MSM Watchdog Initialized
+[    1.851715] read_ocv_trim: program rev reg is 0x4d
+[    1.851837] pm8921_is_usb_chg_plugged_in: called before init
+[    1.854339] pm8921_is_usb_chg_plugged_in: called before init
+[    1.855529] pm8921_is_usb_chg_plugged_in: called before init
+[    1.855773] ocv_ir_compensation: comp ocv = 4316439, ocv = 4313001, ibatt_ua = 15700, rbatt_mohm = 219
+[    1.855865] read_soc_params_raw: discard shutdown soc! cc_raw = 0x28a21cf
+[    1.856109] calculate_unusable_charge_uah: Using shutdown_iavg_ma = 500 in all samples
+[    1.856292] pm8921_is_batfet_closed: called before init
+[    1.879425] pm8921_is_usb_chg_plugged_in: called before init
+[    1.879608] adjust_soc: ibat_ua = 507800, vbat_uv = 4081107, soc = 91, batt_temp=390
+[    1.881866] pm8921_get_batt_state: called before init
+[    1.882049] pm8921_bms_probe: OK battery_capacity_at_boot=91 volt = 4079871 ocv = 4316439
+[    1.883148] power_supply usb: driver failed to report `present' property: 4294967274
+[    1.883300] power_supply usb: driver failed to report `present' property: 4294967274
+[    1.883544] power_supply pm8921-dc: driver failed to report `present' property: 4294967274
+[    1.883728] power_supply pm8921-dc: driver failed to report `present' property: 4294967274
+[    1.885040] pm8921_get_batt_state: called before init
+[    1.887420] pm8921_get_batt_state: called before init
+[    1.893188] wlc: bq51051b_wlc_probe: probe
+[    1.893341] wlc: bq51051b_wlc_hw_init: hw_init
+[    1.893554] power_supply wireless: driver failed to report `present' property: 4294967274
+[    1.894165] batt_temp_ctrl_init 
+[    1.894317] batt_temp_ctrl_probe
+[    1.894561] msm_otg msm_otg: USB in low power mode
+[    1.894744] rtc-pm8xxx rtc-pm8xxx: setting system clock to 2017-09-23 12:44:22 UTC (1506170662)
+[    1.895538] android_vibrator: default amplitude 88 
+[    1.895690] android vibrator probed
+[    1.895874] fsa8008 init
+[    1.896240] fsa8008 probe
+[    1.896911] input: hs_detect as /devices/virtual/input/input5
+[    1.897125] ALSA device list:
+[    1.897216]   #0: apq8064-tabla-snd-card
+[    1.898315] Freeing init memory: 1036K
+[    1.901428] init: init first stage started!
+[    1.901641] init: First stage mount skipped (missing/incompatible fstab in device tree)
+[    1.901763] init: Skipped setting INIT_AVB_VERSION (not in recovery mode)
+[    1.901977] init: Loading SELinux policy
+[    1.916381] SELinux:  Permission transition in class filesystem not defined in policy.
+[    1.916534] SELinux:  Permission swapon in class file not defined in policy.
+[    1.916656] SELinux:  Permission swapon in class dir not defined in policy.
+[    1.916809] SELinux:  Permission swapon in class lnk_file not defined in policy.
+[    1.916992] SELinux:  Permission swapon in class chr_file not defined in policy.
+[    1.917083] SELinux:  Permission swapon in class blk_file not defined in policy.
+[    1.917266] SELinux:  Permission swapon in class sock_file not defined in policy.
+[    1.917419] SELinux:  Permission swapon in class fifo_file not defined in policy.
+[    1.917541] SELinux:  Permission recv_msg in class socket not defined in policy.
+[    1.917694] SELinux:  Permission send_msg in class socket not defined in policy.
+[    1.917877] SELinux:  Permission recv_msg in class tcp_socket not defined in policy.
+[    1.917968] SELinux:  Permission send_msg in class tcp_socket not defined in policy.
+[    1.918121] SELinux:  Permission connectto in class tcp_socket not defined in policy.
+[    1.918273] SELinux:  Permission newconn in class tcp_socket not defined in policy.
+[    1.918365] SELinux:  Permission acceptfrom in class tcp_socket not defined in policy.
+[    1.918548] SELinux:  Permission recv_msg in class udp_socket not defined in policy.
+[    1.918701] SELinux:  Permission send_msg in class udp_socket not defined in policy.
+[    1.918884] SELinux:  Permission recv_msg in class rawip_socket not defined in policy.
+[    1.918975] SELinux:  Permission send_msg in class rawip_socket not defined in policy.
+[    1.919128] SELinux:  Permission tcp_recv in class node not defined in policy.
+[    1.919799] SELinux:  Permission tcp_send in class node not defined in policy.
+[    1.919891] SELinux:  Permission udp_recv in class node not defined in policy.
+[    1.920043] SELinux:  Permission udp_send in class node not defined in policy.
+[    1.920227] SELinux:  Permission rawip_recv in class node not defined in policy.
+[    1.920318] SELinux:  Permission rawip_send in class node not defined in policy.
+[    1.920471] SELinux:  Permission enforce_dest in class node not defined in policy.
+[    1.920562] SELinux:  Permission dccp_recv in class node not defined in policy.
+[    1.920715] SELinux:  Permission dccp_send in class node not defined in policy.
+[    1.920898] SELinux:  Permission tcp_recv in class netif not defined in policy.
+[    1.920989] SELinux:  Permission tcp_send in class netif not defined in policy.
+[    1.921142] SELinux:  Permission udp_recv in class netif not defined in policy.
+[    1.921325] SELinux:  Permission udp_send in class netif not defined in policy.
+[    1.921386] SELinux:  Permission rawip_recv in class netif not defined in policy.
+[    1.921569] SELinux:  Permission rawip_send in class netif not defined in policy.
+[    1.921722] SELinux:  Permission dccp_recv in class netif not defined in policy.
+[    1.921813] SELinux:  Permission dccp_send in class netif not defined in policy.
+[    1.921997] SELinux:  Permission recv_msg in class netlink_socket not defined in policy.
+[    1.922149] SELinux:  Permission send_msg in class netlink_socket not defined in policy.
+[    1.922241] SELinux:  Permission recv_msg in class packet_socket not defined in policy.
+[    1.922424] SELinux:  Permission send_msg in class packet_socket not defined in policy.
+[    1.922576] SELinux:  Permission recv_msg in class key_socket not defined in policy.
+[    1.922760] SELinux:  Permission send_msg in class key_socket not defined in policy.
+[    1.922851] SELinux:  Permission recv_msg in class unix_stream_socket not defined in policy.
+[    1.923004] SELinux:  Permission send_msg in class unix_stream_socket not defined in policy.
+[    1.923187] SELinux:  Permission newconn in class unix_stream_socket not defined in policy.
+[    1.923248] SELinux:  Permission acceptfrom in class unix_stream_socket not defined in policy.
+[    1.923370] SELinux:  Permission recv_msg in class unix_dgram_socket not defined in policy.
+[    1.923522] SELinux:  Permission send_msg in class unix_dgram_socket not defined in policy.
+[    1.923706] SELinux:  Permission recv_msg in class netlink_route_socket not defined in policy.
+[    1.923889] SELinux:  Permission send_msg in class netlink_route_socket not defined in policy.
+[    1.923980] SELinux:  Class netlink_firewall_socket not defined in policy.
+[    1.924133] SELinux:  Permission recv_msg in class netlink_tcpdiag_socket not defined in policy.
+[    1.924316] SELinux:  Permission send_msg in class netlink_tcpdiag_socket not defined in policy.
+[    1.924407] SELinux:  Permission recv_msg in class netlink_nflog_socket not defined in policy.
+[    1.924560] SELinux:  Permission send_msg in class netlink_nflog_socket not defined in policy.
+[    1.924743] SELinux:  Permission recv_msg in class netlink_xfrm_socket not defined in policy.
+[    1.924896] SELinux:  Permission send_msg in class netlink_xfrm_socket not defined in policy.
+[    1.924987] SELinux:  Permission recv_msg in class netlink_selinux_socket not defined in policy.
+[    1.925079] SELinux:  Permission send_msg in class netlink_selinux_socket not defined in policy.
+[    1.925262] SELinux:  Permission recv_msg in class netlink_audit_socket not defined in policy.
+[    1.925445] SELinux:  Permission send_msg in class netlink_audit_socket not defined in policy.
+[    1.925598] SELinux:  Class netlink_ip6fw_socket not defined in policy.
+[    1.925689] SELinux:  Permission recv_msg in class netlink_dnrt_socket not defined in policy.
+[    1.925872] SELinux:  Permission send_msg in class netlink_dnrt_socket not defined in policy.
+[    1.926025] SELinux:  Permission recv_msg in class netlink_kobject_uevent_socket not defined in policy.
+[    1.926208] SELinux:  Permission send_msg in class netlink_kobject_uevent_socket not defined in policy.
+[    1.926300] SELinux:  Permission recv_msg in class appletalk_socket not defined in policy.
+[    1.926452] SELinux:  Permission send_msg in class appletalk_socket not defined in policy.
+[    1.926635] SELinux:  Permission recv_msg in class dccp_socket not defined in policy.
+[    1.926788] SELinux:  Permission send_msg in class dccp_socket not defined in policy.
+[    1.926910] SELinux:  Permission recv_msg in class tun_socket not defined in policy.
+[    1.927062] SELinux:  Permission send_msg in class tun_socket not defined in policy.
+[    1.927246] SELinux: the above unknown classes and permissions will be denied
+[    1.944641] type=1403 audit(1506170662.540:2): policy loaded auid=4294967295 ses=4294967295
+[    1.945037] selinux: SELinux: Loaded policy from /sepolicy
+[    1.945037] 
+[    1.945892] type=1404 audit(1506170662.540:3): enforcing=1 old_enforcing=0 auid=4294967295 ses=4294967295
+[    1.950714] selinux: SELinux: Loaded file_contexts
+[    1.950714] 
+[    1.954223] init: init second stage started!
+[    1.963470] selinux: SELinux: Loaded file_contexts
+[    1.963470] 
+[    1.964385] selinux: SELinux: Loaded property_contexts from /plat_property_contexts & /nonplat_property_contexts.
+[    1.964416] 
+[    1.964660] init: Running restorecon...
+[    2.070556] selinux: SELinux:  Could not stat /dev/block: No such file or directory.
+[    2.070587] 
+[    2.071014] init: waitpid failed: No child processes
+[    2.071258] init: Couldn't load properties from /system/etc/prop.default: No such file or directory
+[    2.071380] init: Couldn't load properties from /prop.default: No such file or directory
+[    2.072082] init: Couldn't load properties from /odm/default.prop: No such file or directory
+[    2.072326] init: Couldn't load properties from /vendor/default.prop: No such file or directory
+[    2.073150] init: Created socket '/dev/socket/property_service', mode 666, user 0, group 0
+[    2.073364] init: Parsing file /init.rc...
+[    2.074218] init: Added '/init.environ.rc' to import list
+[    2.074340] init: Added '/init.usb.rc' to import list
+[    2.074523] init: Added '/init.mako.rc' to import list
+[    2.074645] init: Added '/vendor/etc/init/hw/init.mako.rc' to import list
+[    2.074829] init: Added '/init.usb.configfs.rc' to import list
+[    2.074951] init: Added '/init.zygote32.rc' to import list
+[    2.075134] init: Added '/init.io.rc' to import list
+[    2.076995] init: Parsing file /init.environ.rc...
+[    2.077331] init: Parsing file /init.usb.rc...
+[    2.078033] init: Parsing file /init.mako.rc...
+[    2.078460] init: Added 'init.mako.usb.rc' to import list
+[    2.078643] init: Added 'init.mako_svelte.rc' to import list
+[    2.078765] init: Added 'init.mako_tiny.rc' to import list
+[    2.079986] init: decode_uid: Unable to find UID for 'qcom_oncrpc'; returning UINT_MAX
+[    2.080566] init: Parsing file init.mako.usb.rc...
+[    2.081329] init: Parsing file init.mako_svelte.rc...
+[    2.081451] init: could not import file 'init.mako_svelte.rc' from '/init.mako.rc': No such file or directory
+[    2.081634] init: Parsing file init.mako_tiny.rc...
+[    2.081848] init: could not import file 'init.mako_tiny.rc' from '/init.mako.rc': No such file or directory
+[    2.082061] init: Parsing file /vendor/etc/init/hw/init.mako.rc...
+[    2.082183] init: could not import file '/vendor/etc/init/hw/init.mako.rc' from '/init.rc': No such file or directory
+[    2.082397] init: Parsing file /init.usb.configfs.rc...
+[    2.083404] init: Parsing file /init.zygote32.rc...
+[    2.083709] init: Parsing file /init.io.rc...
+[    2.084136] init: Parsing file /system/etc/init...
+[    2.084381] init: Parsing file /vendor/etc/init...
+[    2.084503] init: Parsing file /odm/etc/init...
+[    2.084808] init: processing action (early-init)
+[    2.085540] init: starting service 'ueventd'...
+[    2.086395] init: failed to open /acct/uid_0/pid_151/cgroup.procs: No such file or directory
+[    2.086639] init: createProcessGroup(0, 151) failed for service 'ueventd': No such file or directory
+[    2.087493] init: processing action (wait_for_coldboot_done)
+[    2.089813] ueventd: ueventd started!
+[    2.090789] ueventd: /sys/ rule /sys/devices/platform/trusty.* trusty_version
+[    2.090911] ueventd: /sys/ rule /sys/devices/virtual/input/input* enable
+[    2.091094] ueventd: /sys/ rule /sys/devices/virtual/input/input* poll_delay
+[    2.091308] ueventd: /sys/ rule /sys/devices/virtual/usb_composite/* enable
+[    2.091430] ueventd: /sys/ rule /sys/devices/system/cpu/cpu* cpufreq/scaling_max_freq
+[    2.091613] ueventd: /sys/ rule /sys/devices/system/cpu/cpu* cpufreq/scaling_min_freq
+[    2.095520] selinux: SELinux: Loaded file_contexts
+[    2.095520] 
+[    2.101806] selinux: SELinux: Loaded file_contexts
+[    2.101806] 
+[    2.119232] ueventd: fixup /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq 1000 1000 664
+[    2.119476] ueventd: fixup /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq 1000 1000 664
+[    2.120544] ueventd: fixup /sys/devices/system/cpu/cpu1/cpufreq/scaling_max_freq 1000 1000 664
+[    2.120788] ueventd: fixup /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq 1000 1000 664
+[    2.121765] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[    2.121948] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[    2.122894] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[    2.123168] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[    2.238800] ueventd: fixup /sys/devices/virtual/input/input2/enable 0 1004 660
+[    2.238983] ueventd: fixup /sys/devices/virtual/input/input2/poll_delay 0 1004 660
+[    2.239685] ueventd: fixup /sys/devices/virtual/input/input2/event2/enable 0 1004 660
+[    2.239929] ueventd: fixup /sys/devices/virtual/input/input2/event2/poll_delay 0 1004 660
+[    2.241271] ueventd: fixup /sys/devices/virtual/input/input5/enable 0 1004 660
+[    2.241455] ueventd: fixup /sys/devices/virtual/input/input5/poll_delay 0 1004 660
+[    2.242095] ueventd: fixup /sys/devices/virtual/input/input5/event5/enable 0 1004 660
+[    2.242340] ueventd: fixup /sys/devices/virtual/input/input5/event5/poll_delay 0 1004 660
+[    2.543579] ueventd: Coldboot took 0.447497 seconds
+[    2.553131] init: Command 'wait_for_coldboot_done' action=wait_for_coldboot_done returned 0 took 465.341ms.
+[    2.553375] init: processing action (mix_hwrng_into_linux_rng)
+[    2.559631] msm_thermal: Limiting cpu0 max frequency to 1350000
+[    2.559936] msm_thermal: Limiting cpu1 max frequency to 1350000
+[    2.560180] msm_thermal: Limiting cpu2 max frequency to 1350000
+[    2.560546] msm_thermal: Limiting cpu3 max frequency to 1350000
+[    2.654205] init: Mixed 512 bytes from /dev/hw_random into /dev/urandom
+[    2.654418] init: Command 'mix_hwrng_into_linux_rng' action=mix_hwrng_into_linux_rng returned 0 took 100.87ms.
+[    2.654693] init: processing action (set_mmap_rnd_bits)
+[    2.655120] init: processing action (set_kptr_restrict)
+[    2.655578] init: processing action (keychord_init)
+[    2.655761] keychord: using input dev pmic8xxx_pwrkey for fevent
+[    2.655944] keychord: using input dev keypad_8064 for fevent
+[    2.656127] init: processing action (console_init)
+[    2.656341] init: processing action (init)
+[    2.665740] init: write_file: Unable to open '/proc/sys/kernel/hung_task_timeout_secs': No such file or directory
+[    2.666076] init: write_file: Unable to open '/proc/sys/kernel/sched_tunable_scaling': No such file or directory
+[    2.666320] init: write_file: Unable to open '/proc/sys/kernel/sched_latency_ns': No such file or directory
+[    2.666473] init: write_file: Unable to open '/proc/sys/kernel/sched_wakeup_granularity_ns': No such file or directory
+[    2.673065] init: write_file: Unable to open '/proc/sys/abi/swp': No such file or directory
+[    2.673431] init: write_file: Unable to open '/sys/class/leds/vibrator/trigger': No such file or directory
+[    2.676361] init: processing action (mix_hwrng_into_linux_rng)
+[    2.677062] init: Mixed 512 bytes from /dev/hw_random into /dev/urandom
+[    2.677215] init: processing action (late-init)
+[    2.677490] init: processing action (queue_property_triggers)
+[    2.677642] init: processing action (fs)
+[    2.679321] init: [libfs_mgr]Not running /system/bin/tune2fs on /dev/block/platform/msm_sdcc.1/by-name/system (executable not in system image)
+[    2.687194] EXT4-fs (mmcblk0p21): mounted filesystem without journal. Opts: barrier=1
+[    2.687499] init: [libfs_mgr]__mount(source=/dev/block/platform/msm_sdcc.1/by-name/system,target=/system,type=ext4)=0
+[    2.690002] init: [libfs_mgr]superblock s_max_mnt_count:65535,/dev/block/platform/msm_sdcc.1/by-name/cache
+[    2.690185] init: [libfs_mgr]Requested quota status is match on /dev/block/platform/msm_sdcc.1/by-name/cache
+[    2.695739] EXT4-fs (mmcblk0p22): mounted filesystem with ordered data mode. Opts: errors=remount-ro,nomblk_io_submit
+[    2.696044] init: [libfs_mgr]check_fs(): mount(/dev/block/platform/msm_sdcc.1/by-name/cache,/cache,ext4)=0: Success
+[    2.699859] init: [libfs_mgr]check_fs(): unmount(/cache) succeeded
+[    2.700042] init: [libfs_mgr]Running /system/bin/e2fsck on /dev/block/platform/msm_sdcc.1/by-name/cache
+[    2.723510] type=1400 audit(1506170663.310:4): avc:  granted  { getattr } for  pid=157 comm="e2fsck" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:fsck:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[    2.782592] type=1400 audit(1506170663.370:5): avc:  granted  { read } for  pid=157 comm="e2fsck" name="online" dev="sysfs" ino=34 scontext=u:r:fsck:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[    2.782836] type=1400 audit(1506170663.370:6): avc:  granted  { read open } for  pid=157 comm="e2fsck" name="online" dev="sysfs" ino=34 scontext=u:r:fsck:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[    2.783294] type=1400 audit(1506170663.370:7): avc:  granted  { getattr } for  pid=157 comm="e2fsck" path="/sys/devices/system/cpu/online" dev="sysfs" ino=34 scontext=u:r:fsck:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[    2.799621] e2fsck: e2fsck 1.43.3 (04-Sep-2016)
+[    2.799621] 
+[    2.799865] e2fsck: /dev/block/platform/msm_sdcc.1/by-name/cache: clean, 18/35840 files, 4701/143360 blocks
+[    2.799896] 
+[    2.805084] EXT4-fs (mmcblk0p22): mounted filesystem with ordered data mode. Opts: barrier=1,data=ordered
+[    2.805419] init: [libfs_mgr]__mount(source=/dev/block/platform/msm_sdcc.1/by-name/cache,target=/cache,type=ext4)=0
+[    2.806640] init: [libfs_mgr]superblock s_max_mnt_count:65535,/dev/block/platform/msm_sdcc.1/by-name/userdata
+[    2.806854] init: [libfs_mgr]Requested quota status is match on /dev/block/platform/msm_sdcc.1/by-name/userdata
+[    2.809753] msm_thermal: Limiting cpu0 max frequency to 1134000
+[    2.810119] msm_thermal: Limiting cpu1 max frequency to 1134000
+[    2.810516] msm_thermal: Limiting cpu2 max frequency to 1134000
+[    2.810821] msm_thermal: Limiting cpu3 max frequency to 1134000
+[    2.811248] EXT4-fs (mmcblk0p23): mounted filesystem with ordered data mode. Opts: errors=remount-ro,nomblk_io_submit
+[    2.811553] init: [libfs_mgr]check_fs(): mount(/dev/block/platform/msm_sdcc.1/by-name/userdata,/data,ext4)=0: Success
+[    2.820007] init: [libfs_mgr]check_fs(): unmount(/data) succeeded
+[    2.820159] init: [libfs_mgr]Running /system/bin/e2fsck on /dev/block/platform/msm_sdcc.1/by-name/userdata
+[    2.824493] type=1400 audit(1506170663.410:8): avc:  granted  { getattr } for  pid=162 comm="e2fsck" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:fsck:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[    2.841979] type=1400 audit(1506170663.430:9): avc:  granted  { read } for  pid=162 comm="e2fsck" name="online" dev="sysfs" ino=34 scontext=u:r:fsck:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[    2.842224] type=1400 audit(1506170663.430:10): avc:  granted  { read open } for  pid=162 comm="e2fsck" name="online" dev="sysfs" ino=34 scontext=u:r:fsck:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[    2.870544] e2fsck: e2fsck 1.43.3 (04-Sep-2016)
+[    2.870574] 
+[    2.870819] e2fsck: /dev/block/platform/msm_sdcc.1/by-name/userdata: clean, 9230/863264 files, 2554670/3449600 blocks
+[    2.870819] 
+[    2.875488] EXT4-fs (mmcblk0p23): mounted filesystem with ordered data mode. Opts: barrier=1,data=ordered,noauto_da_alloc
+[    2.875854] init: [libfs_mgr]__mount(source=/dev/block/platform/msm_sdcc.1/by-name/userdata,target=/data,type=ext4)=0
+[    2.876159] init: [libfs_mgr]mount_with_alternatives(): skipping fstab dup mountpoint=/data rec[3].fs_type=f2fs already mounted as ext4
+[    2.881622] init: [libfs_mgr]superblock s_max_mnt_count:65535,/dev/block/platform/msm_sdcc.1/by-name/persist
+[    2.881835] init: [libfs_mgr]Requested quota status is match on /dev/block/platform/msm_sdcc.1/by-name/persist
+[    2.887329] EXT4-fs (mmcblk0p20): mounted filesystem with ordered data mode. Opts: barrier=1,data=ordered,nodelalloc
+[    2.887634] init: [libfs_mgr]__mount(source=/dev/block/platform/msm_sdcc.1/by-name/persist,target=/persist,type=ext4)=0
+[    2.896545] init: [libfs_mgr]__mount(source=/dev/block/platform/msm_sdcc.1/by-name/modem,target=/firmware,type=vfat)=0
+[    2.897644] init: Parsing directory /system/etc/init...
+[    2.898712] init: Parsing file /system/etc/init/android.hidl.allocator@1.0-service.rc...
+[    2.899414] init: Parsing file /system/etc/init/atrace.rc...
+[    2.901824] init: Parsing file /system/etc/init/atrace_userdebug.rc...
+[    2.902709] init: Parsing file /system/etc/init/audioserver.rc...
+[    2.903503] init: Parsing file /system/etc/init/bootanim.rc...
+[    2.904144] init: Parsing file /system/etc/init/bootstat.rc...
+[    2.904998] init: Parsing file /system/etc/init/cameraserver.rc...
+[    2.905670] init: Parsing file /system/etc/init/drmserver.rc...
+[    2.906433] init: Parsing file /system/etc/init/dumpstate.rc...
+[    2.907135] init: Parsing file /system/etc/init/gatekeeperd.rc...
+[    2.907836] init: Parsing file /system/etc/init/hwservicemanager.rc...
+[    2.908599] init: Parsing file /system/etc/init/init-debug.rc...
+[    2.909240] init: Parsing file /system/etc/init/installd.rc...
+[    2.910797] init: Parsing file /system/etc/init/keystore.rc...
+[    2.911468] init: Parsing file /system/etc/init/lmkd.rc...
+[    2.912170] init: Parsing file /system/etc/init/logcatd.rc...
+[    2.913055] init: Parsing file /system/etc/init/logd.rc...
+[    2.913879] init: Parsing file /system/etc/init/logtagd.rc...
+[    2.914489] init: Parsing file /system/etc/init/mdnsd.rc...
+[    2.915191] init: Parsing file /system/etc/init/mediadrmserver.rc...
+[    2.915802] init: Parsing file /system/etc/init/mediaextractor.rc...
+[    2.916534] init: Parsing file /system/etc/init/mediametrics.rc...
+[    2.917144] init: Parsing file /system/etc/init/mediaserver.rc...
+[    2.917907] init: Parsing file /system/etc/init/mtpd.rc...
+[    2.918548] init: /system/etc/init/mtpd.rc: 6: capabilities requested but the kernel does not support ambient capabilities
+[    2.918792] init: 
+[    2.918914] init: Parsing file /system/etc/init/netd.rc...
+[    2.919677] init: Parsing file /system/etc/init/perfprofd.rc...
+[    2.920349] init: Parsing file /system/etc/init/racoon.rc...
+[    2.921081] init: /system/etc/init/racoon.rc: 7: capabilities requested but the kernel does not support ambient capabilities
+[    2.921295] init: 
+[    2.921417] init: Parsing file /system/etc/init/servicemanager.rc...
+[    2.922210] init: Parsing file /system/etc/init/storaged.rc...
+[    2.922821] init: Parsing file /system/etc/init/surfaceflinger.rc...
+[    2.923553] init: Parsing file /system/etc/init/tombstoned.rc...
+[    2.924194] init: Parsing file /system/etc/init/uncrypt.rc...
+[    2.924926] init: Parsing file /system/etc/init/vdc.rc...
+[    2.925537] init: Parsing file /system/etc/init/vold.rc...
+[    2.926269] init: Parsing file /system/etc/init/webview_zygote32.rc...
+[    2.926879] init: Parsing file /system/etc/init/wifi-events.rc...
+[    2.927947] init: Parsing file /system/etc/init/wificond.rc...
+[    2.929260] init: Parsing directory /vendor/etc/init...
+[    2.929931] init: Parsing file /vendor/etc/init/android.hardware.configstore@1.0-service.rc...
+[    2.930694] init: Parsing file /vendor/etc/init/android.hardware.media.omx@1.0-service.rc...
+[    2.931335] init: Parsing file /vendor/etc/init/android.hardware.usb@1.0-service.rc...
+[    2.932037] init: Parsing file /vendor/etc/init/android.hardware.wifi@1.0-service.rc...
+[    2.932739] init: Parsing file /vendor/etc/init/hostapd.android.rc...
+[    2.933380] init: Parsing file /vendor/etc/init/rild.rc...
+[    2.934143] init: /vendor/etc/init/rild.rc: 5: capabilities requested but the kernel does not support ambient capabilities
+[    2.934356] init: 
+[    2.934509] init: Parsing file /vendor/etc/init/vndservicemanager.rc...
+[    2.935241] init: Parsing file /odm/etc/init...
+[    2.935516] init: Command 'mount_all ./fstab.mako' action=fs (/init.mako.rc:44) returned 1 took 257.499ms.
+[    2.946685] init: processing action (post-fs)
+[    2.951141] init: Couldn't load properties from /odm/build.prop: No such file or directory
+[    2.951416] init: Couldn't load properties from /vendor/build.prop: No such file or directory
+[    2.951690] init: Couldn't load properties from /factory/factory.prop: No such file or directory
+[    2.952087] init: [libfs_mgr]fs_mgr_read_fstab_dt(): failed to read fstab from dt
+[    2.953643] init: computing context for service 'logd'
+[    2.955871] init: starting service 'logd'...
+[    2.957244] init: computing context for service 'servicemanager'
+[    2.957763] init: starting service 'servicemanager'...
+[    2.958068] init: Created socket '/dev/socket/logd', mode 666, user 1036, group 1036
+[    2.959045] init: computing context for service 'hwservicemanager'
+[    2.959136] init: Created socket '/dev/socket/logdr', mode 666, user 1036, group 1036
+[    2.959716] init: starting service 'hwservicemanager'...
+[    2.960235] init: Created socket '/dev/socket/logdw', mode 222, user 1036, group 1036
+[    2.960662] init: Opened file '/proc/kmsg', flags 0
+[    2.960998] init: Opened file '/dev/kmsg', flags 1
+[    2.966094] init: computing context for service 'vndservicemanager'
+[    2.966705] init: starting service 'vndservicemanager'...
+[    3.028594] logd.auditd: start
+[    3.028778] logd.klogd: 3018927155
+[    3.059936] msm_thermal: Limiting cpu0 max frequency to 918000
+[    3.060211] msm_thermal: Limiting cpu1 max frequency to 918000
+[    3.060638] msm_thermal: Limiting cpu2 max frequency to 918000
+[    3.060974] msm_thermal: Limiting cpu3 max frequency to 918000
+[    3.085113] init: Command 'restorecon --recursive --cross-filesystems /sys/kernel/debug' action=post-fs (/init.rc:316) returned 0 took 116.936ms.
+[    3.096710] init: Service 'hwservicemanager' (pid 170) exited with status 255
+[    3.096893] init: Sending signal 9 to service 'hwservicemanager' (pid 170) process group...
+[    3.127960] type=1400 audit(1506170663.660:15): avc: denied { read } for pid=170 comm="hwservicemanage" name="online" dev="sysfs" ino=34 scontext=u:r:hwservicemanager:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    3.309967] msm_thermal: Limiting cpu0 max frequency to 702000
+[    3.310272] msm_thermal: Limiting cpu1 max frequency to 702000
+[    3.310821] msm_thermal: Limiting cpu2 max frequency to 702000
+[    3.311218] msm_thermal: Limiting cpu3 max frequency to 702000
+[    3.312133] init: kill(170, 9) failed: No such process
+[    3.316925] init: computing context for service 'hidl_memory'
+[    3.317749] init: starting service 'hidl_memory'...
+[    3.320495] init: computing context for service 'configstore-hal-1-0'
+[    3.321472] init: starting service 'configstore-hal-1-0'...
+[    3.323425] init: computing context for service 'usb-hal-1-0'
+[    3.324462] init: starting service 'usb-hal-1-0'...
+[    3.326385] init: computing context for service 'wifi_hal_legacy'
+[    3.327484] init: starting service 'wifi_hal_legacy'...
+[    3.345642] init: write_file: Unable to open '/sys/kernel/tracing/tracing_on': No such file or directory
+[    3.351470] init: processing action (late-fs)
+[    3.351959] init: processing action (post-fs-data)
+[    3.353088] init: computing context for service 'vold'
+[    3.353820] init: starting service 'vold'...
+[    3.363861] init: Created socket '/dev/socket/vold', mode 660, user 0, group 1009
+[    3.368743] init: Created socket '/dev/socket/cryptd', mode 660, user 0, group 1009
+[    3.389465] type=1400 audit(1506170663.660:15): avc: denied { read } for pid=170 comm="hwservicemanage" name="online" dev="sysfs" ino=34 scontext=u:r:hwservicemanager:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    3.390533] type=1400 audit(1506170663.970:16): avc: denied { read } for pid=179 comm="android.hidl.al" name="online" dev="sysfs" ino=34 scontext=u:r:hal_allocator_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    3.411499] init: Service 'usb-hal-1-0' (pid 181) exited with status 1
+[    3.411773] init: Sending signal 9 to service 'usb-hal-1-0' (pid 181) process group...
+[    3.434326] type=1400 audit(1506170663.970:16): avc: denied { read } for pid=179 comm="android.hidl.al" name="online" dev="sysfs" ino=34 scontext=u:r:hal_allocator_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    3.434875] type=1400 audit(1506170664.020:17): avc: denied { read } for pid=180 comm="android.hardwar" name="online" dev="sysfs" ino=34 scontext=u:r:hal_configstore_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    3.464324] type=1400 audit(1506170664.020:17): avc: denied { read } for pid=180 comm="android.hardwar" name="online" dev="sysfs" ino=34 scontext=u:r:hal_configstore_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    3.464843] type=1400 audit(1506170664.050:18): avc: denied { read } for pid=185 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    3.485290] ------------[ cut here ]------------
+[    3.485687] WARNING: at /home/coltos0517/unlegacy-android/kernel/qcom/msm8960/kernel/signal.c:2962 do_rt_tgsigqueueinfo+0x50/0x80()
+[    3.486053] [<c0013094>] (unwind_backtrace+0x0/0xec) from [<c007a2f8>] (warn_slowpath_null+0x38/0x50)
+[    3.486419] [<c007a2f8>] (warn_slowpath_null+0x38/0x50) from [<c008d254>] (do_rt_tgsigqueueinfo+0x50/0x80)
+[    3.486633] [<c008d254>] (do_rt_tgsigqueueinfo+0x50/0x80) from [<c008d2e8>] (sys_rt_tgsigqueueinfo+0x64/0x80)
+[    3.486968] [<c008d2e8>] (sys_rt_tgsigqueueinfo+0x64/0x80) from [<c000dbc0>] (ret_fast_syscall+0x0/0x30)
+[    3.487304] ---[ end trace da227214a82491b9 ]---
+[    3.495147] type=1400 audit(1506170664.050:18): avc: denied { read } for pid=185 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    3.495513] type=1400 audit(1506170664.080:19): avc: denied { read } for pid=187 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    3.500793] init: kill(181, 9) failed: No such process
+[    3.501556] init: Service 'hidl_memory' (pid 179) exited with status 1
+[    3.501953] init: Sending signal 9 to service 'hidl_memory' (pid 179) process group...
+[    3.515686] init: killProcessGroup(1000, 179, 9) failed: Device or resource busy
+[    3.516448] init: Service 'configstore-hal-1-0' (pid 180) exited with status 1
+[    3.516815] init: Sending signal 9 to service 'configstore-hal-1-0' (pid 180) process group...
+[    3.560546] msm_thermal: Limiting cpu0 max frequency to 486000
+[    3.560913] msm_thermal: Limiting cpu1 max frequency to 486000
+[    3.561645] msm_thermal: Limiting cpu2 max frequency to 486000
+[    3.562164] msm_thermal: Limiting cpu3 max frequency to 486000
+[    3.571136] type=1400 audit(1506170664.080:19): avc: denied { read } for pid=187 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    3.571685] type=1400 audit(1506170664.160:20): avc: denied { read } for pid=191 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    3.580871] init: Untracked pid 188 exited with status 1
+[    3.581542] init: Untracked pid 189 killed by signal 9
+[    3.586425] init: Service 'wifi_hal_legacy' (pid 182) exited with status 1
+[    3.587036] init: Sending signal 9 to service 'wifi_hal_legacy' (pid 182) process group...
+[    3.621673] init: kill(182, 9) failed: No such process
+[    3.751495] type=1400 audit(1506170664.160:20): avc: denied { read } for pid=191 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    3.752288] type=1400 audit(1506170664.341:21): avc: denied { read } for pid=195 comm="vdc" name="online" dev="sysfs" ino=34 scontext=u:r:vdc:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    3.766937] vdc: 200 195 Command succeeded
+[    3.768676] init: init_user0 result: 0
+[    3.769134] init: Command 'init_user0' action=post-fs-data (/init.rc:490) returned 0 took 55.7706ms.
+[    8.876861] init: Command 'restorecon --recursive --skip-ce /data' action=post-fs-data (/init.rc:493) returned 0 took 5106.74ms.
+[    8.877532] init: computing context for service 'hidl_memory'
+[    8.878387] init: starting service 'hidl_memory'...
+[    8.881042] init: property_set("ro.boottime.hidl_memory", "8869558954") failed: property already set
+[    8.881500] init: computing context for service 'hwservicemanager'
+[    8.882781] init: starting service 'hwservicemanager'...
+[    8.884948] init: property_set("ro.boottime.hwservicemanager", "8873678827") failed: property already set
+[    8.885803] init: computing context for service 'configstore-hal-1-0'
+[    8.886993] init: starting service 'configstore-hal-1-0'...
+[    8.889190] init: property_set("ro.boottime.configstore-hal-1-0", "8877920770") failed: property already set
+[    8.889892] init: computing context for service 'usb-hal-1-0'
+[    8.892730] init: starting service 'usb-hal-1-0'...
+[    8.894897] init: property_set("ro.boottime.usb-hal-1-0", "8883688592") failed: property already set
+[    8.895599] init: computing context for service 'wifi_hal_legacy'
+[    8.896881] init: starting service 'wifi_hal_legacy'...
+[    8.899261] init: property_set("ro.boottime.wifi_hal_legacy", "8887869500") failed: property already set
+[    8.900726] init: computing context for service 'exec 1 (/system/bin/tzdatacheck)'
+[    8.901947] init: starting service 'exec 1 (/system/bin/tzdatacheck)'...
+[    8.903991] init: SVC_EXEC pid 201 (uid 1000 gid 1000+0 context default) started; waiting...
+[    8.976928] type=1400 audit(1506170664.341:21): avc: denied { read } for pid=195 comm="vdc" name="online" dev="sysfs" ino=34 scontext=u:r:vdc:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    8.977478] type=1400 audit(1506170669.555:22): avc: denied { read } for pid=198 comm="android.hardwar" name="online" dev="sysfs" ino=34 scontext=u:r:hal_configstore_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    9.007232] init: Service 'usb-hal-1-0' (pid 199) exited with status 1
+[    9.007904] init: Sending signal 9 to service 'usb-hal-1-0' (pid 199) process group...
+[    9.009338] type=1400 audit(1506170669.555:22): avc: denied { read } for pid=198 comm="android.hardwar" name="online" dev="sysfs" ino=34 scontext=u:r:hal_configstore_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    9.009887] type=1400 audit(1506170669.565:23): avc: denied { read } for pid=201 comm="tzdatacheck" name="online" dev="sysfs" ino=34 scontext=u:r:tzdatacheck:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    9.014801] type=1400 audit(1506170669.565:23): avc: denied { read } for pid=201 comm="tzdatacheck" name="online" dev="sysfs" ino=34 scontext=u:r:tzdatacheck:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    9.015594] type=1400 audit(1506170669.585:24): avc: denied { read } for pid=196 comm="android.hidl.al" name="online" dev="sysfs" ino=34 scontext=u:r:hal_allocator_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    9.055908] type=1400 audit(1506170669.585:24): avc: denied { read } for pid=196 comm="android.hidl.al" name="online" dev="sysfs" ino=34 scontext=u:r:hal_allocator_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    9.056457] type=1400 audit(1506170669.636:25): avc: denied { read } for pid=197 comm="hwservicemanage" name="online" dev="sysfs" ino=34 scontext=u:r:hwservicemanager:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    9.081573] type=1400 audit(1506170669.636:25): avc: denied { read } for pid=197 comm="hwservicemanage" name="online" dev="sysfs" ino=34 scontext=u:r:hwservicemanager:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    9.082397] type=1400 audit(1506170669.666:26): avc: denied { read } for pid=205 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    9.090942] type=1400 audit(1506170669.666:26): avc: denied { read } for pid=205 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    9.091491] type=1400 audit(1506170669.666:27): avc: denied { read } for pid=203 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    9.110931] init: kill(199, 9) failed: No such process
+[    9.112182] init: Service 'hidl_memory' (pid 196) exited with status 1
+[    9.112548] init: Sending signal 9 to service 'hidl_memory' (pid 196) process group...
+[    9.116119] init: killProcessGroup(1000, 196, 9) failed: Device or resource busy
+[    9.117248] init: Service 'hwservicemanager' (pid 197) exited with status 255
+[    9.117828] init: Sending signal 9 to service 'hwservicemanager' (pid 197) process group...
+[    9.130920] init: kill(197, 9) failed: No such process
+[    9.131469] init: Sending signal 9 to service 'configstore-hal-1-0' (pid 198) process group...
+[    9.180389] type=1400 audit(1506170669.666:27): avc: denied { read } for pid=203 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    9.182006] type=1400 audit(1506170669.756:28): avc: denied { read } for pid=209 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    9.189544] init: Sending signal 9 to service 'wifi_hal_legacy' (pid 200) process group...
+[    9.201568] init: Command 'class_restart hal' action=onrestart returned 0 took 70.0989ms.
+[    9.202728] init: Service 'configstore-hal-1-0' (pid 198) exited with status 1
+[    9.203308] init: Sending signal 9 to service 'configstore-hal-1-0' (pid 198) process group...
+[    9.203704] init: failed to open /acct/uid_1000/pid_198/cgroup.procs: No such file or directory
+[    9.204406] init: killProcessGroup(1000, 198, 9) failed: Device or resource busy
+[    9.205444] init: Service 'wifi_hal_legacy' (pid 200) killed by signal 9
+[    9.205780] init: Sending signal 9 to service 'wifi_hal_legacy' (pid 200) process group...
+[    9.206359] init: failed to open /acct/uid_1010/pid_200/cgroup.procs: No such file or directory
+[    9.207031] init: killProcessGroup(1010, 200, 9) failed: No such file or directory
+[    9.208007] init: Service 'exec 1 (/system/bin/tzdatacheck)' (pid 201) exited with status 0 waiting took 0.307709 seconds
+[    9.208679] init: Untracked pid 206 exited with status 1
+[    9.209106] init: Untracked pid 207 exited with status 1
+[    9.209716] init: Untracked pid 209 exited with status 1
+[    9.219757] adsp_boot_store:going to call adsp_loader_do
+[    9.223052] ueventd: firmware: loading 'q6.mdt' for '/devices/platform/pil_qdsp6v4.0/pil0/firmware/pil0'
+[    9.227661] ueventd: loading /devices/platform/pil_qdsp6v4.0/pil0/firmware/pil0 took 0.00509643 seconds
+[    9.249145] ueventd: firmware: loading 'q6.b03' for '/devices/platform/pil_qdsp6v4.0/pil0/firmware/pil0'
+[    9.331451] ueventd: loading /devices/platform/pil_qdsp6v4.0/pil0/firmware/pil0 took 0.0827942 seconds
+[    9.348907] ueventd: firmware: loading 'q6.b04' for '/devices/platform/pil_qdsp6v4.0/pil0/firmware/pil0'
+[    9.373596] ueventd: loading /devices/platform/pil_qdsp6v4.0/pil0/firmware/pil0 took 0.025238 seconds
+[    9.380004] ueventd: firmware: loading 'q6.b05' for '/devices/platform/pil_qdsp6v4.0/pil0/firmware/pil0'
+[    9.388916] ueventd: loading /devices/platform/pil_qdsp6v4.0/pil0/firmware/pil0 took 0.00942993 seconds
+[    9.392395] ueventd: firmware: loading 'q6.b06' for '/devices/platform/pil_qdsp6v4.0/pil0/firmware/pil0'
+[    9.394714] ueventd: loading /devices/platform/pil_qdsp6v4.0/pil0/firmware/pil0 took 0.00283813 seconds
+[    9.564086] pil pil0: q6: Brought out of reset
+[    9.601959] apr_tal:Q6 Is Up
+[    9.618164] diag: proc 1, msg mask update fail -12, tried 419
+[    9.670379] adsp_loader_do: Q6/ADSP image is loaded
+[    9.670837] init: Command 'write /sys/kernel/boot_adsp/boot 1' action=post-fs-data (/init.mako.rc:133) returned 0 took 451.05ms.
+[    9.672058] wcnss_8960: Subsystem restart activated for riva.
+[    9.701873] init: processing action (ro.crypto.state=unencrypted && zygote-start)
+[    9.702453] init: ExecStart(update_verifier_nonencrypted): Service not found
+[    9.703124] init: computing context for service 'netd'
+[    9.704162] init: starting service 'netd'...
+[    9.706970] init: computing context for service 'zygote'
+[    9.707916] init: starting service 'zygote'...
+[    9.708709] init: Created socket '/dev/socket/netd', mode 660, user 0, group 1000
+[    9.710540] init: do_start: Service zygote_secondary not found
+[    9.711090] init: processing action (load_persist_props_action)
+[    9.711364] init: Created socket '/dev/socket/dnsproxyd', mode 660, user 0, group 3003
+[    9.712036] init: Couldn't load properties from /data/local.prop: No such file or directory
+[    9.712524] init: Created socket '/dev/socket/zygote', mode 660, user 0, group 1000
+[    9.712860] init: Created socket '/dev/socket/mdns', mode 660, user 0, group 1000
+[    9.713836] init: computing context for service 'logd-reinit'
+[    9.714385] init: Created socket '/dev/socket/fwmarkd', mode 660, user 0, group 3003
+[    9.714904] init: starting service 'logd-reinit'...
+[    9.717651] init: processing action (firmware_mounts_complete)
+[    9.718292] init: processing action (early-boot)
+[    9.730346] type=1400 audit(1506170669.756:28): avc: denied { read } for pid=209 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    9.732055] type=1400 audit(1506170670.306:29): avc: granted { getattr } for pid=215 comm="netd" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[    9.751220] init: processing action (boot)
+[    9.765808] type=1400 audit(1506170670.306:29): avc: granted { getattr } for pid=215 comm="netd" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[    9.767059] type=1400 audit(1506170670.346:30): avc: denied { read } for pid=217 comm="logd" name="online" dev="sysfs" ino=34 scontext=u:r:logd:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    9.768035] init: computing context for service 'hidl_memory'
+[    9.768951] init: starting service 'hidl_memory'...
+[    9.771789] init: property_set("ro.boottime.hidl_memory", "9760275465") failed: property already set
+[    9.772308] init: computing context for service 'configstore-hal-1-0'
+[    9.772766] logd.daemon: reinit
+[    9.773925] init: starting service 'configstore-hal-1-0'...
+[    9.776397] init: property_set("ro.boottime.configstore-hal-1-0", "9765097242") failed: property already set
+[    9.777099] init: computing context for service 'usb-hal-1-0'
+[    9.778259] init: starting service 'usb-hal-1-0'...
+[    9.781127] init: property_set("ro.boottime.usb-hal-1-0", "9769522291") failed: property already set
+[    9.781616] init: computing context for service 'wifi_hal_legacy'
+[    9.782958] init: starting service 'wifi_hal_legacy'...
+[    9.785552] init: property_set("ro.boottime.wifi_hal_legacy", "9774038893") failed: property already set
+[    9.786804] init: Service 'logd-reinit' (pid 217) exited with status 0
+[    9.787963] init: computing context for service 'healthd'
+[    9.788909] init: starting service 'healthd'...
+[    9.793090] init: computing context for service 'rmt_storage'
+[    9.794281] init: starting service 'rmt_storage'...
+[    9.797119] init: computing context for service 'kickstart'
+[    9.798217] init: starting service 'kickstart'...
+[    9.801147] init: computing context for service 'qseecomd'
+[    9.802276] init: starting service 'qseecomd'...
+[    9.804931] init: computing context for service 'lmkd'
+[    9.806213] init: starting service 'lmkd'...
+[    9.822814] init: computing context for service 'surfaceflinger'
+[    9.824096] init: starting service 'surfaceflinger'...
+[    9.828399] init: Failed to bind socket 'pdx/system/vr/display/client': No such file or directory
+[    9.830200] init: Failed to bind socket 'pdx/system/vr/display/manager': No such file or directory
+[    9.833953] init: Failed to bind socket 'pdx/system/vr/display/vsync': No such file or directory
+[    9.843902] init: Created socket '/dev/socket/lmkd', mode 660, user 1000, group 1000
+[    9.861907] init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet_sdio0/accept_ra': No such file or directory
+[    9.862609] init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet_sdio1/accept_ra': No such file or directory
+[    9.863281] init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet_sdio2/accept_ra': No such file or directory
+[    9.863983] init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet_sdio3/accept_ra': No such file or directory
+[    9.864654] init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet_sdio4/accept_ra': No such file or directory
+[    9.865325] init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet_sdio5/accept_ra': No such file or directory
+[    9.865997] init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet_sdio6/accept_ra': No such file or directory
+[    9.866699] init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet_sdio7/accept_ra': No such file or directory
+[    9.915649] usbcore: registered new interface driver rmnet_usb
+[    9.925170] rmnet usb ctrl Initialized.
+[    9.926239] init: processing action (persist.sys.usb.config=* && boot)
+[    9.926727] init: processing action (enable_property_trigger)
+[    9.927978] init: processing action (security.perf_harden=1)
+[    9.928558] init: processing action (ro.debuggable=1)
+[    9.939178] type=1400 audit(1506170670.346:30): avc: denied { read } for pid=217 comm="logd" name="online" dev="sysfs" ino=34 scontext=u:r:logd:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    9.939971] type=1400 audit(1506170670.516:31): avc: denied { read } for pid=224 comm="qcks" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[    9.940979] init: starting service 'console'...
+[    9.944030] init: processing action (sys.usb.config=adb && sys.usb.configfs=0)
+[    9.944580] enable_store: android_usb: already disabled
+[    9.946044] init: starting service 'adbd'...
+[    9.948883] init: processing action (nonencrypted)
+[    9.949737] init: computing context for service 'qmuxd'
+[    9.961151] init: setpgid failed for console: Operation not permitted
+[    9.963958] init: Created socket '/dev/socket/adbd', mode 660, user 1000, group 1000
+[    9.972717] init: starting service 'qmuxd'...
+[    9.976013] init: computing context for service 'netmgrd'
+[    9.977111] init: starting service 'netmgrd'...
+[    9.979705] init: computing context for service 'thermald'
+[    9.992553] mdm_modem_ioctl: Powering on mdm id 0
+[    9.994323] init: starting service 'thermald'...
+[   10.011535] init: computing context for service 'mpdecision'
+[   10.012725] init: starting service 'mpdecision'...
+[   10.015991] init: computing context for service 'bdAddrLoader'
+[   10.017089] init: starting service 'bdAddrLoader'...
+[   10.020172] init: computing context for service 'audioserver'
+[   10.022186] type=1400 audit(1506170670.516:31): avc: denied { read } for pid=224 comm="qcks" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.022918] type=1400 audit(1506170670.566:32): avc: denied { read } for pid=233 comm="adbd" name="online" dev="sysfs" ino=34 scontext=u:r:adbd:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.029876] init: starting service 'audioserver'...
+[   10.033294] init: computing context for service 'cameraserver'
+[   10.034332] init: starting service 'cameraserver'...
+[   10.037597] init: computing context for service 'drm'
+[   10.038635] init: starting service 'drm'...
+[   10.049224] init: computing context for service 'installd'
+[   10.051300] init: starting service 'installd'...
+[   10.054077] init: couldn't write 241 to /dev/cpuset/camera-daemon/tasks: No such file or directory
+[   10.054107] init: computing context for service 'keystore'
+[   10.054870] init: starting service 'keystore'...
+[   10.057403] init: computing context for service 'mediadrm'
+[   10.058746] init: starting service 'mediadrm'...
+[   10.066284] init: computing context for service 'mediaextractor'
+[   10.067657] init: starting service 'mediaextractor'...
+[   10.079040] init: computing context for service 'mediametrics'
+[   10.080139] init: starting service 'mediametrics'...
+[   10.083068] init: computing context for service 'media'
+[   10.084136] init: starting service 'media'...
+[   10.087066] init: computing context for service 'storaged'
+[   10.088073] init: starting service 'storaged'...
+[   10.142791] init: computing context for service 'wificond'
+[   10.143829] init: starting service 'wificond'...
+[   10.146942] init: computing context for service 'mediacodec'
+[   10.147979] init: starting service 'mediacodec'...
+[   10.162872] init: computing context for service 'ril-daemon'
+[   10.164398] init: starting service 'ril-daemon'...
+[   10.167236] init: Command 'class_start main' action=nonencrypted (/init.rc:624) returned 0 took 217.651ms.
+[   10.169677] init: Sending signal 9 to service 'rmt_storage' (pid 223) process group...
+[   10.187499] type=1400 audit(1506170670.566:32): avc: denied { read } for pid=233 comm="adbd" name="online" dev="sysfs" ino=34 scontext=u:r:adbd:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.222137] init: killProcessGroup(0, 223, 9) failed: Device or resource busy
+[   10.223144] init: computing context for service 'sensors'
+[   10.224548] init: starting service 'sensors'...
+[   10.229248] init: computing context for service 'qcamerasvr'
+[   10.230621] init: starting service 'qcamerasvr'...
+[   10.233825] init: starting service 'wcnss_init'...
+[   10.236541] init: computing context for service 'gatekeeperd'
+[   10.237976] init: starting service 'gatekeeperd'...
+[   10.246765] type=1400 audit(1506170670.586:33): avc: denied { read } for pid=223 comm="rmt_storage" name="online" dev="sysfs" ino=34 scontext=u:r:rmt:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.247955] type=1400 audit(1506170670.586:33): avc: denied { read } for pid=223 comm="rmt_storage" name="online" dev="sysfs" ino=34 scontext=u:r:rmt:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.248718] type=1400 audit(1506170670.606:34): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   10.260223] type=1400 audit(1506170670.606:34): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   10.261688] type=1400 audit(1506170670.606:35): avc: denied { read } for pid=219 comm="android.hardwar" name="online" dev="sysfs" ino=34 scontext=u:r:hal_configstore_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.262908] type=1400 audit(1506170670.606:35): avc: denied { read } for pid=219 comm="android.hardwar" name="online" dev="sysfs" ino=34 scontext=u:r:hal_configstore_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.263671] type=1400 audit(1506170670.717:36): avc: denied { read } for pid=218 comm="android.hidl.al" name="online" dev="sysfs" ino=34 scontext=u:r:hal_allocator_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.264892] type=1400 audit(1506170670.717:36): avc: denied { read } for pid=218 comm="android.hidl.al" name="online" dev="sysfs" ino=34 scontext=u:r:hal_allocator_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.265655] type=1400 audit(1506170670.727:37): avc: denied { read } for pid=232 comm="sh" name="online" dev="sysfs" ino=34 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.267547] type=1400 audit(1506170670.727:37): avc: denied { read } for pid=232 comm="sh" name="online" dev="sysfs" ino=34 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.268310] type=1400 audit(1506170670.737:38): avc: granted { getattr } for pid=244 comm="keystore" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:keystore:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   10.270141] type=1400 audit(1506170670.737:38): avc: granted { getattr } for pid=244 comm="keystore" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:keystore:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   10.272521] type=1400 audit(1506170670.777:39): avc: denied { read } for pid=239 comm="bdAddrLoader" name="online" dev="sysfs" ino=34 scontext=u:r:bluetooth_loader:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.273651] type=1400 audit(1506170670.777:39): avc: denied { read } for pid=239 comm="bdAddrLoader" name="online" dev="sysfs" ino=34 scontext=u:r:bluetooth_loader:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.274414] type=1400 audit(1506170670.827:40): avc: granted { getattr } for pid=256 comm="iptables-restor" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   10.317230] type=1400 audit(1506170670.827:40): avc: granted { getattr } for pid=256 comm="iptables-restor" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   10.318054] type=1400 audit(1506170670.877:41): avc: denied { read } for pid=238 comm="mpdecision" name="online" dev="sysfs" ino=34 scontext=u:r:mpdecision:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.319152] type=1400 audit(1506170670.877:41): avc: denied { read } for pid=238 comm="mpdecision" name="online" dev="sysfs" ino=34 scontext=u:r:mpdecision:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.319702] type=1400 audit(1506170670.877:42): avc: denied { read } for pid=238 comm="mpdecision" name="cpuinfo_min_freq" dev="sysfs" ino=16945 scontext=u:r:mpdecision:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.328948] type=1400 audit(1506170670.877:42): avc: denied { read } for pid=238 comm="mpdecision" name="cpuinfo_min_freq" dev="sysfs" ino=16945 scontext=u:r:mpdecision:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.329711] type=1400 audit(1506170670.887:43): avc: denied { read } for pid=262 comm="sh" name="online" dev="sysfs" ino=34 scontext=u:r:conn_init:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.333404] init: cannot find '/system/xbin/perfprofd', disabling 'perfprofd': No such file or directory
+[   10.334350] init: computing context for service 'tombstoned'
+[   10.335693] init: starting service 'tombstoned'...
+[   10.338684] init: Command 'class_start late_start' action=nonencrypted (/init.rc:625) returned 0 took 115.601ms.
+[   10.343170] type=1400 audit(1506170670.887:43): avc: denied { read } for pid=262 comm="sh" name="online" dev="sysfs" ino=34 scontext=u:r:conn_init:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.343933] type=1400 audit(1506170670.907:44): avc: denied { read } for pid=238 comm="mpdecision" name="cpu" dev="sysfs" ino=32 scontext=u:r:mpdecision:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+[   10.344848] type=1400 audit(1506170670.907:44): avc: denied { read } for pid=238 comm="mpdecision" name="cpu" dev="sysfs" ino=32 scontext=u:r:mpdecision:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+[   10.345672] type=1400 audit(1506170670.917:45): avc: denied { read } for pid=257 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.381744] init: Created socket '/dev/socket/tombstoned_crash', mode 666, user 1000, group 1000
+[   10.384033] init: Created socket '/dev/socket/tombstoned_intercept', mode 666, user 1000, group 1000
+[   10.409667] type=1400 audit(1506170670.917:45): avc: denied { read } for pid=257 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.425048] type=1400 audit(1506170670.957:46): avc: denied { read } for pid=234 comm="qmuxd" name="online" dev="sysfs" ino=34 scontext=u:r:qmux:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.491119] type=1400 audit(1506170670.957:46): avc: denied { read } for pid=234 comm="qmuxd" name="online" dev="sysfs" ino=34 scontext=u:r:qmux:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.491729] type=1400 audit(1506170671.077:47): avc: denied { read } for pid=272 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.521423] type=1400 audit(1506170671.077:47): avc: denied { read } for pid=272 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.522186] type=1400 audit(1506170671.077:48): avc: denied { read } for pid=235 comm="netmgrd" name="online" dev="sysfs" ino=34 scontext=u:r:netmgrd:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.523895] type=1400 audit(1506170671.077:48): avc: denied { read } for pid=235 comm="netmgrd" name="online" dev="sysfs" ino=34 scontext=u:r:netmgrd:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.524688] type=1400 audit(1506170671.077:49): avc: granted { getattr } for pid=273 comm="ip6tables-resto" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   10.526397] type=1400 audit(1506170671.077:49): avc: granted { getattr } for pid=273 comm="ip6tables-resto" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   10.526916] type=1400 audit(1506170671.087:50): avc: denied { read } for pid=255 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.529022] type=1400 audit(1506170671.087:50): avc: denied { read } for pid=255 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   10.529815] type=1400 audit(1506170671.087:51): avc: granted { read } for pid=243 comm="installd" name="online" dev="sysfs" ino=34 scontext=u:r:installd:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[   10.530090] audit_log_lost: 12 callbacks suppressed
+[   10.530120] audit: audit_lost=5 audit_rate_limit=20 audit_backlog_limit=64
+[   10.530151] audit: rate limit exceeded
+[   10.531524] healthd: unable to get HAL interface, using defaults
+[   10.536590] init: Service 'hidl_memory' (pid 218) exited with status 1
+[   10.537200] init: Sending signal 9 to service 'hidl_memory' (pid 218) process group...
+[   10.539703] type=1400 audit(1506170671.087:51): avc: granted { read } for pid=243 comm="installd" name="online" dev="sysfs" ino=34 scontext=u:r:installd:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[   10.539978] healthd-common: wakealarm_init: timerfd_create failed
+[   10.542175] type=1400 audit(1506170671.087:52): avc: granted { read open } for pid=243 comm="installd" name="online" dev="sysfs" ino=34 scontext=u:r:installd:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[   10.543121] type=1400 audit(1506170671.087:52): avc: granted { read open } for pid=243 comm="installd" name="online" dev="sysfs" ino=34 scontext=u:r:installd:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[   10.543884] type=1400 audit(1506170671.087:53): avc: granted { getattr } for pid=243 comm="installd" path="/sys/devices/system/cpu/online" dev="sysfs" ino=34 scontext=u:r:installd:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[   10.572021] init: Service 'usb-hal-1-0' (pid 220) exited with status 1
+[   10.572357] init: Sending signal 9 to service 'usb-hal-1-0' (pid 220) process group...
+[   10.573791] healthd: BatteryFullChargePath not found
+[   10.579864] healthd: BatteryCycleCountPath not found
+[   10.582946] ueventd: firmware: loading 'dsps.mdt' for '/devices/platform/pil_dsps/pil3/firmware/pil3'
+[   10.584167] msm_thermal: Max frequency reset for cpu0
+[   10.584442] msm_thermal: Max frequency reset for cpu1
+[   10.584716] msm_thermal: Max frequency reset for cpu2
+[   10.585205] msm_thermal: Max frequency reset for cpu3
+[   10.585479] msm_thermal: enabled = 0
+[   10.611785] healthd: battery l=91 v=4092 t=38.9 h=2 st=3 c=444 chg=
+[   10.628021] ueventd: loading /devices/platform/pil_dsps/pil3/firmware/pil3 took 0.0455627 seconds
+[   10.641265] init: kill(220, 9) failed: No such process
+[   10.642272] init: Service 'configstore-hal-1-0' (pid 219) exited with status 1
+[   10.642852] init: Sending signal 9 to service 'configstore-hal-1-0' (pid 219) process group...
+[   10.656188] ueventd: firmware: loading 'dsps.b02' for '/devices/platform/pil_dsps/pil3/firmware/pil3'
+[   10.701507] init: Service 'wifi_hal_legacy' (pid 221) exited with status 1
+[   10.701690] init: Sending signal 9 to service 'wifi_hal_legacy' (pid 221) process group...
+[   10.702972] ueventd: loading /devices/platform/pil_dsps/pil3/firmware/pil3 took 0.0470276 seconds
+[   10.709197] ueventd: firmware: loading 'dsps.b03' for '/devices/platform/pil_dsps/pil3/firmware/pil3'
+[   10.725646] ueventd: loading /devices/platform/pil_dsps/pil3/firmware/pil3 took 0.0167542 seconds
+[   10.740875] ueventd: firmware: loading 'dsps.b04' for '/devices/platform/pil_dsps/pil3/firmware/pil3'
+[   10.760620] ueventd: loading /devices/platform/pil_dsps/pil3/firmware/pil3 took 0.0200195 seconds
+[   10.772521] init: kill(221, 9) failed: No such process
+[   10.772979] init: Service 'rmt_storage' (pid 223) killed by signal 9
+[   10.773193] init: Sending signal 9 to service 'rmt_storage' (pid 223) process group...
+[   10.774505] ueventd: firmware: loading 'dsps.b05' for '/devices/platform/pil_dsps/pil3/firmware/pil3'
+[   10.788696] ueventd: loading /devices/platform/pil_dsps/pil3/firmware/pil3 took 0.0144348 seconds
+[   10.821197] pil pil3: dsps: Brought out of reset
+[   10.863525] init: kill(223, 9) failed: No such process
+[   10.864074] init: Service 'mpdecision' (pid 238) exited with status 255
+[   10.864318] init: Sending signal 9 to service 'mpdecision' (pid 238) process group...
+[   10.929870] wcnss_wlan wcnss_node_write: triggered by userspace
+[   10.940521] init: kill(238, 9) failed: No such process
+[   10.941009] init: Service 'bdAddrLoader' (pid 239) exited with status 1
+[   10.941619] init: Service 'keystore' (pid 244) exited with status 255
+[   10.941864] init: Sending signal 9 to service 'keystore' (pid 244) process group...
+[   10.970916] ueventd: firmware: loading 'wcnss.mdt' for '/devices/platform/pil_riva/pil1/firmware/pil1'
+[   10.991607] ueventd: loading /devices/platform/pil_riva/pil1/firmware/pil1 took 0.0209656 seconds
+[   11.009857] ueventd: firmware: loading 'wcnss.b02' for '/devices/platform/pil_riva/pil1/firmware/pil1'
+[   11.010498] init: killProcessGroup(1017, 244, 9) failed: Device or resource busy
+[   11.010650] init: kill(244, 9) failed: No such process
+[   11.011352] init: Service 'qcamerasvr' (pid 261) exited with status 1
+[   11.011535] init: Sending signal 9 to service 'qcamerasvr' (pid 261) process group...
+[   11.030609] type=1400 audit(1506170671.087:53): avc: granted { getattr } for pid=243 comm="installd" path="/sys/devices/system/cpu/online" dev="sysfs" ino=34 scontext=u:r:installd:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[   11.030914] type=1400 audit(1506170671.617:71): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   11.031799] init: Opened file '/d/mmc0/mmc0:0001/ext_csd', flags 0
+[   11.046966] ueventd: loading /devices/platform/pil_riva/pil1/firmware/pil1 took 0.037384 seconds
+[   11.048431] ueventd: firmware: loading 'wcnss.b04' for '/devices/platform/pil_riva/pil1/firmware/pil1'
+[   11.061004] type=1400 audit(1506170671.617:71): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   11.061340] type=1400 audit(1506170671.647:72): avc: granted { getattr } for pid=323 comm="iptables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   11.064941] ueventd: loading /devices/platform/pil_riva/pil1/firmware/pil1 took 0.0167542 seconds
+[   11.077178] ueventd: firmware: loading 'wcnss.b05' for '/devices/platform/pil_riva/pil1/firmware/pil1'
+[   11.143280] ueventd: loading /devices/platform/pil_riva/pil1/firmware/pil1 took 0.0663757 seconds
+[   11.147857] type=1400 audit(1506170671.647:72): avc: granted { getattr } for pid=323 comm="iptables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   11.148071] type=1400 audit(1506170671.728:73): avc: granted { getattr } for pid=331 comm="ip6tables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   11.160949] init: Untracked pid 269 exited with status 1
+[   11.161163] init: Untracked pid 276 exited with status 1
+[   11.161437] init: Untracked pid 319 exited with status 1
+[   11.238372] type=1400 audit(1506170671.728:73): avc: granted { getattr } for pid=331 comm="ip6tables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   11.238677] type=1400 audit(1506170671.818:74): avc: granted { getattr } for pid=333 comm="iptables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   11.296783] type=1400 audit(1506170671.818:74): avc: granted { getattr } for pid=333 comm="iptables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   11.296997] type=1400 audit(1506170671.878:75): avc: granted { getattr } for pid=334 comm="ip6tables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   11.330902] ueventd: firmware: loading 'a300_pm4.fw' for '/devices/platform/kgsl-3d0.0/kgsl/kgsl-3d0/kgsl-3d0'
+[   11.332397] ueventd: loading /devices/platform/kgsl-3d0.0/kgsl/kgsl-3d0/kgsl-3d0 took 0.00180054 seconds
+[   11.338134] ueventd: firmware: loading 'a300_pfp.fw' for '/devices/platform/kgsl-3d0.0/kgsl/kgsl-3d0/kgsl-3d0'
+[   11.343658] ueventd: loading /devices/platform/kgsl-3d0.0/kgsl/kgsl-3d0/kgsl-3d0 took 0.00582886 seconds
+[   11.346710] pil pil1: wcnss: Brought out of reset
+[   11.348175] init: Service 'wcnss_init' (pid 262) exited with status 0
+[   11.359619] type=1400 audit(1506170671.878:75): avc: granted { getattr } for pid=334 comm="ip6tables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   11.360046] type=1400 audit(1506170671.938:76): avc: granted { getattr } for pid=337 comm="iptables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   11.453948] type=1400 audit(1506170671.938:76): avc: granted { getattr } for pid=337 comm="iptables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   11.454162] type=1400 audit(1506170672.038:77): avc: granted { getattr } for pid=342 comm="ip6tables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   11.531097] type=1400 audit(1506170672.038:77): avc: granted { getattr } for pid=342 comm="ip6tables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   11.531311] type=1400 audit(1506170672.118:78): avc: granted { getattr } for pid=343 comm="iptables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   11.590026] type=1400 audit(1506170672.118:78): avc: granted { getattr } for pid=343 comm="iptables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   11.590454] type=1400 audit(1506170672.168:79): avc: denied { read } for pid=247 comm="mediametrics" name="online" dev="sysfs" ino=34 scontext=u:r:mediametrics:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   11.598632] type=1400 audit(1506170672.168:79): avc: denied { read } for pid=247 comm="mediametrics" name="online" dev="sysfs" ino=34 scontext=u:r:mediametrics:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   11.600067] type=1400 audit(1506170672.178:80): avc: granted { getattr } for pid=344 comm="ip6tables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   11.640686] type=1400 audit(1506170672.178:80): avc: granted { getattr } for pid=344 comm="ip6tables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   11.640930] type=1400 audit(1506170672.198:81): avc: denied { read } for pid=242 comm="drmserver" name="online" dev="sysfs" ino=34 scontext=u:r:drmserver:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   11.750274] mipi_dsi_controller_cfg: DSI status=8 failed
+[   11.750305] mipi_dsi_panel_power: mipi lcd function started status = 1 
+[   11.750335] ext_dsv_load: Failed to create debugfs directory
+[   11.751159] type=1400 audit(1506170672.198:81): avc: denied { read } for pid=242 comm="drmserver" name="online" dev="sysfs" ino=34 scontext=u:r:drmserver:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   11.751190] type=1400 audit(1506170672.338:82): avc: denied { read } for pid=240 comm="audioserver" name="online" dev="sysfs" ino=34 scontext=u:r:audioserver:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   11.752349]  mipi_dsi_panel_power : reset start.
+[   11.773040] mipi_lgit_lcd_on started
+[   11.777801] init: Service 'audioserver' (pid 240) exited with status 1
+[   11.777862] init: Sending signal 9 to service 'audioserver' (pid 240) process group...
+[   11.794158] mipi_lgit_lcd_on finished
+[   11.802429] wcnss_wlan_ctrl_probe: SMD ctrl channel up
+[   11.803680] wcnss: version 01040102
+[   11.803802] wcnss: schedule dnld work for riva
+[   11.811981] ueventd: firmware: loading 'wlan/prima/WCNSS_qcom_wlan_nv.bin' for '/devices/platform/wcnss_wlan.0/firmware/wcnss_wlan.0'
+[   11.818359] type=1400 audit(1506170672.338:82): avc: denied { read } for pid=240 comm="audioserver" name="online" dev="sysfs" ino=34 scontext=u:r:audioserver:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   11.818572] type=1400 audit(1506170672.398:83): avc: denied { read } for pid=252 comm="android.hardwar" name="online" dev="sysfs" ino=34 scontext=u:r:mediacodec:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   11.828491] wcnss: NV bin size: 29772, total_fragments: 10
+[   11.828491] ueventd: loading /devices/platform/wcnss_wlan.0/firmware/wcnss_wlan.0 took 0.0168457 seconds
+[   11.828796] wcnss: no space available for smd frame
+[   11.850341] wcnss: no space available for smd frame
+[   11.865783] type=1400 audit(1506170672.398:83): avc: denied { read } for pid=252 comm="android.hardwar" name="online" dev="sysfs" ino=34 scontext=u:r:mediacodec:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   11.866088] type=1400 audit(1506170672.448:84): avc: denied { search } for pid=260 comm="sensors.qcom" name="app" dev="mmcblk0p23" ino=561937 scontext=u:r:sensors:s0 tcontext=u:object_r:apk_data_file:s0 tclass=dir permissive=0
+[   11.880310] wcnss: no space available for smd frame
+[   11.910308] wcnss: no space available for smd frame
+[   11.930389] init: kill(240, 9) failed: No such process
+[   11.930541] init: do_restart: Service audio-hal-2-0 not found
+[   11.946319] wcnss: received WCNSS_NVBIN_DNLD_RSP from ccpu
+[   11.956695] type=1400 audit(1506170672.448:87): avc: denied { search } for pid=260 comm="sensors.qcom" name="app" dev="mmcblk0p23" ino=561937 scontext=u:r:sensors:s0 tcontext=u:object_r:apk_data_file:s0 tclass=dir permissive=0 duplicate messages suppressed
+[   11.957000] type=1400 audit(1506170672.538:88): avc: denied { read } for pid=246 comm="mediaextractor" name="online" dev="sysfs" ino=34 scontext=u:r:mediaextractor:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.007965] type=1400 audit(1506170672.538:88): avc: denied { read } for pid=246 comm="mediaextractor" name="online" dev="sysfs" ino=34 scontext=u:r:mediaextractor:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.008300] type=1400 audit(1506170672.588:89): avc: denied { read } for pid=372 comm="sh" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.030670] type=1400 audit(1506170672.588:89): avc: denied { read } for pid=372 comm="sh" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.030700] audit: audit_lost=22 audit_rate_limit=20 audit_backlog_limit=64
+[   12.030700] audit: rate limit exceeded
+[   12.031341] type=1400 audit(1506170672.618:90): avc: denied { read } for pid=373 comm="dd" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.066497] healthd: battery l=91 v=4022 t=38.9 h=2 st=3 c=847 chg=
+[   12.083892] type=1400 audit(1506170672.618:90): avc: denied { read } for pid=373 comm="dd" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.084106] type=1400 audit(1506170672.668:95): avc: denied { read } for pid=374 comm="sh" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.113189] type=1400 audit(1506170672.668:95): avc: denied { read } for pid=374 comm="sh" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.113555] type=1400 audit(1506170672.699:96): avc: denied { read } for pid=375 comm="cat" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.147705] type=1400 audit(1506170672.699:96): avc: denied { read } for pid=375 comm="cat" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.148040] type=1400 audit(1506170672.729:97): avc: denied { read } for pid=376 comm="sh" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.169036] type=1400 audit(1506170672.729:97): avc: denied { read } for pid=376 comm="sh" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.169250] type=1400 audit(1506170672.749:98): avc: denied { read } for pid=377 comm="dd" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.216552] type=1400 audit(1506170672.749:98): avc: denied { read } for pid=377 comm="dd" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.216827] type=1400 audit(1506170672.799:99): avc: granted { read } for pid=378 comm="patchoat" name="online" dev="sysfs" ino=34 scontext=u:r:zygote:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[   12.217620] type=1400 audit(1506170672.799:99): avc: granted { read } for pid=378 comm="patchoat" name="online" dev="sysfs" ino=34 scontext=u:r:zygote:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[   12.217926] type=1400 audit(1506170672.799:100): avc: granted { read open } for pid=378 comm="patchoat" name="online" dev="sysfs" ino=34 scontext=u:r:zygote:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[   12.218292] type=1400 audit(1506170672.799:100): avc: granted { read open } for pid=378 comm="patchoat" name="online" dev="sysfs" ino=34 scontext=u:r:zygote:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[   12.218597] type=1400 audit(1506170672.799:101): avc: granted { getattr } for pid=378 comm="patchoat" path="/sys/devices/system/cpu/online" dev="sysfs" ino=34 scontext=u:r:zygote:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[   12.222137] type=1400 audit(1506170672.799:101): avc: granted { getattr } for pid=378 comm="patchoat" path="/sys/devices/system/cpu/online" dev="sysfs" ino=34 scontext=u:r:zygote:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[   12.222442] type=1400 audit(1506170672.809:102): avc: denied { read } for pid=379 comm="sh" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.249206] init: computing context for service 'bootanim'
+[   12.249786] init: starting service 'bootanim'...
+[   12.250793] type=1400 audit(1506170672.809:102): avc: denied { read } for pid=379 comm="sh" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.251068] type=1400 audit(1506170672.839:103): avc: denied { read } for pid=380 comm="cat" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.254089] hdmi_msm hdmi_msm.1: hdmi_msm_hpd_feature: 1
+[   12.286895] type=1400 audit(1506170672.839:103): avc: denied { read } for pid=380 comm="cat" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.287231] type=1400 audit(1506170672.869:104): avc: denied { read } for pid=383 comm="sh" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.307525] type=1400 audit(1506170672.869:104): avc: denied { read } for pid=383 comm="sh" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.307769] type=1400 audit(1506170672.889:105): avc: denied { read } for pid=384 comm="dd" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.323944] type=1400 audit(1506170672.889:105): avc: denied { read } for pid=384 comm="dd" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.324249] type=1400 audit(1506170672.909:106): avc: denied { read } for pid=385 comm="sh" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.352813] type=1400 audit(1506170672.909:106): avc: denied { read } for pid=385 comm="sh" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.353149] type=1400 audit(1506170672.939:107): avc: denied { read } for pid=386 comm="cat" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.393737] type=1400 audit(1506170672.939:107): avc: denied { read } for pid=386 comm="cat" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.393951] type=1400 audit(1506170672.979:108): avc: denied { read } for pid=389 comm="sh" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.395050] type=1400 audit(1506170672.979:108): avc: denied { read } for pid=389 comm="sh" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.395294] type=1400 audit(1506170672.979:109): avc: denied { read } for pid=388 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.403564] init: Untracked pid 390 exited with status 1
+[   12.426239] type=1400 audit(1506170672.979:109): avc: denied { read } for pid=388 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.426452] type=1400 audit(1506170673.009:110): avc: denied { read } for pid=391 comm="cat" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.440307] mipi_lgit_lcd_off started
+[   12.511840] type=1400 audit(1506170673.009:110): avc: denied { read } for pid=391 comm="cat" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.512176] type=1400 audit(1506170673.099:111): avc: denied { read } for pid=392 comm="sh" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.545013] type=1400 audit(1506170673.099:111): avc: denied { read } for pid=392 comm="sh" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.545318] type=1400 audit(1506170673.129:112): avc: denied { read } for pid=392 comm="ks" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   12.570281] mipi_lgit_lcd_off finished
+[   12.570434] mipi_dsi_panel_power: mipi lcd function started status = 0 
+[   12.577514] init: Service 'surfaceflinger' (pid 227) exited with status 1
+[   12.577667] init: Sending signal 9 to service 'surfaceflinger' (pid 227) process group...
+[   12.670501] init: kill(227, 9) failed: No such process
+[   12.670776] init: Sending signal 9 to service 'zygote' (pid 216) process group...
+[   12.850616] init: Command 'restart zygote' action=onrestart returned 0 took 179.84ms.
+[   12.851654] init: Service 'zygote' (pid 216) killed by signal 9
+[   12.851806] init: Sending signal 9 to service 'zygote' (pid 216) process group...
+[   12.852050] init: failed to open /acct/uid_0/pid_216/cgroup.procs: No such file or directory
+[   12.852355] init: killProcessGroup(0, 216, 9) failed: Device or resource busy
+[   12.852478] init: kill(216, 9) failed: No such process
+[   12.852813] init: write_file: Unable to open '/sys/android_power/request_state': No such file or directory
+[   12.853118] request_suspend_state: wakeup (3->0) at 12842856031 (2017-09-23 12:44:33.446330341 UTC)
+[   12.853271] init: Sending signal 9 to service 'cameraserver' (pid 241) process group...
+[   13.031097] type=1400 audit(1506170673.129:112): avc: denied { read } for pid=392 comm="ks" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   13.031219] init: Command 'restart cameraserver' action=onrestart returned 0 took 177.887ms.
+[   13.031249] init: Sending signal 9 to service 'media' (pid 248) process group...
+[   13.031677] type=1400 audit(1506170673.619:113): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   13.236938] init: Command 'restart media' action=onrestart returned 0 took 205.658ms.
+[   13.237182] init: Sending signal 9 to service 'netd' (pid 215) process group...
+[   13.330596] init: Command 'restart netd' action=onrestart returned 0 took 93.3533ms.
+[   13.330841] init: Sending signal 9 to service 'wificond' (pid 251) process group...
+[   13.440551] init: Command 'restart wificond' action=onrestart returned 0 took 109.68ms.
+[   13.441009] init: Service 'netd' (pid 215) killed by signal 9
+[   13.441223] init: Sending signal 9 to service 'netd' (pid 215) process group...
+[   13.441467] init: failed to open /acct/uid_0/pid_215/cgroup.procs: No such file or directory
+[   13.441711] init: killProcessGroup(0, 215, 9) failed: Device or resource busy
+[   13.442657] init: Service 'cameraserver' (pid 241) killed by signal 9
+[   13.442871] init: Sending signal 9 to service 'cameraserver' (pid 241) process group...
+[   13.443054] init: failed to open /acct/uid_1047/pid_241/cgroup.procs: No such file or directory
+[   13.443298] init: killProcessGroup(1047, 241, 9) failed: No such file or directory
+[   13.443511] init: kill(241, 9) failed: No such process
+[   13.444213] init: Service 'media' (pid 248) killed by signal 9
+[   13.444427] init: Sending signal 9 to service 'media' (pid 248) process group...
+[   13.444610] init: failed to open /acct/uid_1013/pid_248/cgroup.procs: No such file or directory
+[   13.444915] init: killProcessGroup(1013, 248, 9) failed: Device or resource busy
+[   13.445190] init: kill(248, 9) failed: No such process
+[   13.445587] init: Service 'wificond' (pid 251) killed by signal 9
+[   13.445831] init: Sending signal 9 to service 'wificond' (pid 251) process group...
+[   13.446014] init: failed to open /acct/uid_1010/pid_251/cgroup.procs: No such file or directory
+[   13.446380] init: killProcessGroup(1010, 251, 9) failed: No such file or directory
+[   13.446655] init: kill(251, 9) failed: No such process
+[   13.447174] init: Untracked pid 378 killed by signal 9
+[   13.447509] init: Untracked pid 256 killed by signal 9
+[   13.447723] init: Untracked pid 273 killed by signal 9
+[   13.448211] init: processing action (init.svc.zygote=stopping)
+[   13.884063] init: computing context for service 'hwservicemanager'
+[   13.884613] init: starting service 'hwservicemanager'...
+[   13.885803] init: property_set("ro.boottime.hwservicemanager", "13874960523") failed: property already set
+[   13.935485] type=1400 audit(1506170673.619:113): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   13.935791] type=1400 audit(1506170674.520:114): avc: denied { read } for pid=395 comm="hwservicemanage" name="online" dev="sysfs" ino=34 scontext=u:r:hwservicemanager:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   13.951446] init: Service 'hwservicemanager' (pid 395) exited with status 255
+[   13.951599] init: Sending signal 9 to service 'hwservicemanager' (pid 395) process group...
+[   13.970825] init: kill(395, 9) failed: No such process
+[   14.031280] type=1400 audit(1506170674.520:114): avc: denied { read } for pid=395 comm="hwservicemanage" name="online" dev="sysfs" ino=34 scontext=u:r:hwservicemanager:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   14.031494] type=1400 audit(1506170674.620:115): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   14.705474] init: computing context for service 'netd'
+[   14.706024] init: starting service 'netd'...
+[   14.707153] init: property_set("ro.boottime.netd", "14696371655") failed: property already set
+[   14.708129] init: Created socket '/dev/socket/netd', mode 660, user 0, group 1000
+[   14.708923] init: Created socket '/dev/socket/dnsproxyd', mode 660, user 0, group 3003
+[   14.709411] init: computing context for service 'zygote'
+[   14.709777] init: Created socket '/dev/socket/mdns', mode 660, user 0, group 1000
+[   14.709869] init: starting service 'zygote'...
+[   14.710784] init: property_set("ro.boottime.zygote", "14700064283") failed: property already set
+[   14.710845] init: Created socket '/dev/socket/fwmarkd', mode 660, user 0, group 3003
+[   14.711700] init: Created socket '/dev/socket/zygote', mode 660, user 0, group 1000
+[   14.714965] type=1400 audit(1506170674.620:115): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   14.715270] type=1400 audit(1506170675.301:116): avc: granted { getattr } for pid=396 comm="netd" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   14.770660] init: computing context for service 'hidl_memory'
+[   14.771240] init: starting service 'hidl_memory'...
+[   14.772430] init: property_set("ro.boottime.hidl_memory", "14761587721") failed: property already set
+[   14.775512] init: computing context for service 'configstore-hal-1-0'
+[   14.776062] init: starting service 'configstore-hal-1-0'...
+[   14.777191] init: property_set("ro.boottime.configstore-hal-1-0", "14766378980") failed: property already set
+[   14.779907] init: computing context for service 'usb-hal-1-0'
+[   14.780456] init: starting service 'usb-hal-1-0'...
+[   14.781707] init: property_set("ro.boottime.usb-hal-1-0", "14770895581") failed: property already set
+[   14.784423] init: computing context for service 'wifi_hal_legacy'
+[   14.784973] init: starting service 'wifi_hal_legacy'...
+[   14.786376] init: property_set("ro.boottime.wifi_hal_legacy", "14775442700") failed: property already set
+[   14.801483] type=1400 audit(1506170675.301:116): avc: granted { getattr } for pid=396 comm="netd" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   14.801727] type=1400 audit(1506170675.391:117): avc: granted { getattr } for pid=401 comm="iptables-restor" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   14.823455] type=1400 audit(1506170675.391:117): avc: granted { getattr } for pid=401 comm="iptables-restor" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   14.823699] type=1400 audit(1506170675.411:118): avc: granted { getattr } for pid=403 comm="ip6tables-resto" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   14.825439] init: computing context for service 'surfaceflinger'
+[   14.826049] init: starting service 'surfaceflinger'...
+[   14.827331] init: property_set("ro.boottime.surfaceflinger", "14816427809") failed: property already set
+[   14.841735] init: Failed to bind socket 'pdx/system/vr/display/client': No such file or directory
+[   14.842468] init: Failed to bind socket 'pdx/system/vr/display/manager': No such file or directory
+[   14.843200] init: Failed to bind socket 'pdx/system/vr/display/vsync': No such file or directory
+[   14.855285] type=1400 audit(1506170675.411:118): avc: granted { getattr } for pid=403 comm="ip6tables-resto" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   14.855621] type=1400 audit(1506170675.441:119): avc: denied { read } for pid=398 comm="android.hidl.al" name="online" dev="sysfs" ino=34 scontext=u:r:hal_allocator_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   14.880371] type=1400 audit(1506170675.441:119): avc: denied { read } for pid=398 comm="android.hidl.al" name="online" dev="sysfs" ino=34 scontext=u:r:hal_allocator_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   14.880676] type=1400 audit(1506170675.441:120): avc: denied { read } for pid=399 comm="android.hardwar" name="online" dev="sysfs" ino=34 scontext=u:r:hal_configstore_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   14.890899] init: Service 'usb-hal-1-0' (pid 400) exited with status 1
+[   14.891052] init: Sending signal 9 to service 'usb-hal-1-0' (pid 400) process group...
+[   14.892669] type=1400 audit(1506170675.441:120): avc: denied { read } for pid=399 comm="android.hardwar" name="online" dev="sysfs" ino=34 scontext=u:r:hal_configstore_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   14.892974] type=1400 audit(1506170675.471:121): avc: granted { getattr } for pid=406 comm="iptables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   14.924804] type=1400 audit(1506170675.471:121): avc: granted { getattr } for pid=406 comm="iptables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   14.925140] type=1400 audit(1506170675.511:122): avc: denied { read } for pid=407 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   14.931579] type=1400 audit(1506170675.511:122): avc: denied { read } for pid=407 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   14.931823] type=1400 audit(1506170675.511:123): avc: denied { read } for pid=409 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   14.932769] type=1400 audit(1506170675.511:123): avc: denied { read } for pid=409 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   14.933074] type=1400 audit(1506170675.521:124): avc: granted { getattr } for pid=411 comm="ip6tables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   14.956787] type=1400 audit(1506170675.521:124): avc: granted { getattr } for pid=411 comm="ip6tables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   14.957092] type=1400 audit(1506170675.541:125): avc: granted { getattr } for pid=415 comm="iptables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   14.979644] type=1400 audit(1506170675.541:125): avc: granted { getattr } for pid=415 comm="iptables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   14.979858] type=1400 audit(1506170675.561:126): avc: denied { read } for pid=412 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   14.984558] type=1400 audit(1506170675.561:126): avc: denied { read } for pid=412 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   14.984863] type=1400 audit(1506170675.561:127): avc: granted { getattr } for pid=416 comm="ip6tables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   15.000030] type=1400 audit(1506170675.561:127): avc: granted { getattr } for pid=416 comm="ip6tables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   15.000885] init: kill(400, 9) failed: No such process
+[   15.001373] init: Service 'hidl_memory' (pid 398) exited with status 1
+[   15.001617] init: Sending signal 9 to service 'hidl_memory' (pid 398) process group...
+[   15.001922] type=1400 audit(1506170675.581:128): avc: granted { getattr } for pid=417 comm="iptables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   15.019805] type=1400 audit(1506170675.581:128): avc: granted { getattr } for pid=417 comm="iptables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   15.020111] type=1400 audit(1506170675.601:129): avc: granted { getattr } for pid=418 comm="ip6tables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   15.031524] type=1400 audit(1506170675.601:129): avc: granted { getattr } for pid=418 comm="ip6tables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   15.031738] type=1400 audit(1506170675.621:130): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   15.040008] type=1400 audit(1506170675.621:130): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   15.040863] type=1400 audit(1506170675.621:131): avc: granted { getattr } for pid=419 comm="iptables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   15.061096] init: Service 'configstore-hal-1-0' (pid 399) exited with status 1
+[   15.061248] init: Sending signal 9 to service 'configstore-hal-1-0' (pid 399) process group...
+[   15.061706] type=1400 audit(1506170675.621:131): avc: granted { getattr } for pid=419 comm="iptables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   15.062011] type=1400 audit(1506170675.641:132): avc: granted { getattr } for pid=420 comm="ip6tables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   15.085144] type=1400 audit(1506170675.641:132): avc: granted { getattr } for pid=420 comm="ip6tables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   15.085449] type=1400 audit(1506170675.671:133): avc: granted { getattr } for pid=424 comm="iptables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   15.104309] type=1400 audit(1506170675.671:133): avc: granted { getattr } for pid=424 comm="iptables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   15.104522] type=1400 audit(1506170675.691:134): avc: granted { getattr } for pid=425 comm="ip6tables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   15.120880] init: Service 'wifi_hal_legacy' (pid 402) exited with status 1
+[   15.121002] init: Sending signal 9 to service 'wifi_hal_legacy' (pid 402) process group...
+[   15.126922] type=1400 audit(1506170675.691:134): avc: granted { getattr } for pid=425 comm="ip6tables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   15.127227] type=1400 audit(1506170675.711:135): avc: granted { getattr } for pid=426 comm="iptables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   15.145751] type=1400 audit(1506170675.711:135): avc: granted { getattr } for pid=426 comm="iptables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   15.146087] type=1400 audit(1506170675.731:136): avc: granted { getattr } for pid=427 comm="ip6tables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   15.165893] type=1400 audit(1506170675.731:136): avc: granted { getattr } for pid=427 comm="ip6tables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   15.166137] type=1400 audit(1506170675.751:137): avc: granted { getattr } for pid=428 comm="iptables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   15.172027] mipi_dsi_panel_power: mipi lcd function started status = 1 
+[   15.174133]  mipi_dsi_panel_power : reset start.
+[   15.185455] type=1400 audit(1506170675.751:137): avc: granted { getattr } for pid=428 comm="iptables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   15.185852] type=1400 audit(1506170675.772:138): avc: granted { getattr } for pid=433 comm="ip6tables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   15.194946] mipi_lgit_lcd_on started
+[   15.221160] init: kill(402, 9) failed: No such process
+[   15.221496] init: Untracked pid 413 exited with status 1
+[   15.221710] init: Untracked pid 414 exited with status 1
+[   15.222869] init: computing context for service 'mpdecision'
+[   15.223388] init: starting service 'mpdecision'...
+[   15.224700] init: property_set("ro.boottime.mpdecision", "15213858229") failed: property already set
+[   15.224975] init: computing context for service 'audioserver'
+[   15.225402] init: starting service 'audioserver'...
+[   15.226715] init: property_set("ro.boottime.audioserver", "15215811354") failed: property already set
+[   15.226928] init: computing context for service 'cameraserver'
+[   15.227478] init: starting service 'cameraserver'...
+[   15.228698] init: property_set("ro.boottime.cameraserver", "15217825514") failed: property already set
+[   15.229034] init: computing context for service 'keystore'
+[   15.229583] init: starting service 'keystore'...
+[   15.235290] type=1400 audit(1506170675.772:138): avc: granted { getattr } for pid=433 comm="ip6tables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   15.235595] type=1400 audit(1506170675.822:139): avc: granted { getattr } for pid=442 comm="keystore" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:keystore:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   15.237396] init: couldn't write 436 to /dev/cpuset/camera-daemon/tasks: No such file or directory
+[   15.250396] type=1400 audit(1506170675.822:139): avc: granted { getattr } for pid=442 comm="keystore" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:keystore:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   15.250701] type=1400 audit(1506170675.832:140): avc: denied { read } for pid=434 comm="mpdecision" name="online" dev="sysfs" ino=34 scontext=u:r:mpdecision:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   15.253021] init: property_set("ro.boottime.keystore", "15219931227") failed: property already set
+[   15.253234] init: computing context for service 'media'
+[   15.253753] init: starting service 'media'...
+[   15.254913] init: property_set("ro.boottime.media", "15244131666") failed: property already set
+[   15.255187] type=1400 audit(1506170675.832:140): avc: denied { read } for pid=434 comm="mpdecision" name="online" dev="sysfs" ino=34 scontext=u:r:mpdecision:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   15.255187] init: computing context for service 'wificond'
+[   15.255523] init: starting service 'wificond'...
+[   15.255767] type=1400 audit(1506170675.842:141): avc: denied { read } for pid=434 comm="mpdecision" name="cpuinfo_min_freq" dev="sysfs" ino=16945 scontext=u:r:mpdecision:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   15.256591] init: property_set("ro.boottime.wificond", "15245718580") failed: property already set
+[   15.258514] init: computing context for service 'qcamerasvr'
+[   15.259063] init: starting service 'qcamerasvr'...
+[   15.260437] mipi_lgit_lcd_on finished
+[   15.266174] init: property_set("ro.boottime.qcamerasvr", "15249380689") failed: property already set
+[   15.270660] type=1400 audit(1506170675.842:141): avc: denied { read } for pid=434 comm="mpdecision" name="cpuinfo_min_freq" dev="sysfs" ino=16945 scontext=u:r:mpdecision:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   15.270965] type=1400 audit(1506170675.842:142): avc: denied { read } for pid=448 comm="mpdecision" name="scaling_available_frequencies" dev="sysfs" ino=16958 scontext=u:r:mpdecision:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   15.292175] init: Service 'mpdecision' (pid 434) exited with status 255
+[   15.292327] init: Sending signal 9 to service 'mpdecision' (pid 434) process group...
+[   15.310394] type=1400 audit(1506170675.842:142): avc: denied { read } for pid=448 comm="mpdecision" name="scaling_available_frequencies" dev="sysfs" ino=16958 scontext=u:r:mpdecision:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   15.310699] type=1400 audit(1506170675.882:143): avc: denied { read } for pid=434 comm="mpdecision" name="cpu" dev="sysfs" ino=32 scontext=u:r:mpdecision:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+[   15.430419] type=1400 audit(1506170675.882:143): avc: denied { read } for pid=434 comm="mpdecision" name="cpu" dev="sysfs" ino=32 scontext=u:r:mpdecision:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+[   15.430633] type=1400 audit(1506170676.012:144): avc: granted { read } for pid=442 comm="keystore" name="online" dev="sysfs" ino=34 scontext=u:r:keystore:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[   15.432281] type=1400 audit(1506170676.012:144): avc: granted { read } for pid=442 comm="keystore" name="online" dev="sysfs" ino=34 scontext=u:r:keystore:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[   15.432586] type=1400 audit(1506170676.022:145): avc: denied { read } for pid=456 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   15.460449] type=1400 audit(1506170676.022:145): avc: denied { read } for pid=456 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   15.460754] type=1400 audit(1506170676.052:146): avc: granted { read open } for pid=442 comm="keystore" name="online" dev="sysfs" ino=34 scontext=u:r:keystore:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[   15.461242] type=1400 audit(1506170676.052:146): avc: granted { read open } for pid=442 comm="keystore" name="online" dev="sysfs" ino=34 scontext=u:r:keystore:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[   15.461486] type=1400 audit(1506170676.052:147): avc: granted { getattr } for pid=442 comm="keystore" path="/sys/devices/system/cpu/online" dev="sysfs" ino=34 scontext=u:r:keystore:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[   15.500762] init: kill(434, 9) failed: No such process
+[   15.501495] init: Service 'keystore' (pid 442) exited with status 255
+[   15.501739] init: Sending signal 9 to service 'keystore' (pid 442) process group...
+[   15.540496] audit: audit_lost=26 audit_rate_limit=20 audit_backlog_limit=64
+[   15.540618] audit: rate limit exceeded
+[   15.542114] type=1400 audit(1506170676.052:147): avc: granted { getattr } for pid=442 comm="keystore" path="/sys/devices/system/cpu/online" dev="sysfs" ino=34 scontext=u:r:keystore:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[   15.542327] type=1400 audit(1506170676.122:148): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11911]" dev="sockfs" ino=11911 ioctlcmd=89f3 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   15.542816] type=1400 audit(1506170676.122:148): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11911]" dev="sockfs" ino=11911 ioctlcmd=89f3 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   15.543182] type=1400 audit(1506170676.122:149): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11912]" dev="sockfs" ino=11912 ioctlcmd=89f9 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   15.543701] type=1400 audit(1506170676.122:149): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11912]" dev="sockfs" ino=11912 ioctlcmd=89f9 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   15.544006] type=1400 audit(1506170676.122:150): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11913]" dev="sockfs" ino=11913 ioctlcmd=89f9 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   15.544403] type=1400 audit(1506170676.122:150): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11913]" dev="sockfs" ino=11913 ioctlcmd=89f9 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   15.544708] type=1400 audit(1506170676.122:151): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11914]" dev="sockfs" ino=11914 ioctlcmd=89f9 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   15.545074] type=1400 audit(1506170676.122:151): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11914]" dev="sockfs" ino=11914 ioctlcmd=89f9 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   15.545379] type=1400 audit(1506170676.122:152): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11915]" dev="sockfs" ino=11915 ioctlcmd=89f9 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   15.545806] type=1400 audit(1506170676.122:152): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11915]" dev="sockfs" ino=11915 ioctlcmd=89f9 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   15.546112] type=1400 audit(1506170676.132:153): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11916]" dev="sockfs" ino=11916 ioctlcmd=89f9 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   15.546539] type=1400 audit(1506170676.132:153): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11916]" dev="sockfs" ino=11916 ioctlcmd=89f9 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   15.546844] type=1400 audit(1506170676.132:154): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11917]" dev="sockfs" ino=11917 ioctlcmd=89f9 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   15.610595] init: kill(442, 9) failed: No such process
+[   15.611145] init: Service 'qcamerasvr' (pid 454) exited with status 1
+[   15.611358] init: Sending signal 9 to service 'qcamerasvr' (pid 454) process group...
+[   15.641479] hdmi_msm hdmi_msm.1: hdmi_msm_hpd_feature: 0
+[   15.641693] hdmi_msm hdmi_msm.1: hdmi_msm_hpd_feature: hdmi state switched to 0
+[   15.781127] init: Service 'audioserver' (pid 435) exited with status 1
+[   15.781311] init: Sending signal 9 to service 'audioserver' (pid 435) process group...
+[   15.900451] init: kill(435, 9) failed: No such process
+[   15.900665] init: do_restart: Service audio-hal-2-0 not found
+[   15.901275] init: Untracked pid 457 exited with status 1
+[   16.208099] hdmi_msm hdmi_msm.1: hdmi_msm_hpd_feature: 1
+[   16.261383] type=1400 audit(1506170676.132:154): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11917]" dev="sockfs" ino=11917 ioctlcmd=89f9 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   16.261718] type=1400 audit(1506170676.853:176): avc: denied { read } for pid=470 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   16.269531] init: Untracked pid 472 exited with status 1
+[   16.275451] binder: release 404:423 transaction 280 in, still active
+[   16.275573] binder: send failed reply for transaction 280 to 382:471
+[   16.282531] binder: undelivered death notification, b0231600
+[   16.283569] init: Service 'bootanim' (pid 382) killed by signal 9
+[   16.310333] mipi_lgit_lcd_off started
+[   16.440338] mipi_lgit_lcd_off finished
+[   16.440582] mipi_dsi_panel_power: mipi lcd function started status = 0 
+[   16.447937] init: Service 'surfaceflinger' (pid 404) exited with status 1
+[   16.448181] init: Sending signal 9 to service 'surfaceflinger' (pid 404) process group...
+[   16.460479] init: kill(404, 9) failed: No such process
+[   16.460876] init: Sending signal 9 to service 'zygote' (pid 397) process group...
+[   16.542541] type=1400 audit(1506170676.853:176): avc: denied { read } for pid=470 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   16.542785] type=1400 audit(1506170677.133:177): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11946]" dev="sockfs" ino=11946 ioctlcmd=89f8 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   16.544281] init: Command 'restart zygote' action=onrestart returned 0 took 83.374ms.
+[   16.545410] init: Service 'zygote' (pid 397) killed by signal 9
+[   16.545562] init: Sending signal 9 to service 'zygote' (pid 397) process group...
+[   16.545837] init: failed to open /acct/uid_0/pid_397/cgroup.procs: No such file or directory
+[   16.546142] init: killProcessGroup(0, 397, 9) failed: Device or resource busy
+[   16.546295] init: kill(397, 9) failed: No such process
+[   16.546661] init: write_file: Unable to open '/sys/android_power/request_state': No such file or directory
+[   16.546997] request_suspend_state: wakeup (0->0) at 16536734204 (2017-09-23 12:44:37.140208514 UTC)
+[   16.547241] init: Sending signal 9 to service 'cameraserver' (pid 436) process group...
+[   16.560882] init: Sending signal 9 to service 'media' (pid 449) process group...
+[   16.600677] init: Sending signal 9 to service 'netd' (pid 396) process group...
+[   16.657501] init: Command 'restart netd' action=onrestart returned 0 took 56.7932ms.
+[   16.657653] init: Sending signal 9 to service 'wificond' (pid 453) process group...
+[   16.670837] init: Service 'netd' (pid 396) killed by signal 9
+[   16.670989] init: Sending signal 9 to service 'netd' (pid 396) process group...
+[   16.671264] init: failed to open /acct/uid_0/pid_396/cgroup.procs: No such file or directory
+[   16.671569] init: killProcessGroup(0, 396, 9) failed: Device or resource busy
+[   16.672485] init: Service 'cameraserver' (pid 436) killed by signal 9
+[   16.672760] init: Sending signal 9 to service 'cameraserver' (pid 436) process group...
+[   16.673065] init: failed to open /acct/uid_1047/pid_436/cgroup.procs: No such file or directory
+[   16.673370] init: killProcessGroup(1047, 436, 9) failed: No such file or directory
+[   16.673522] init: kill(436, 9) failed: No such process
+[   16.674346] init: Service 'media' (pid 449) killed by signal 9
+[   16.674499] init: Sending signal 9 to service 'media' (pid 449) process group...
+[   16.674743] init: failed to open /acct/uid_1013/pid_449/cgroup.procs: No such file or directory
+[   16.675140] init: killProcessGroup(1013, 449, 9) failed: Device or resource busy
+[   16.675323] init: kill(449, 9) failed: No such process
+[   16.675872] init: Service 'wificond' (pid 453) killed by signal 9
+[   16.676025] init: Sending signal 9 to service 'wificond' (pid 453) process group...
+[   16.676269] init: failed to open /acct/uid_1010/pid_453/cgroup.procs: No such file or directory
+[   16.676544] init: killProcessGroup(1010, 453, 9) failed: No such file or directory
+[   16.676696] init: kill(453, 9) failed: No such process
+[   16.677154] init: Untracked pid 466 killed by signal 9
+[   16.677398] init: Untracked pid 401 killed by signal 9
+[   16.677734] init: Untracked pid 403 killed by signal 9
+[   16.678161] init: processing action (init.svc.zygote=stopping)
+[   17.032012] type=1400 audit(1506170677.133:177): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11946]" dev="sockfs" ino=11946 ioctlcmd=89f8 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   17.032348] type=1400 audit(1506170677.623:178): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   17.042755] type=1400 audit(1506170677.623:178): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   17.043090] type=1400 audit(1506170677.623:179): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11947]" dev="sockfs" ino=11947 ioctlcmd=89f8 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   17.543182] type=1400 audit(1506170677.623:179): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11947]" dev="sockfs" ino=11947 ioctlcmd=89f8 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   17.544128] type=1400 audit(1506170678.124:180): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11948]" dev="sockfs" ino=11948 ioctlcmd=89f8 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   17.629699] mdm_modem_ioctl: normal boot of mdm id 0 done
+[   17.635742] mdm_pblrdy_change: mdm id 0: pbl ready:0
+[   17.665435] type=1400 audit(1506170678.124:180): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11948]" dev="sockfs" ino=11948 ioctlcmd=89f8 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   17.666381] type=1400 audit(1506170678.244:181): avc: denied { read } for pid=473 comm="efsks" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   18.032287] type=1400 audit(1506170678.244:181): avc: denied { read } for pid=473 comm="efsks" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   18.033203] type=1400 audit(1506170678.624:182): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   18.043365] type=1400 audit(1506170678.624:182): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   18.044342] type=1400 audit(1506170678.624:183): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11965]" dev="sockfs" ino=11965 ioctlcmd=89f8 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   18.279083] mdm_status_change: status = 1: mdm id 0 is now ready
+[   18.280548] msm_hsic_host msm_hsic_host: remove, state 1
+[   18.280944] usb usb1: USB disconnect, device number 1
+[   18.281616] usb 1-1: USB disconnect, device number 2
+[   18.289154] msm_hsic_host msm_hsic_host: USB bus 1 deregistered
+[   18.293395] ueventd: removing platform device msm_hsic_host
+[   18.310852] msm_hsic_host msm_hsic_host: Qualcomm EHCI Host Controller using HSIC
+[   18.311614] msm_hsic_host msm_hsic_host: new USB bus registered, assigned bus number 1
+[   18.340515] msm_hsic_host msm_hsic_host: irq 261, io mem 0x12510000
+[   18.360412] msm_hsic_host msm_hsic_host: USB 2.0 started, EHCI 1.00
+[   18.361602] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[   18.361999] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[   18.362670] usb usb1: Product: Qualcomm EHCI Host Controller using HSIC
+[   18.363342] usb usb1: Manufacturer: Linux 3.4.108-g9cc62ca ehci_hcd
+[   18.363739] usb usb1: SerialNumber: msm_hsic_host
+[   18.370391] hub 1-0:1.0: USB hub found
+[   18.370849] hub 1-0:1.0: 1 port detected
+[   18.544006] type=1400 audit(1506170678.624:183): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11965]" dev="sockfs" ino=11965 ioctlcmd=89f8 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   18.545043] type=1400 audit(1506170679.135:184): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11966]" dev="sockfs" ino=11966 ioctlcmd=89f8 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   18.710479] usb 1-1: new high-speed USB device number 2 using msm_hsic_host
+[   18.774536] usb 1-1: New USB device found, idVendor=05c6, idProduct=9048
+[   18.774902] usb 1-1: New USB device strings: Mfr=3, Product=2, SerialNumber=0
+[   18.775512] usb 1-1: Product: Qualcomm CDMA Technologies MSM
+[   18.775848] usb 1-1: Manufacturer: Qualcomm, Incorporated
+[   18.797454] rmnet_usb 1-1:1.5: rmnet_usb0: register 'rmnet_usb' at usb-msm_hsic_host-1, RmNET net device, 5e:25:9d:a0:2e:32
+[   18.805419] rmnet_usb 1-1:1.6: rmnet_usb1: register 'rmnet_usb' at usb-msm_hsic_host-1, RmNET net device, 5e:25:9d:a0:2e:32
+[   18.885314] init: computing context for service 'hwservicemanager'
+[   18.885833] init: starting service 'hwservicemanager'...
+[   18.887298] init: property_set("ro.boottime.hwservicemanager", "18876333810") failed: property already set
+[   18.947937] type=1400 audit(1506170679.135:184): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11966]" dev="sockfs" ino=11966 ioctlcmd=89f8 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   18.948181] type=1400 audit(1506170679.525:185): avc: denied { read } for pid=476 comm="hwservicemanage" name="online" dev="sysfs" ino=34 scontext=u:r:hwservicemanager:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   18.952239] rmnet_usb 1-1:1.7: rmnet_usb2: register 'rmnet_usb' at usb-msm_hsic_host-1, RmNET net device, 5e:25:9d:a0:2e:32
+[   18.963745] init: Service 'hwservicemanager' (pid 476) exited with status 255
+[   18.963989] init: Sending signal 9 to service 'hwservicemanager' (pid 476) process group...
+[   19.032409] type=1400 audit(1506170679.525:185): avc: denied { read } for pid=476 comm="hwservicemanage" name="online" dev="sysfs" ino=34 scontext=u:r:hwservicemanager:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   19.032623] type=1400 audit(1506170679.615:186): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   19.033843] init: kill(476, 9) failed: No such process
+[   19.044128] type=1400 audit(1506170679.615:186): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   19.044464] type=1400 audit(1506170679.625:187): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11973]" dev="sockfs" ino=11973 ioctlcmd=89f8 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   19.105407] rmnet_usb 1-1:1.8: rmnet_usb3: register 'rmnet_usb' at usb-msm_hsic_host-1, RmNET net device, 5e:25:9d:a0:2e:32
+[   19.544372] type=1400 audit(1506170679.625:187): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11973]" dev="sockfs" ino=11973 ioctlcmd=89f8 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   19.544677] type=1400 audit(1506170680.126:188): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11974]" dev="sockfs" ino=11974 ioctlcmd=89f8 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   19.681152] type=1400 audit(1506170680.126:188): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11974]" dev="sockfs" ino=11974 ioctlcmd=89f8 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   19.681488] type=1400 audit(1506170680.266:189): avc: denied { read } for pid=477 comm="sh" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   19.706329] type=1400 audit(1506170680.266:189): avc: denied { read } for pid=477 comm="sh" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   19.706573] type=1400 audit(1506170680.286:190): avc: denied { read } for pid=477 comm="ks" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   19.706695] init: computing context for service 'netd'
+[   19.707031] init: starting service 'netd'...
+[   19.708343] init: property_set("ro.boottime.netd", "19697500806") failed: property already set
+[   19.709503] init: Created socket '/dev/socket/netd', mode 660, user 0, group 1000
+[   19.710449] init: computing context for service 'zygote'
+[   19.710723] init: Created socket '/dev/socket/dnsproxyd', mode 660, user 0, group 3003
+[   19.711059] init: starting service 'zygote'...
+[   19.711730] init: Created socket '/dev/socket/mdns', mode 660, user 0, group 1000
+[   19.712371] init: property_set("ro.boottime.zygote", "19701559645") failed: property already set
+[   19.712646] init: Created socket '/dev/socket/fwmarkd', mode 660, user 0, group 3003
+[   19.713287] init: Created socket '/dev/socket/zygote', mode 660, user 0, group 1000
+[   19.717346] type=1400 audit(1506170680.286:190): avc: denied { read } for pid=477 comm="ks" name="online" dev="sysfs" ino=34 scontext=u:r:kickstart:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   19.717681] type=1400 audit(1506170680.296:191): avc: granted { getattr } for pid=478 comm="netd" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   19.771972] init: computing context for service 'hidl_memory'
+[   19.772460] init: starting service 'hidl_memory'...
+[   19.773864] init: property_set("ro.boottime.hidl_memory", "19762991529") failed: property already set
+[   19.776733] init: computing context for service 'configstore-hal-1-0'
+[   19.777313] init: starting service 'configstore-hal-1-0'...
+[   19.778594] init: property_set("ro.boottime.configstore-hal-1-0", "19767752271") failed: property already set
+[   19.781280] init: computing context for service 'usb-hal-1-0'
+[   19.781951] init: starting service 'usb-hal-1-0'...
+[   19.783111] init: property_set("ro.boottime.usb-hal-1-0", "19772299391") failed: property already set
+[   19.785797] init: computing context for service 'wifi_hal_legacy'
+[   19.786468] init: starting service 'wifi_hal_legacy'...
+[   19.787780] init: property_set("ro.boottime.wifi_hal_legacy", "19776846510") failed: property already set
+[   19.804321] type=1400 audit(1506170680.296:191): avc: granted { getattr } for pid=478 comm="netd" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   19.804656] type=1400 audit(1506170680.386:192): avc: granted { getattr } for pid=484 comm="iptables-restor" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   19.830474] init: computing context for service 'surfaceflinger'
+[   19.831176] init: starting service 'surfaceflinger'...
+[   19.832489] init: property_set("ro.boottime.surfaceflinger", "19821585278") failed: property already set
+[   19.838012] type=1400 audit(1506170680.386:192): avc: granted { getattr } for pid=484 comm="iptables-restor" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   19.838317] type=1400 audit(1506170680.416:193): avc: denied { read } for pid=480 comm="android.hidl.al" name="online" dev="sysfs" ino=34 scontext=u:r:hal_allocator_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   19.851837] init: Failed to bind socket 'pdx/system/vr/display/client': No such file or directory
+[   19.852508] init: Failed to bind socket 'pdx/system/vr/display/manager': No such file or directory
+[   19.853332] init: Failed to bind socket 'pdx/system/vr/display/vsync': No such file or directory
+[   19.856811] init: Service 'usb-hal-1-0' (pid 482) exited with status 1
+[   19.857086] init: Sending signal 9 to service 'usb-hal-1-0' (pid 482) process group...
+[   19.865875] type=1400 audit(1506170680.416:193): avc: denied { read } for pid=480 comm="android.hidl.al" name="online" dev="sysfs" ino=34 scontext=u:r:hal_allocator_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   19.866210] type=1400 audit(1506170680.446:194): avc: denied { read } for pid=481 comm="android.hardwar" name="online" dev="sysfs" ino=34 scontext=u:r:hal_configstore_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   19.872375] type=1400 audit(1506170680.446:194): avc: denied { read } for pid=481 comm="android.hardwar" name="online" dev="sysfs" ino=34 scontext=u:r:hal_configstore_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   19.872711] type=1400 audit(1506170680.456:195): avc: granted { getattr } for pid=485 comm="ip6tables-resto" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   19.909790] type=1400 audit(1506170680.456:195): avc: granted { getattr } for pid=485 comm="ip6tables-resto" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   19.910125] type=1400 audit(1506170680.486:196): avc: granted { getattr } for pid=491 comm="iptables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   19.929809] type=1400 audit(1506170680.486:196): avc: granted { getattr } for pid=491 comm="iptables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   19.930023] type=2 
+[   19.948303] type=2 
+[   19.948425] type=1400 audit(1506170680.516:198): avc: denied { read } for pid=490 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   19.952972] type=1400 audit(1506170680.516:198): avc: denied { read } for pid=490 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   19.953216] type=1400 audit(1506170680.536:199): avc: granted { getattr } for pid=495 comm="ip6tables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   19.968780] type=1400 audit(1506170680.536:199): avc: granted { getattr } for pid=495 comm="ip6tables" path="/vendor" dev="rootfs" ino=4768 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[   19.969024] type=1400 audit(1506170680.546:200): avc: denied { read } for pid=493 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   19.970642] init: kill(482, 9) failed: No such process
+[   19.971221] init: Service 'hidl_memory' (pid 480) exited with status 1
+[   19.971374] init: Sending signal 9 to service 'hidl_memory' (pid 480) process group...
+[   19.979797] audit: audit_lost=47 audit_rate_limit=5 audit_backlog_limit=64
+[   19.980010] audit: rate limit exceeded
+[   20.070892] init: Service 'configstore-hal-1-0' (pid 481) exited with status 1
+[   20.071166] init: Sending signal 9 to service 'configstore-hal-1-0' (pid 481) process group...
+[   20.110961] init: Service 'wifi_hal_legacy' (pid 483) exited with status 1
+[   20.111236] init: Sending signal 9 to service 'wifi_hal_legacy' (pid 483) process group...
+[   20.189453] mipi_dsi_panel_power: mipi lcd function started status = 1 
+[   20.191497]  mipi_dsi_panel_power : reset start.
+[   20.211029] init: kill(483, 9) failed: No such process
+[   20.211547] init: Untracked pid 496 exited with status 1
+[   20.211883] init: Untracked pid 497 exited with status 1
+[   20.212463] mipi_lgit_lcd_on started
+[   20.224304] init: computing context for service 'mpdecision'
+[   20.224884] init: starting service 'mpdecision'...
+[   20.226135] init: property_set("ro.boottime.mpdecision", "20215292553") failed: property already set
+[   20.226440] init: computing context for service 'audioserver'
+[   20.226959] init: starting service 'audioserver'...
+[   20.228240] init: property_set("ro.boottime.audioserver", "20217306713") failed: property already set
+[   20.228576] init: computing context for service 'cameraserver'
+[   20.229064] init: starting service 'cameraserver'...
+[   20.230499] init: property_set("ro.boottime.cameraserver", "20219534496") failed: property already set
+[   20.230499] init: couldn't write 519 to /dev/cpuset/camera-daemon/tasks: No such file or directory
+[   20.230957] init: computing context for service 'keystore'
+[   20.231506] init: starting service 'keystore'...
+[   20.234436] init: property_set("ro.boottime.keystore", "20223593335") failed: property already set
+[   20.270507] init: computing context for service 'qcamerasvr'
+[   20.270507] mipi_lgit_lcd_on finished
+[   20.271209] init: starting service 'qcamerasvr'...
+[   20.272552] init: property_set("ro.boottime.qcamerasvr", "20261587721") failed: property already set
+[   20.272888] init: computing context for service 'media'
+[   20.273468] init: starting service 'media'...
+[   20.274566] init: property_set("ro.boottime.media", "20263784987") failed: property already set
+[   20.274871] init: computing context for service 'wificond'
+[   20.275329] init: starting service 'wificond'...
+[   20.276641] init: property_set("ro.boottime.wificond", "20265738112") failed: property already set
+[   20.442077] init: Service 'mpdecision' (pid 517) exited with status 255
+[   20.442352] init: Sending signal 9 to service 'mpdecision' (pid 517) process group...
+[   20.467254] init: killProcessGroup(0, 517, 9) failed: Device or resource busy
+[   20.467437] init: kill(517, 9) failed: No such process
+[   20.468078] init: Service 'qcamerasvr' (pid 521) exited with status 1
+[   20.468231] init: Sending signal 9 to service 'qcamerasvr' (pid 521) process group...
+[   20.486755] init: killProcessGroup(1006, 521, 9) failed: Device or resource busy
+[   20.487365] init: Service 'keystore' (pid 520) exited with status 255
+[   20.487518] init: Sending signal 9 to service 'keystore' (pid 520) process group...
+[   20.640441] init: kill(520, 9) failed: No such process
+[   20.640808] init: Untracked pid 541 killed by signal 9
+[   20.660736] hdmi_msm hdmi_msm.1: hdmi_msm_hpd_feature: 0
+[   20.660888] hdmi_msm hdmi_msm.1: hdmi_msm_hpd_feature: hdmi state switched to 0
+[   20.841613] init: Service 'audioserver' (pid 518) exited with status 1
+[   20.841857] init: Sending signal 9 to service 'audioserver' (pid 518) process group...
+[   20.952331] type=1400 audit(1506170680.546:200): avc: denied { read } for pid=493 comm="crash_dump32" name="online" dev="sysfs" ino=34 scontext=u:r:crash_dump:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   20.952667] type=1400 audit(1506170681.537:225): avc: granted { read } for pid=479 comm="app_process" name="online" dev="sysfs" ino=34 scontext=u:r:zygote:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[   20.953582] type=1400 audit(1506170681.537:225): avc: granted { read } for pid=479 comm="app_process" name="online" dev="sysfs" ino=34 scontext=u:r:zygote:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[   20.953796] type=1400 audit(1506170681.537:226): avc: granted { read open } for pid=479 comm="app_process" name="online" dev="sysfs" ino=34 scontext=u:r:zygote:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[   20.954345] type=1400 audit(1506170681.537:226): avc: granted { read open } for pid=479 comm="app_process" name="online" dev="sysfs" ino=34 scontext=u:r:zygote:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[   20.954620] type=1400 audit(1506170681.537:227): avc: granted { getattr } for pid=479 comm="app_process" path="/sys/devices/system/cpu/online" dev="sysfs" ino=34 scontext=u:r:zygote:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[   20.995361] hdmi_msm hdmi_msm.1: hdmi_msm_hpd_feature: 1
+[   21.000732] init: kill(518, 9) failed: No such process
+[   21.000915] init: do_restart: Service audio-hal-2-0 not found
+[   21.002258] init: computing context for service 'bootanim'
+[   21.002777] init: starting service 'bootanim'...
+[   21.004058] init: property_set("ro.boottime.bootanim", "20993185621") failed: property already set
+[   21.032867] type=1400 audit(1506170681.537:227): avc: granted { getattr } for pid=479 comm="app_process" path="/sys/devices/system/cpu/online" dev="sysfs" ino=34 scontext=u:r:zygote:s0 tcontext=u:object_r:sysfs:s0 tclass=file
+[   21.033203] type=1400 audit(1506170681.617:228): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   21.045227] type=1400 audit(1506170681.617:228): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   21.045562] type=1400 audit(1506170681.627:229): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11194]" dev="sockfs" ino=11194 ioctlcmd=89f8 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   21.047607] audit: audit_lost=71 audit_rate_limit=5 audit_backlog_limit=64
+[   21.047729] audit: rate limit exceeded
+[   21.055938] init: Untracked pid 555 exited with status 1
+[   21.090332] mipi_lgit_lcd_off started
+[   21.220336] mipi_lgit_lcd_off finished
+[   21.220581] mipi_dsi_panel_power: mipi lcd function started status = 0 
+[   21.228668] init: Service 'surfaceflinger' (pid 486) exited with status 1
+[   21.228912] init: Sending signal 9 to service 'surfaceflinger' (pid 486) process group...
+[   21.310607] init: kill(486, 9) failed: No such process
+[   21.310913] init: Sending signal 9 to service 'zygote' (pid 479) process group...
+[   21.390624] init: Command 'restart zygote' action=onrestart returned 0 took 79.6814ms.
+[   21.391662] init: Service 'zygote' (pid 479) killed by signal 9
+[   21.391906] init: Sending signal 9 to service 'zygote' (pid 479) process group...
+[   21.392181] init: failed to open /acct/uid_0/pid_479/cgroup.procs: No such file or directory
+[   21.392395] init: killProcessGroup(0, 479, 9) failed: Device or resource busy
+[   21.392639] init: kill(479, 9) failed: No such process
+[   21.392883] init: write_file: Unable to open '/sys/android_power/request_state': No such file or directory
+[   21.393218] request_suspend_state: wakeup (0->0) at 21382986647 (2017-09-23 12:44:41.986460957 UTC)
+[   21.393493] init: Sending signal 9 to service 'cameraserver' (pid 519) process group...
+[   21.560729] init: Command 'restart cameraserver' action=onrestart returned 0 took 167.206ms.
+[   21.561004] init: Sending signal 9 to service 'media' (pid 522) process group...
+[   21.810302] wcnss_post_bootup: Cancel APPS vote for Iris & Riva
+[   21.865814] init: Command 'restart media' action=onrestart returned 0 took 304.81ms.
+[   21.865966] init: Sending signal 9 to service 'netd' (pid 478) process group...
+[   22.020629] init: Command 'restart netd' action=onrestart returned 0 took 154.602ms.
+[   22.020904] init: Sending signal 9 to service 'wificond' (pid 523) process group...
+[   22.033081] type=1400 audit(1506170681.627:229): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11194]" dev="sockfs" ino=11194 ioctlcmd=89f8 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   22.033386] type=1400 audit(1506170682.618:234): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   22.045837] type=1400 audit(1506170682.618:234): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   22.046142] type=1400 audit(1506170682.628:235): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11214]" dev="sockfs" ino=11214 ioctlcmd=89f8 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   22.065643] healthd: battery l=91 v=4071 t=39.1 h=2 st=3 c=555 chg=
+[   22.120422] adjust_soc: ibat_ua = 538200, vbat_uv = 4073112, soc = 90, batt_temp=391
+[   22.170562] init: Command 'restart wificond' action=onrestart returned 0 took 149.658ms.
+[   22.171173] init: Service 'netd' (pid 478) killed by signal 9
+[   22.171295] init: Sending signal 9 to service 'netd' (pid 478) process group...
+[   22.171569] init: failed to open /acct/uid_0/pid_478/cgroup.procs: No such file or directory
+[   22.171905] init: killProcessGroup(0, 478, 9) failed: Device or resource busy
+[   22.172821] init: Service 'cameraserver' (pid 519) killed by signal 9
+[   22.173065] init: Sending signal 9 to service 'cameraserver' (pid 519) process group...
+[   22.173339] init: failed to open /acct/uid_1047/pid_519/cgroup.procs: No such file or directory
+[   22.173522] init: killProcessGroup(1047, 519, 9) failed: No such file or directory
+[   22.173767] init: kill(519, 9) failed: No such process
+[   22.174499] init: Service 'media' (pid 522) killed by signal 9
+[   22.174743] init: Sending signal 9 to service 'media' (pid 522) process group...
+[   22.174987] init: failed to open /acct/uid_1013/pid_522/cgroup.procs: No such file or directory
+[   22.175201] init: killProcessGroup(1013, 522, 9) failed: Device or resource busy
+[   22.175445] init: kill(522, 9) failed: No such process
+[   22.175964] init: Service 'wificond' (pid 523) killed by signal 9
+[   22.176116] init: Sending signal 9 to service 'wificond' (pid 523) process group...
+[   22.176391] init: failed to open /acct/uid_1010/pid_523/cgroup.procs: No such file or directory
+[   22.176696] init: killProcessGroup(1010, 523, 9) failed: No such file or directory
+[   22.176879] init: kill(523, 9) failed: No such process
+[   22.177307] init: Untracked pid 484 killed by signal 9
+[   22.177581] init: Untracked pid 485 killed by signal 9
+[   22.178161] init: processing action (init.svc.zygote=stopping)
+[   22.546112] type=1400 audit(1506170682.628:235): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11214]" dev="sockfs" ino=11214 ioctlcmd=89f8 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   22.546447] type=1400 audit(1506170683.129:236): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11217]" dev="sockfs" ino=11217 ioctlcmd=89f8 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   23.033233] type=1400 audit(1506170683.129:236): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11217]" dev="sockfs" ino=11217 ioctlcmd=89f8 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   23.033569] type=1400 audit(1506170683.619:237): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   23.046386] type=1400 audit(1506170683.619:237): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   23.047332] type=1400 audit(1506170683.629:238): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11218]" dev="sockfs" ino=11218 ioctlcmd=89f8 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   23.546783] type=1400 audit(1506170683.629:238): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[11218]" dev="sockfs" ino=11218 ioctlcmd=89f8 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   23.547668] type=1400 audit(1506170684.130:239): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[13676]" dev="sockfs" ino=13676 ioctlcmd=89f8 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   23.886718] init: computing context for service 'hwservicemanager'
+[   23.887237] init: starting service 'hwservicemanager'...
+[   23.888702] init: property_set("ro.boottime.hwservicemanager", "23877768139") failed: property already set
+[   23.948333] type=1400 audit(1506170684.130:239): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[13676]" dev="sockfs" ino=13676 ioctlcmd=89f8 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   23.949249] type=1400 audit(1506170684.530:240): avc: denied { read } for pid=564 comm="hwservicemanage" name="online" dev="sysfs" ino=34 scontext=u:r:hwservicemanager:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   23.964111] init: Service 'hwservicemanager' (pid 564) exited with status 255
+[   23.964355] init: Sending signal 9 to service 'hwservicemanager' (pid 564) process group...
+[   24.033477] type=1400 audit(1506170684.530:240): avc: denied { read } for pid=564 comm="hwservicemanage" name="online" dev="sysfs" ino=34 scontext=u:r:hwservicemanager:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   24.033813] type=1400 audit(1506170684.620:241): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   24.047088] type=1400 audit(1506170684.620:241): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   24.047424] type=1400 audit(1506170684.630:242): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[13680]" dev="sockfs" ino=13680 ioctlcmd=89f8 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   24.110076] init: kill(564, 9) failed: No such process
+[   24.110839] init: critical process 'hwservicemanager' exited 4 times in 4 minutes
+[   24.111206] init: panic: rebooting to bootloader
+[   24.111816] init: Reboot start, reason: reboot, rebootTarget: bootloader
+[   24.113037] init: Shutdown timeout: 6
+[   24.113739] init: terminating init services
+[   24.114135] init: Sending signal 15 to service 'healthd' (pid 222) process group...
+[   24.115020] init: failed to kill 1 processes for processgroup 222
+[   24.115386] init: killProcessGroup(0, 222, 15) failed: Success
+[   24.116180] init: Sending signal 15 to service 'console' (pid 232) process group...
+[   24.116790] init: failed to kill 1 processes for processgroup 232
+[   24.117462] init: killProcessGroup(2000, 232, 15) failed: Success
+[   24.118011] init: Sending signal 15 to service 'qmuxd' (pid 234) process group...
+[   24.118988] init: failed to kill 1 processes for processgroup 234
+[   24.119659] init: killProcessGroup(1001, 234, 15) failed: Success
+[   24.120178] init: Sending signal 15 to service 'kickstart' (pid 224) process group...
+[   24.122863] init: failed to kill 3 processes for processgroup 224
+[   24.123229] init: killProcessGroup(1000, 224, 15) failed: Success
+[   24.124084] init: Sending signal 15 to service 'netmgrd' (pid 235) process group...
+[   24.124999] init: failed to kill 1 processes for processgroup 235
+[   24.125427] init: killProcessGroup(0, 235, 15) failed: Success
+[   24.126220] init: Sending signal 15 to service 'sensors' (pid 260) process group...
+[   24.126831] init: failed to kill 1 processes for processgroup 260
+[   24.127532] init: killProcessGroup(0, 260, 15) failed: Success
+[   24.128051] init: Sending signal 15 to service 'thermald' (pid 236) process group...
+[   24.129455] init: failed to kill 1 processes for processgroup 236
+[   24.129699] init: killProcessGroup(0, 236, 15) failed: Success
+[   24.129913] init: Sending signal 15 to service 'qseecomd' (pid 225) process group...
+[   24.130279] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+[   24.130401] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[   24.130645] QSEECOM: qseecom_receive_req: Interrupted: exiting wait_rcv_req loop
+[   24.130859] QSEECOM: qseecom_ioctl: failed qseecom_receive_req: -512
+[   24.131744] init: failed to kill 2 processes for processgroup 225
+[   24.131774] QSEECOM: qseecom_release: data->released == false
+[   24.132324] QSEECOM: qseecom_release: data->released == false
+[   24.133270] init: killProcessGroup(0, 225, 15) failed: Success
+[   24.133819] init: Sending signal 15 to service 'bootanim' (pid 551) process group...
+[   24.134674] init: failed to kill 1 processes for processgroup 551
+[   24.135314] init: killProcessGroup(1003, 551, 15) failed: Success
+[   24.135803] init: Sending signal 15 to service 'drm' (pid 242) process group...
+[   24.136718] init: failed to kill 1 processes for processgroup 242
+[   24.137084] init: killProcessGroup(1019, 242, 15) failed: Success
+[   24.137786] init: Sending signal 15 to service 'gatekeeperd' (pid 263) process group...
+[   24.138641] init: failed to kill 1 processes for processgroup 263
+[   24.139068] init: killProcessGroup(1000, 263, 15) failed: Success
+[   24.139862] init: Sending signal 15 to service 'installd' (pid 243) process group...
+[   24.140716] init: failed to kill 1 processes for processgroup 243
+[   24.141387] init: killProcessGroup(0, 243, 15) failed: Success
+[   24.141876] init: Sending signal 15 to service 'lmkd' (pid 226) process group...
+[   24.144989] init: failed to kill 1 processes for processgroup 226
+[   24.145690] init: killProcessGroup(0, 226, 15) failed: Success
+[   24.146179] init: Sending signal 15 to service 'mediadrm' (pid 245) process group...
+[   24.147125] init: failed to kill 1 processes for processgroup 245
+[   24.147491] init: killProcessGroup(1013, 245, 15) failed: Success
+[   24.148223] init: Sending signal 15 to service 'mediaextractor' (pid 246) process group...
+[   24.149139] init: failed to kill 1 processes for processgroup 246
+[   24.149505] init: killProcessGroup(1040, 246, 15) failed: Success
+[   24.150726] init: Sending signal 15 to service 'mediametrics' (pid 247) process group...
+[   24.150970] init: failed to kill 1 processes for processgroup 247
+[   24.151214] init: killProcessGroup(1013, 247, 15) failed: Success
+[   24.151428] init: Sending signal 15 to service 'servicemanager' (pid 168) process group...
+[   24.151763] init: failed to kill 1 processes for processgroup 168
+[   24.152008] init: killProcessGroup(1000, 168, 15) failed: Success
+[   24.152221] init: Sending signal 15 to service 'storaged' (pid 249) process group...
+[   24.152587] init: failed to kill 1 processes for processgroup 249
+[   24.152740] init: killProcessGroup(0, 249, 15) failed: Success
+[   24.153045] init: Sending signal 15 to service 'mediacodec' (pid 252) process group...
+[   24.153442] init: failed to kill 1 processes for processgroup 252
+[   24.153594] init: killProcessGroup(1046, 252, 15) failed: Success
+[   24.153900] init: Sending signal 15 to service 'ril-daemon' (pid 253) process group...
+[   24.155334] init: failed to kill 1 processes for processgroup 253
+[   24.155609] init: killProcessGroup(1001, 253, 15) failed: Success
+[   24.155944] init: Sending signal 15 to service 'vndservicemanager' (pid 171) process group...
+[   24.156188] init: failed to kill 1 processes for processgroup 171
+[   24.156433] init: killProcessGroup(1000, 171, 15) failed: Success
+[   24.156829] init: Service 'servicemanager' (pid 168) killed by signal 15
+[   24.157073] init: Sending signal 9 to service 'servicemanager' (pid 168) process group...
+[   24.970855] init: kill(168, 9) failed: No such process
+[   24.971160] init: Service 'vndservicemanager' (pid 171) killed by signal 15
+[   24.971405] init: Sending signal 9 to service 'vndservicemanager' (pid 171) process group...
+[   24.972198] init: kill(171, 9) failed: No such process
+[   24.973083] init: Service 'healthd' (pid 222) killed by signal 15
+[   24.973724] init: Sending signal 9 to service 'healthd' (pid 222) process group...
+[   24.974914] init: kill(222, 9) failed: No such process
+[   24.975372] init: Service 'kickstart' (pid 224) killed by signal 15
+[   24.975738] init: Service 'qseecomd' (pid 225) killed by signal 15
+[   24.975982] init: Sending signal 9 to service 'qseecomd' (pid 225) process group...
+[   24.976806] init: Service 'lmkd' (pid 226) killed by signal 15
+[   24.977050] init: Sending signal 9 to service 'lmkd' (pid 226) process group...
+[   24.977722] init: kill(226, 9) failed: No such process
+[   24.978179] init: Service 'qmuxd' (pid 234) killed by signal 15
+[   24.978424] init: Sending signal 9 to service 'qmuxd' (pid 234) process group...
+[   24.981903] init: kill(234, 9) failed: No such process
+[   24.983001] init: Service 'netmgrd' (pid 235) exited with status 0
+[   24.983398] init: Sending signal 9 to service 'netmgrd' (pid 235) process group...
+[   24.984802] init: kill(235, 9) failed: No such process
+[   24.985198] init: Service 'thermald' (pid 236) killed by signal 15
+[   24.985443] init: Sending signal 9 to service 'thermald' (pid 236) process group...
+[   24.991027] init: kill(236, 9) failed: No such process
+[   24.991821] init: Service 'drm' (pid 242) killed by signal 15
+[   24.992065] init: Sending signal 9 to service 'drm' (pid 242) process group...
+[   24.993072] init: kill(242, 9) failed: No such process
+[   24.994232] init: Service 'installd' (pid 243) killed by signal 15
+[   24.994628] init: Sending signal 9 to service 'installd' (pid 243) process group...
+[   24.996063] init: kill(243, 9) failed: No such process
+[   24.996612] init: Service 'mediadrm' (pid 245) killed by signal 15
+[   24.996856] init: Sending signal 9 to service 'mediadrm' (pid 245) process group...
+[   25.001373] init: kill(245, 9) failed: No such process
+[   25.002166] init: Service 'mediaextractor' (pid 246) killed by signal 15
+[   25.002410] init: Sending signal 9 to service 'mediaextractor' (pid 246) process group...
+[   25.003417] init: kill(246, 9) failed: No such process
+[   25.005065] init: Service 'mediametrics' (pid 247) killed by signal 15
+[   25.005462] init: Sending signal 9 to service 'mediametrics' (pid 247) process group...
+[   25.010437] init: kill(247, 9) failed: No such process
+[   25.010833] init: Service 'storaged' (pid 249) killed by signal 15
+[   25.011077] init: Sending signal 9 to service 'storaged' (pid 249) process group...
+[   25.011840] init: kill(249, 9) failed: No such process
+[   25.013305] init: Service 'mediacodec' (pid 252) killed by signal 15
+[   25.013946] init: Sending signal 9 to service 'mediacodec' (pid 252) process group...
+[   25.015533] init: kill(252, 9) failed: No such process
+[   25.016052] init: Service 'ril-daemon' (pid 253) killed by signal 15
+[   25.016204] init: Sending signal 9 to service 'ril-daemon' (pid 253) process group...
+[   25.033752] type=1400 audit(1506170684.630:242): avc: denied { ioctl } for pid=235 comm="netmgrd" path="socket:[13680]" dev="sockfs" ino=13680 ioctlcmd=89f8 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=0
+[   25.034057] type=1400 audit(1506170685.621:243): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   25.961853] init: kill(253, 9) failed: No such process
+[   25.963043] init: Service 'gatekeeperd' (pid 263) killed by signal 15
+[   25.963745] init: Sending signal 9 to service 'gatekeeperd' (pid 263) process group...
+[   25.965209] init: kill(263, 9) failed: No such process
+[   25.966308] init: Service 'bootanim' (pid 551) killed by signal 15
+[   25.966766] init: Untracked pid 473 killed by signal 15
+[   25.967071] init: Untracked pid 477 killed by signal 15
+[   25.967254] init: Untracked pid 258 killed by signal 15
+[   26.033935] type=1400 audit(1506170685.621:243): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   26.034240] type=2 
+[   27.034393] type=2 
+[   27.034759] type=1400 audit(1506170687.623:245): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   27.122009] init: Terminating running services took 3.0101 seconds with remaining services:1
+[   27.122924] init: Sending signal 9 to service 'console' (pid 232) process group...
+[   27.132507] init: Sending signal 9 to service 'sensors' (pid 260) process group...
+[   27.134490] ch_notify on a closed smd_pkt_dev id:18
+[   27.161712] init: Service 'console' (pid 232) killed by signal 9
+[   27.162506] init: Sending signal 9 to service 'console' (pid 232) process group...
+[   27.163360] init: failed to open /acct/uid_2000/pid_232/cgroup.procs: No such file or directory
+[   27.163940] init: killProcessGroup(2000, 232, 9) failed: No such file or directory
+[   27.164703] init: kill(232, 9) failed: No such process
+[   27.165954] init: Service 'sensors' (pid 260) killed by signal 9
+[   27.166412] init: Sending signal 9 to service 'sensors' (pid 260) process group...
+[   27.167266] init: failed to open /acct/uid_0/pid_260/cgroup.procs: No such file or directory
+[   27.168182] init: killProcessGroup(0, 260, 9) failed: Device or resource busy
+[   27.168640] init: kill(260, 9) failed: No such process
+[   27.211303] type=1400 audit(1506170687.623:245): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   27.212005] type=1400 audit(1506170687.793:246): avc: denied { read } for pid=566 comm="vdc" name="online" dev="sysfs" ino=34 scontext=u:r:vdc:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   27.217010] vdc: 651 emulated 7
+[   27.217041] 
+[   27.217712] vdc: 659 emulated
+[   27.217712] 
+[   27.218658] vdc: 200 566 Command succeeded
+[   27.218658] 
+[   27.219818] init: Sending signal 9 to service 'vold' (pid 183) process group...
+[   28.034881] type=1400 audit(1506170687.793:246): avc: denied { read } for pid=566 comm="vdc" name="online" dev="sysfs" ino=34 scontext=u:r:vdc:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+[   28.035919] type=1400 audit(1506170688.624:247): avc: denied { read write } for pid=237 comm=757362206F70656E name="android_adb" dev="tmpfs" ino=7572 scontext=u:r:adbd:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+[   28.041809] init: Sending signal 9 to service 'adbd' (pid 233) process group...
+[   28.111602] init: Sending signal 9 to service 'logd' (pid 167) process group...
+[   29.994995] init: Sending signal 9 to service 'tombstoned' (pid 268) process group...
+[   30.040985] init: umounted /dev/block/platform/msm_sdcc.1/by-name/persist:/persist opts rw,seclabel,nosuid,nodev,relatime,nodelalloc,data=ordered
+[   30.229949] init: umounted /dev/block/platform/msm_sdcc.1/by-name/userdata:/data opts rw,seclabel,nosuid,nodev,noatime,noauto_da_alloc,data=ordered
+[   31.963500] init: umounted /dev/block/platform/msm_sdcc.1/by-name/cache:/cache opts rw,seclabel,nosuid,nodev,noatime,data=ordered
+[   32.164367] init: powerctl_shutdown_time_ms:8052:0
+[   32.164520] init: Reboot ending, jumping to kernel
+[   32.166137] msm_hsic_host msm_hsic_host: remove, state 1
+[   32.166259] usb usb1: USB disconnect, device number 1
+[   32.166381] usb 1-1: USB disconnect, device number 2
+[   32.167053] ueventd: removing platform device diag_bridge.0
+[   32.167480] ueventd: removing platform device sys_mon.19
+[   32.168457] ueventd: removing platform device serial_hsic_ctrl
+[   32.168884] ueventd: removing platform device serial_hsic_data
+[   32.169586] ueventd: removing platform device rmnet_hsic_ctrl
+[   32.170013] ueventd: removing platform device rmnet_hsic_data
+[   35.240447] rmnet_usb 1-1:1.5: rmnet_usb0: unregister 'rmnet_usb' usb-msm_hsic_host-1, RmNET net device
+[   35.251312] rmnet_usb 1-1:1.6: rmnet_usb1: unregister 'rmnet_usb' usb-msm_hsic_host-1, RmNET net device
+[   42.051330] rmnet_usb 1-1:1.7: rmnet_usb2: unregister 'rmnet_usb' usb-msm_hsic_host-1, RmNET net device
+[   42.091186] rmnet_usb 1-1:1.8: rmnet_usb3: unregister 'rmnet_usb' usb-msm_hsic_host-1, RmNET net device
+[   42.120422] adjust_soc: ibat_ua = 305200, vbat_uv = 4119312, soc = 90, batt_temp=385
+[   42.122711] msm_hsic_host msm_hsic_host: USB bus 1 deregistered
+[   42.124053] ueventd: removing platform device msm_hsic_host
+[   44.320312] mdm_power_down_common: MDM2AP_STATUS never went low. Doing a hard reset
+[   48.330780] mipi_lgit_lcd_shutdown:panel is already off
+[   48.330902] Restarting system with command 'bootloader'.
+[   48.331115] Going down for restart now
+
+No errors detected
