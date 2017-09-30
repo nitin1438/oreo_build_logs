@@ -1,0 +1,1429 @@
+<6>[    0.000000] Booting Linux on physical CPU 0
+
+<6>[    0.000000] Initializing cgroup subsys cpu
+
+<5>[    0.000000] Linux version 3.4.0-Bricked-TWRP-Edition-g27406e9-05626-gc3e7a05 (showp1984@jarvis) (gcc version 4.7.2 20120910 (prerelease) (Linaro GCC 4.7-2012.09) ) #1 SMP PREEMPT Sat Nov 2 21:45:13 CET 2013
+
+<4>[    0.000000] CPU: ARMv7 Processor [510f06f2] revision 2 (ARMv7), cr=10c5387d
+
+<4>[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, PIPT instruction cache
+
+<4>[    0.000000] Machine: QCT APQ8064 MAKO
+
+<2>[    0.000000] Truncating memory at 0xc0000000 to fit in 32-bit physical address space
+
+<6>[    0.000000] memory pool 3 (start fe9ff000 size 1600000) initialized
+
+<6>[    0.000000] Initialized persistent memory from 88700000-887fffff
+
+<4>[    0.000000] Memory policy: ECC disabled, Data cache writealloc
+
+<3>[    0.000000] smem_find(137, 80): wrong size 72
+
+<6>[    0.000000] socinfo_init: v6, id=109, ver=1.1, raw_id=1817, raw_ver=1817, hw_plat=8,  hw_plat_ver=65536
+
+<6>[    0.000000]  accessory_chip=0 hw_plat_subtype=1
+
+<7>[    0.000000] On node 0 totalpages: 493055
+
+<7>[    0.000000]   Normal zone: 1536 pages used for memmap
+
+<7>[    0.000000]   Normal zone: 0 pages reserved
+
+<7>[    0.000000]   Normal zone: 169984 pages, LIFO batch:31
+
+<7>[    0.000000]   HighMem zone: 2556 pages used for memmap
+
+<7>[    0.000000]   HighMem zone: 318979 pages, LIFO batch:31
+
+<6>[    0.000000] allocating 21626880 bytes at c284c000 (82a4c000 physical) for fb
+
+<6>[    0.000000] PERCPU: Embedded 9 pages/cpu @c3cef000 s16256 r8192 d12416 u36864
+
+<7>[    0.000000] pcpu-alloc: s16256 r8192 d12416 u36864 alloc=9*4096
+
+<7>[    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+
+<4>[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 488963
+
+<5>[    0.000000] Kernel command line: console=ttyHSL0,115200,n8 androidboot.hardware=mako lpj=67677 user_debug=31 uart_console=enable lcd_maker_id=primary lge.hreset=off lge.reset=mode_reset gpt=enable lge.kcal=0|0|0|x lge.rev=rev_10 androidboot.emmc=true androidboot.serialno=0047d3a090939955 androidboot.bootloader=MAKOZ30f androidboot.baseband=mdm
+
+<6>[    0.000000] UART CONSOLE : enable
+
+<6>[    0.000000] kcal is 0|0|0|x
+
+<6>[    0.000000] kcal not calibrated yet : 120
+
+<6>[    0.000000] set to default : 255
+
+<6>[    0.000000] BOARD : LGE input rev_10 
+
+<6>[    0.000000] BOARD : LGE matched rev_10 
+
+<6>[    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+
+<6>[    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+
+<6>[    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+
+<6>[    0.000000] Memory: 134MB 74MB 7MB 1MB 253MB 1456MB = 1925MB total
+
+<5>[    0.000000] Memory: 1909628k/1992572k available, 62592k reserved, 1286140K highmem
+
+<5>[    0.000000] Virtual kernel memory layout:
+
+<5>[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+
+<5>[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+
+<5>[    0.000000]     vmalloc : 0xf0000000 - 0xff000000   ( 240 MB)
+
+<5>[    0.000000]     lowmem  : 0xc0000000 - 0xef800000   ( 760 MB)
+
+<5>[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+
+<5>[    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+
+<5>[    0.000000]       .text : 0xc0008000 - 0xc0d387d0   (13506 kB)
+
+<5>[    0.000000]       .init : 0xc0e00000 - 0xc0f03f80   (1040 kB)
+
+<5>[    0.000000]       .data : 0xc0f04000 - 0xc0ff13b4   ( 949 kB)
+
+<5>[    0.000000]        .bss : 0xc0ff13f4 - 0xc1270bcc   (2558 kB)
+
+<6>[    0.000000] SLUB: Genslabs=11, HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+
+<6>[    0.000000] Preemptible hierarchical RCU implementation.
+
+<6>[    0.000000] NR_IRQS:921
+
+<6>[    0.000000] sched_clock: 32 bits at 32kHz, resolution 30520ns, wraps every 131084001ms
+
+<6>[    0.000000] Console: colour dummy device 80x30
+
+<6>[    0.000183] Calibrating delay loop (skipped) preset value.. 13.53 BogoMIPS (lpj=67677)
+
+<6>[    0.000213] pid_max: default: 32768 minimum: 301
+
+<6>[    0.000427] Security Framework initialized
+
+<6>[    0.000457] SELinux:  Initializing.
+
+<7>[    0.000518] SELinux:  Starting in permissive mode
+
+<6>[    0.000610] Mount-cache hash table entries: 512
+
+<6>[    0.001831] Initializing cgroup subsys debug
+
+<6>[    0.001861] Initializing cgroup subsys cpuacct
+
+<6>[    0.001861] Initializing cgroup subsys freezer
+
+<6>[    0.001983] CPU: Testing write buffer coherency: ok
+
+<6>[    0.002258] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+
+<6>[    0.002289] hw perfevents: enabled with ARMv7 Krait PMU driver, 5 counters available
+
+<6>[    0.002380] Setting up static identity map for 0x80baa568 - 0x80baa5f0
+
+<6>[    0.005615] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+
+<6>[    0.008026] CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+
+<6>[    0.010499] CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+
+<6>[    0.010590] Brought up 4 CPUs
+
+<6>[    0.010621] SMP: Total of 4 processors activated (54.14 BogoMIPS).
+
+<6>[    0.024446] dummy: 
+
+<6>[    0.024874] NET: Registered protocol family 16
+
+<3>[    0.025362] AXI: msm_bus_fabric_init_driver(): msm_bus_fabric_init_driver
+
+<6>[    0.027529] meminfo_init: smem ram ptable found: ver: 0 len: 6
+
+<6>[    0.027559] Found 2 memory banks grouped into 16 memory regions
+
+<6>[    0.027743] gpiochip_add: registered GPIOs 0 to 151 on device: msmgpio
+
+<3>[    0.028536] smem_find(137, 80): wrong size 72
+
+<6>[    0.028536] socinfo_init: v6, id=109, ver=1.1, raw_id=1817, raw_ver=1817, hw_plat=8,  hw_plat_ver=65536
+
+<6>[    0.028536]  accessory_chip=0 hw_plat_subtype=1
+
+<6>[    0.028658] msm_rpm_init: RPM firmware 3.0.16842886
+
+<3>[    0.048435] msm_rpm_get_status(): Status id 433 not defined for target
+
+<3>[    0.048435] msm_rpm_get_status(): Status id 433 not defined for target
+
+<3>[    0.048466] msm_rpm_get_status(): Status id 433 not defined for target
+
+<3>[    0.048466] msm_rpm_get_status(): Status id 433 not defined for target
+
+<3>[    0.048496] msm_rpm_get_status(): Status id 433 not defined for target
+
+<3>[    0.048496] msm_rpm_get_status(): Status id 433 not defined for target
+
+<3>[    0.048496] msm_rpm_get_status(): Status id 433 not defined for target
+
+<3>[    0.048527] msm_rpm_get_status(): Status id 433 not defined for target
+
+<6>[    0.066534] pm8921_probe: PMIC revision 1: F4
+
+<6>[    0.066564] pm8921_probe: PMIC revision 2: 06
+
+<6>[    0.066564] pm8921_probe: PMIC version: PM8921 rev 3.0
+
+<6>[    0.066595] pm8921_probe: PMIC Restart Reason: Triggered by Hard Reset
+
+<6>[    0.067694] gpiochip_add: registered GPIOs 152 to 195 on device: pm-gpio
+
+<6>[    0.068182] pm_gpio_probe: OK: base=152, ngpio=44
+
+<6>[    0.068487] gpiochip_add: registered GPIOs 196 to 207 on device: pm8xxx-mpp
+
+<6>[    0.068548] pm8xxx_mpp_probe: OK: base=196, ngpio=12
+
+<6>[    0.070624] pm8821_probe: PMIC revision 1: PM8821 rev F3
+
+<6>[    0.070654] pm8821_probe: PMIC revision 2: PM8821 rev 0B
+
+<6>[    0.070654] pm8821_probe: PMIC version: PM8821 ver 2.1
+
+<6>[    0.071234] gpiochip_add: registered GPIOs 208 to 211 on device: pm8xxx-mpp
+
+<6>[    0.071265] pm8xxx_mpp_probe: OK: base=208, ngpio=4
+
+<6>[    0.071814] gpio_vreg_probe: id=86, name=ext_dsv_load, gpio=86, gpio_label=ext_dsv_load_en
+
+<6>[    0.073065] saw_probe: id=0, name=8921_s5
+
+<6>[    0.073401] saw_probe: id=1, name=8921_s6
+
+<6>[    0.073737] saw_probe: id=2, name=8821_s0
+
+<6>[    0.074103] saw_probe: id=3, name=8821_s1
+
+<6>[    0.082893] persistent_ram: uncorrectable error in header
+
+<6>[    0.082923] persistent_ram: no valid data in buffer (sig = 0xc0c4c0c0)
+
+<6>[    0.093178] console [ram-1] enabled
+
+<6>[    0.094613] [NORMAL-DEBUG] apq8064_device_uart_gsbi4.id : 0
+
+<6>[    0.094704] [DEBUG] uart_enable : 1
+
+<6>[    0.097329] [Touch D] apq8064_init_input: NOT DCM KDDI, reg synaptics driver 
+
+<4>[    0.098458] ------------[ cut here ]------------
+
+<4>[    0.098611] WARNING: at arch/arm/mach-msm/subsystem_restart.c:617 subsys_restart_init+0xdc/0x114()
+
+<4>[    0.098702] Modules linked in:
+
+<4>[    0.098947] [<c0017100>] (unwind_backtrace+0x0/0xf8) from [<c00948d0>] (warn_slowpath_null+0x38/0xa8)
+
+<4>[    0.099130] [<c00948d0>] (warn_slowpath_null+0x38/0xa8) from [<c0e0bb30>] (subsys_restart_init+0xdc/0x114)
+
+<4>[    0.099221] [<c0e0bb30>] (subsys_restart_init+0xdc/0x114) from [<c00088e8>] (do_one_initcall+0x10c/0x170)
+
+<4>[    0.099404] ---[ end trace da227214a82491b7 ]---
+
+<6>[    0.101938] sps:BAM 0x12244000 enabled: ver:0x5, number of pipes:20
+
+<6>[    0.102029] sps:BAM 0x12244000 is registered.
+
+<6>[    0.102609] sps:sps is ready.
+
+<6>[    0.131451] bio: create slab <bio-0> at 0
+
+<6>[    0.132153] ION heap vmalloc created
+
+<6>[    0.132244] ION heap mm created at a0000000 with size 3800000
+
+<6>[    0.132427] ION heap mm_fw created at 9fe00000 with size 1e0000
+
+<6>[    0.132580] ION heap mfc created at a3800000 with size 2000
+
+<6>[    0.132702] ION heap iommu created
+
+<6>[    0.132824] ION heap qsecom created at fea07000 with size 780000
+
+<6>[    0.133007] ION heap audio created at ff187000 with size 4cf000
+
+<5>[    0.134320] pm8xxx_pwm_probe: OK
+
+<5>[    0.135083] SCSI subsystem initialized
+
+<6>[    0.135479] sps:BAM 0x28084000 enabled: ver:0x12, number of pipes:31
+
+<6>[    0.135632] sps:BAM 0x28084000 is registered.
+
+<6>[    0.136487] usbcore: registered new interface driver usbfs
+
+<6>[    0.136731] usbcore: registered new interface driver hub
+
+<6>[    0.137005] usbcore: registered new device driver usb
+
+<6>[    0.137402] input: pmic8xxx_pwrkey as /devices/platform/msm_ssbi.0/pm8921-core/pm8xxx-pwrkey/input/input0
+
+<6>[    0.138318] Linux media interface: v0.10
+
+<6>[    0.138531] Linux video capture interface: v2.00
+
+<7>[    0.139020] Registered led device: red
+
+<7>[    0.139508] Registered led device: green
+
+<7>[    0.139874] Registered led device: blue
+
+<6>[    0.140790] msm_iommu_dev: device vpe mapped at f0400000, with 2 ctx banks
+
+<6>[    0.141065] msm_iommu_dev: device mdp0 mapped at f0600000, with 2 ctx banks
+
+<6>[    0.141248] msm_iommu_dev: device mdp1 mapped at f0800000, with 2 ctx banks
+
+<6>[    0.141522] msm_iommu_dev: device rot mapped at f0a00000, with 2 ctx banks
+
+<6>[    0.141736] msm_iommu_dev: device ijpeg mapped at f0c00000, with 2 ctx banks
+
+<6>[    0.141980] msm_iommu_dev: device vfe mapped at f0e00000, with 2 ctx banks
+
+<6>[    0.142255] msm_iommu_dev: device vcodec_a mapped at f1000000, with 2 ctx banks
+
+<6>[    0.142438] msm_iommu_dev: device vcodec_b mapped at f1200000, with 2 ctx banks
+
+<6>[    0.142713] msm_iommu_dev: device gfx3d mapped at f1400000, with 3 ctx banks
+
+<6>[    0.142987] msm_iommu_dev: device jpegd mapped at f1600000, with 2 ctx banks
+
+<6>[    0.143171] msm_iommu_dev: device gfx3d1 mapped at f1800000, with 3 ctx banks
+
+<6>[    0.143476] msm_iommu_dev: device vcap mapped at f1a00000, with 2 ctx banks
+
+<6>[    0.143964] msm_iommu_ctx msm_iommu_ctx.2: context vpe_src using bank 0
+
+<6>[    0.144269] msm_iommu_ctx msm_iommu_ctx.3: context vpe_dst using bank 1
+
+<6>[    0.144544] msm_iommu_ctx msm_iommu_ctx.4: context mdp_port0_cb0 using bank 0
+
+<6>[    0.144788] msm_iommu_ctx msm_iommu_ctx.5: context mdp_port0_cb1 using bank 1
+
+<6>[    0.145093] msm_iommu_ctx msm_iommu_ctx.6: context mdp_port1_cb0 using bank 0
+
+<6>[    0.145338] msm_iommu_ctx msm_iommu_ctx.7: context mdp_port1_cb1 using bank 1
+
+<6>[    0.145643] msm_iommu_ctx msm_iommu_ctx.8: context rot_src using bank 0
+
+<6>[    0.145917] msm_iommu_ctx msm_iommu_ctx.9: context rot_dst using bank 1
+
+<6>[    0.146131] msm_iommu_ctx msm_iommu_ctx.10: context ijpeg_src using bank 0
+
+<6>[    0.146436] msm_iommu_ctx msm_iommu_ctx.11: context ijpeg_dst using bank 1
+
+<6>[    0.146680] msm_iommu_ctx msm_iommu_ctx.12: context vfe_imgwr using bank 0
+
+<6>[    0.146894] msm_iommu_ctx msm_iommu_ctx.13: context vfe_misc using bank 1
+
+<6>[    0.147199] msm_iommu_ctx msm_iommu_ctx.14: context vcodec_a_stream using bank 0
+
+<6>[    0.147443] msm_iommu_ctx msm_iommu_ctx.15: context vcodec_a_mm1 using bank 1
+
+<6>[    0.147749] msm_iommu_ctx msm_iommu_ctx.16: context vcodec_b_mm2 using bank 0
+
+<6>[    0.148115] msm_iommu_ctx msm_iommu_ctx.17: context gfx3d_user using bank 0
+
+<6>[    0.148390] msm_iommu_ctx msm_iommu_ctx.18: context gfx3d_priv using bank 1
+
+<6>[    0.148664] msm_iommu_ctx msm_iommu_ctx.0: context jpegd_src using bank 0
+
+<6>[    0.148878] msm_iommu_ctx msm_iommu_ctx.1: context jpegd_dst using bank 1
+
+<6>[    0.149244] msm_iommu_ctx msm_iommu_ctx.19: context gfx3d1_user using bank 0
+
+<6>[    0.149610] msm_iommu_ctx msm_iommu_ctx.20: context gfx3d1_priv using bank 1
+
+<6>[    0.149855] msm_iommu_ctx msm_iommu_ctx.21: context vcap_vc using bank 0
+
+<6>[    0.150129] msm_iommu_ctx msm_iommu_ctx.22: context vcap_vp using bank 1
+
+<6>[    0.150373] Advanced Linux Sound Architecture Driver Version 1.0.25.
+
+<6>[    0.150953] Bluetooth: Core ver 2.16
+
+<6>[    0.151106] NET: Registered protocol family 31
+
+<6>[    0.151258] Bluetooth: HCI device and connection manager initialized
+
+<6>[    0.151350] Bluetooth: HCI socket layer initialized
+
+<6>[    0.151503] Bluetooth: L2CAP socket layer initialized
+
+<6>[    0.151838] Bluetooth: SCO socket layer initialized
+
+<6>[    0.152266] cfg80211: Calling CRDA to update world regulatory domain
+
+<6>[    0.152388] cfg80211: World regulatory domain updated:
+
+<6>[    0.152540] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp)
+
+<6>[    0.152632] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+
+<6>[    0.152784] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+
+<6>[    0.152937] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
+
+<6>[    0.152998] cfg80211:   (5170000 KHz - 5250000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+
+<6>[    0.153151] cfg80211:   (5735000 KHz - 5835000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+
+<6>[    0.153914] earjack debugger probed
+
+<6>[    0.154433] Switching to clocksource gp_timer
+
+<6>[    0.190111] NET: Registered protocol family 2
+
+<6>[    0.190447] IP route cache hash table entries: 32768 (order: 5, 131072 bytes)
+
+<6>[    0.191179] TCP established hash table entries: 131072 (order: 8, 1048576 bytes)
+
+<6>[    0.192491] TCP bind hash table entries: 65536 (order: 7, 524288 bytes)
+
+<6>[    0.193285] TCP: Hash tables configured (established 131072 bind 65536)
+
+<6>[    0.193377] TCP: reno registered
+
+<6>[    0.193529] UDP hash table entries: 512 (order: 2, 16384 bytes)
+
+<6>[    0.193621] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+
+<6>[    0.194079] NET: Registered protocol family 1
+
+<6>[    0.194506] Trying to unpack rootfs image as initramfs...
+
+<6>[    0.523515] Freeing initrd memory: 4396K
+
+<6>[    0.524614] Detected 5 counters on the L2CC PMU.
+
+<6>[    0.526873] pil_qdsp6v4 pil_qdsp6v4.0: using secure boot
+
+<6>[    0.528612] pil_riva pil_riva: using secure boot
+
+<6>[    0.531664] pil_dsps pil_dsps: using secure boot
+
+<6>[    0.533221] pil_gss pil_gss: using secure boot
+
+<3>[    0.540698] smd_channel_probe_worker: allocation table not initialized
+
+<6>[    0.543720] msm_dsps driver version 4.03.
+
+<6>[    0.545795] NET: Registered protocol family 27
+
+<6>[    0.549916] lpass_fatal_init: lpass SSR driver init'ed.
+
+<6>[    0.550343] wcnss_8960: module initialized
+
+<6>[    0.550862] gss_8064_init: gss fatal driver init'ed.
+
+<6>[    0.551838] acpuclk-8064 acpuclk-8064: SPEED BIN: 0
+
+<6>[    0.551960] acpuclk-8064 acpuclk-8064: ACPU PVS: 1
+
+<6>[    0.554585] acpuclk-8064 acpuclk-8064: CPU0: 15 frequencies supported
+
+<6>[    0.554768] acpuclk-8064 acpuclk-8064: CPU1: 15 frequencies supported
+
+<6>[    0.555318] acpuclk-8064 acpuclk-8064: CPU2: 15 frequencies supported
+
+<6>[    0.555409] acpuclk-8064 acpuclk-8064: CPU3: 15 frequencies supported
+
+<6>[    0.556081] kcal_ctrl_init 
+
+<6>[    0.556661] persistent_ram: no valid data in buffer (sig = 0xc240d0c0)
+
+<5>[    0.557759] msm_rpm_log_probe: OK
+
+<3>[    0.560659] mdm_modem_probe: registered mdm id 0
+
+<3>[    0.560750] mdm_do_first_power_on:id 0: Powering on modem for the first time
+
+<6>[    0.561056] mdm_pblrdy_change: mdm id 0: pbl ready:0
+
+<6>[    0.595482] mdm_pblrdy_change: mdm id 0: pbl ready:1
+
+<6>[    0.806012] usbcore: registered new interface driver hsic_sysmon
+
+<6>[    0.806470] audit: initializing netlink socket (disabled)
+
+<5>[    0.806653] type=2000 audit(0.800:1): initialized
+
+<4>[    0.923058] highmem bounce pool size: 64 pages
+
+<6>[    0.932549] NTFS driver 2.1.30 [Flags: R/W].
+
+<6>[    0.933007] fuse init (API version 7.18)
+
+<6>[    0.933435] msgmni has been set to 1226
+
+<7>[    0.933648] SELinux:  Registering netfilter hooks
+
+<6>[    0.937341] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 248)
+
+<6>[    0.937524] io scheduler noop registered
+
+<6>[    0.937860] io scheduler deadline registered
+
+<6>[    0.938409] io scheduler cfq registered (default)
+
+<6>[    0.939447] lm3530 probed
+
+<6>[    0.943293] mipi_dsi base phy_addr = 0x4700000 virt = 0xf1c00000
+
+<6>[    0.943476] mmss_sfpb  base phy_addr = 0x5700000,virt = 0xf00f8000
+
+<6>[    0.944880] mipi_lgit_lcd_probe start
+
+<6>[    0.945093] setting pdata->panel_info.fb_num to 3. type: 8
+
+<6>[    0.957301] FrameBuffer[0] 768x1280 size=11796480 bytes is registered successfully!
+
+<4>[    0.957637] load_565rle_image: Can not open /initlogo.rle
+
+<7>[    0.958248] Registered led device: lcd-backlight
+
+<6>[    0.959499] setting pdata->panel_info.fb_num to 1. type: 7
+
+<6>[    0.960567] FrameBuffer[1] 1920x1080 size=0 bytes is registered successfully!
+
+<4>[    0.960842] load_565rle_image: Can not open /initlogo.rle
+
+<6>[    0.961330] mdp4_dtv_vsync_init: ndx=0
+
+<3>[    0.961635] hdmi_msm hdmi_msm.1: external_common_state_create: sysfs group cf8abe08
+
+<6>[    0.961757] hdmi_msm hdmi_msm.1: hdmi_msm_config_hdcp_feature: HDCP Feature: Enabled
+
+<6>[    0.962582] setting pdata->panel_info.fb_num to 1. type: 10
+
+<3>[    0.962856] Inside writeback_driver_init
+
+<3>[    0.963283] Inside writeback_probe
+
+<6>[    0.964016] FrameBuffer[2] 1280x720 size=0 bytes is registered successfully!
+
+<4>[    0.964321] load_565rle_image: Can not open /initlogo.rle
+
+<6>[    0.966000] 
+
+<6>[    0.966000]  msm_vidc_enc: Inside vid_enc_init()
+
+<6>[    0.966458] 
+
+<6>[    0.966488]  msm_vidc_enc: Inside vid_enc_vcd_init()
+
+<3>[    0.967312] smux_init: unable to create log context
+
+<6>[    0.968228] msm_serial_hs module loaded
+
+<6>[    0.968564] msm_serial_hsl: detected port #0
+
+<6>[    0.968808] msm_serial_hsl.0: ttyHSL0 at MMIO 0x16340000 (irq = 184) is a MSM
+
+<6>[    0.969021] msm_serial_hsl: console setup on port #0
+
+<6>[    0.969296] console [ttyHSL0] enabled
+
+<6>[    0.969723] msm_serial_hsl: driver initialized
+
+<6>[    0.971310] msm_rotator_probe: rotator_hw_revision=2
+
+<6>[    0.974912] diagchar initialized now
+
+<6>[    0.976621] kgsl kgsl-3d0: |kgsl_iommu_init| MMU type set for device is IOMMU
+
+<6>[    0.985960] brd: module loaded
+
+<6>[    0.990111] loop: module loaded
+
+<6>[    0.992430] anx7808 init gpio
+
+<6>[    1.025209] anx7808 dvdd is already on 
+
+<6>[    1.055180] sp_tx_hardware_poweron: anx7808 power on
+
+<6>[    1.056065] sp_tx_chip_located: ANX7808 BA is found.
+
+<5>[    1.057408] sp_tx_vbus_powerdown: 3.3V output disabled
+
+<6>[    1.115550] sp_tx_hardware_powerdown: anx7808 power down
+
+<5>[    1.115641] sp_tx_set_sys_state: SP_TX To System State: 
+
+<5>[    1.115733] sp_tx_set_sys_state: STATE_CABLE_PLUG
+
+<6>[    1.116313] tabla2x-slim tabla2x-slim: Platform data from board file
+
+<6>[    1.182084] wcd9xxx_check_codec_type: codec is tabla_codec
+
+<6>[    1.182267] wcd9xxx_check_codec_type: Read codec idbytes & version
+
+<6>[    1.182267] byte_0[00000002] byte_1[00000000] byte_2[00000000]
+
+<6>[    1.182298]  byte_3[00000001] version = 2
+
+<4>[    1.184129] i2c-core: driver [tabla-i2c-core] using legacy suspend method
+
+<4>[    1.184220] i2c-core: driver [tabla-i2c-core] using legacy resume method
+
+<6>[    1.185106] bcm2079x-i2c 0-a1fa: bcm2079x_probe, probing bcm2079x driver flags = 10
+
+<6>[    1.185472] bcm2079x-i2c 0-a1fa: requesting IRQ 317
+
+<6>[    1.185655] bcm2079x-i2c 0-a1fa: bcm2079x_probe, probing bcm2079x driver exited successfully
+
+<6>[    1.186296] SCSI Media Changer driver v0.25 
+
+<6>[    1.187395] rmnet_init: BAM devices[8]
+
+<6>[    1.201312] PPP generic driver version 2.4.2
+
+<6>[    1.201556] PPP BSD Compression module registered
+
+<6>[    1.201648] PPP Deflate Compression module registered
+
+<6>[    1.211689] modprobe (109): undefined instruction: pc=b6ec750a
+
+<6>[    1.211872] Code: 9004 e000 4691 efc0 (0010) 69e8 
+
+<6>[    1.212910] PPP MPPE Compression module registered
+
+<6>[    1.213032] NET: Registered protocol family 24
+
+<6>[    1.213215] SLIP: version 0.8.4-NET3.019-NEWTTY (dynamic channels, max=256) (6 bit encapsulation enabled).
+
+<6>[    1.213306] CSLIP: code copyright 1989 Regents of the University of California.
+
+<6>[    1.213612] wcnss_wlan probed in built-in mode
+
+<6>[    1.214710] usbcore: registered new interface driver asix
+
+<6>[    1.214985] usbcore: registered new interface driver cdc_ether
+
+<6>[    1.215199] usbcore: registered new interface driver net1080
+
+<6>[    1.215473] usbcore: registered new interface driver cdc_subset
+
+<6>[    1.215626] usbcore: registered new interface driver zaurus
+
+<6>[    1.215931] usbcore: registered new interface driver cdc_ncm
+
+<6>[    1.216145] msm_otg msm_otg: msm_otg probe
+
+<3>[    1.216328] msm_otg msm_otg: failed to get phy_clk
+
+<6>[    1.216481] msm_otg msm_otg: OTG regs = f01f2000
+
+<6>[    1.219258] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+
+<6>[    1.232534] msm_hsic_host msm_hsic_host: Qualcomm EHCI Host Controller using HSIC
+
+<6>[    1.232717] msm_hsic_host msm_hsic_host: new USB bus registered, assigned bus number 1
+
+<6>[    1.255211] msm_hsic_host msm_hsic_host: irq 261, io mem 0x12510000
+
+<6>[    1.275232] msm_hsic_host msm_hsic_host: USB 2.0 started, EHCI 1.00
+
+<6>[    1.275660] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+
+<6>[    1.275751] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+
+<6>[    1.275904] usb usb1: Product: Qualcomm EHCI Host Controller using HSIC
+
+<6>[    1.276087] usb usb1: Manufacturer: Linux 3.4.0-Bricked-TWRP-Edition-g27406e9-05626-gc3e7a05 ehci_hcd
+
+<6>[    1.276178] usb usb1: SerialNumber: msm_hsic_host
+
+<6>[    1.276758] hub 1-0:1.0: USB hub found
+
+<6>[    1.276911] hub 1-0:1.0: 1 port detected
+
+<6>[    1.278223] usbcore: registered new interface driver cdc_acm
+
+<6>[    1.278406] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+
+<6>[    1.278559] Initializing USB Mass Storage driver...
+
+<6>[    1.278773] usbcore: registered new interface driver usb-storage
+
+<6>[    1.278925] USB Mass Storage support registered.
+
+<6>[    1.279108] usbcore: registered new interface driver ums-alauda
+
+<6>[    1.279322] usbcore: registered new interface driver ums-cypress
+
+<6>[    1.279505] usbcore: registered new interface driver ums-datafab
+
+<6>[    1.279719] usbcore: registered new interface driver ums-freecom
+
+<6>[    1.279902] usbcore: registered new interface driver ums-isd200
+
+<6>[    1.280115] usbcore: registered new interface driver ums-jumpshot
+
+<6>[    1.280299] usbcore: registered new interface driver ums-karma
+
+<6>[    1.280512] usbcore: registered new interface driver ums-onetouch
+
+<6>[    1.280695] usbcore: registered new interface driver ums-sddr09
+
+<6>[    1.280909] usbcore: registered new interface driver ums-sddr55
+
+<6>[    1.281092] usbcore: registered new interface driver ums-usbat
+
+<6>[    1.281397] usbcore: registered new interface driver usbserial
+
+<6>[    1.281489] usbserial: USB Serial Driver core
+
+<6>[    1.281733] usbcore: registered new interface driver qc_csvt
+
+<6>[    1.281886] USB Serial support registered for qc_csvt
+
+<6>[    1.282130] usbcore: registered new interface driver usb_ehset_test
+
+<6>[    1.282313] usbcore: registered new interface driver diag_bridge
+
+<6>[    1.282740] usbcore: registered new interface driver mdm_bridge
+
+<6>[    1.283625] usbcore: registered new interface driver ks_bridge
+
+<6>[    1.283808] ksb_init: init done
+
+<6>[    1.284175] msm_otg msm_otg: phy_reset: success
+
+<6>[    1.284999] msm_hsusb msm_hsusb: [ci13xxx_start] hw_ep_max = 32
+
+<6>[    1.285365] mbim_init: initialize 1 instances
+
+<6>[    1.285640] mbim_init: Initialized 1 ports
+
+<6>[    1.287746] rndis_qc_init: initialize rndis QC instance
+
+<6>[    1.288203] android_usb gadget: Mass Storage Function, version: 2009/09/11
+
+<6>[    1.288356] android_usb gadget: Number of LUNs=1
+
+<6>[    1.288448]  lun0: LUN: removable file: (no medium)
+
+<6>[    1.288966] android_usb gadget: android_usb ready
+
+<6>[    1.290492] input: keypad_8064 as /devices/platform/msm_ssbi.0/pm8921-core/pm8xxx-keypad/input/input1
+
+<4>[    1.291439] [Touch D]touch enable
+
+<6>[    1.495437] input: touch_dev as /devices/virtual/input/input2
+
+<6>[    1.517503] [Touch] common[1] finger[17] flash[52] button[0]
+
+<6>[    1.518602] [Touch] IC is 7020, H pattern, panel is G2, Firmware: E028.
+
+<6>[    1.520585] [Touch] fw_rev[0:0] product_id[PLG137:PLG137] force_upgrade[0]
+
+<6>[    1.520708] [Touch] Touch driver is initialized
+
+<6>[    1.521196] [Touch] DO NOT UPDATE 7020 G2 H pattern FW-upgrade is not executed
+
+<6>[    1.522142] using rtc device, pm8xxx_rtc, for alarms
+
+<6>[    1.522325] rtc-pm8xxx rtc-pm8xxx: rtc core: registered pm8xxx_rtc as rtc0
+
+<6>[    1.522905] i2c /dev entries driver
+
+<6>[    1.523515] usbcore: registered new interface driver uvcvideo
+
+<6>[    1.523607] USB Video Class driver (1.1.1)
+
+<3>[    1.524980] __jrchoi: msm_sensor_init_module: E
+
+<3>[    1.553181] msm_eeprom_probe probe_fail
+
+<6>[    1.553609] msm_server_update_sensor_info mctl_node_name[0] = video1
+
+<3>[    1.581992] msm_eeprom_probe probe_fail
+
+<6>[    1.582450] msm_server_update_sensor_info mctl_node_name[1] = video3
+
+<6>[    1.586448] msm_cam_server_request_irq IRQ Router hw is not present. 
+
+<6>[    1.587181] lm3559_init
+
+<7>[    1.587547] Registered led device: spotlight
+
+<6>[    1.593743] device-mapper: ioctl: 4.22.0-ioctl (2011-10-19) initialised: dm-devel@redhat.com
+
+<6>[    1.594231] cpuidle: using governor ladder
+
+<6>[    1.594414] cpuidle: using governor menu
+
+<6>[    1.594872] mmc0: SDCC Version: 0x0000001a
+
+<6>[    1.596215] mmc0: bam physical base=0x12402000
+
+<6>[    1.596368] mmc0: bam virtual base=0xf0320000
+
+<6>[    1.596459] sps:BAM 0x12402000 is registered.
+
+<6>[    1.596612] mmc0: BAM device registered. bam_handle=0xef00c600
+
+<6>[    1.596947] sps:BAM 0x12402000 enabled: ver:0x5, number of pipes:6
+
+<6>[    1.597497] mmc0: Qualcomm MSM SDCC-BAM at 0x0000000012402000 irq 130
+
+<6>[    1.597710] mmc0: Qualcomm MSM SDCC-DML at 0x0000000012400800
+
+<3>[    1.597894] mmc0: No card detect facilities available
+
+<6>[    1.599725] mmc0: Qualcomm MSM SDCC-core at 0x0000000012400000 irq 136,0 dma -1 dmacrcri -1
+
+<6>[    1.599908] mmc0: Controller capabilities: 0x0000039e
+
+<6>[    1.599969] mmc0: 8 bit data mode enabled
+
+<6>[    1.600122] mmc0: 4 bit data mode disabled
+
+<6>[    1.600213] mmc0: polling status mode disabled
+
+<6>[    1.600305] mmc0: MMC clock 400000 -> 96000000 Hz, PCLK 0 Hz
+
+<6>[    1.600488] mmc0: Slot eject status = 0
+
+<6>[    1.600579] mmc0: Power save feature enable = 1
+
+<6>[    1.600732] mmc0: SPS-BAM data transfer mode available
+
+<6>[    1.601678] usbcore: registered new interface driver usbhid
+
+<6>[    1.601831] usbhid: USB HID core driver
+
+<6>[    1.602746] ashmem: initialized
+
+<6>[    1.602929] logger: created 256K log 'log_main'
+
+<6>[    1.603235] logger: created 256K log 'log_events'
+
+<6>[    1.603418] logger: created 256K log 'log_radio'
+
+<6>[    1.603601] logger: created 256K log 'log_system'
+
+<6>[    1.604486] usbcore: registered new interface driver snd-usb-audio
+
+<3>[    1.606195] tabla_probe
+
+<6>[    1.607141] amp_enable: amp enable bypass(2)
+
+<6>[    1.607233] amp_enable: AMP_EN is set to 0
+
+<6>[    1.608393] msm_pcm_probe: dev name msm-voip-dsp
+
+<6>[    1.608881] msm-dai-q6-mi2s msm-dai-q6-mi2s: msm_dai_q6_mi2s_platform_data_validation: playback sdline 0 capture sdline 8
+
+<6>[    1.609034] msm-dai-q6-mi2s msm-dai-q6-mi2s: msm_dai_q6_mi2s_platform_data_validation: playback ch_max 0 capture ch_mx 8
+
+<6>[    1.610285] msm_pcm_probe: dev name msm-pcm-dsp
+
+<6>[    1.610712] msm_pcm_probe: dev name msm-multi-ch-pcm-dsp
+
+<6>[    1.611200] msm_pcm_probe: dev name msm-lowlatency-pcm-dsp
+
+<6>[    1.611292] adding pm_qos request in low latency driver
+
+<6>[    1.611445] done adding pm_qos request in low latency driver
+
+<6>[    1.612543] msm_compr_probe: dev name msm-compr-dsp
+
+<6>[    1.613276] msm-pcm-lpa msm-pcm-lpa: msm_pcm_probe: dev name msm-pcm-lpa
+
+<3>[    1.614466] msm8930_audio_init: Not the right machine type
+
+<3>[    1.614649] msm_audio_init: Not the right machine type
+
+<6>[    1.614741] msm_audio_init: Not APQ8064 in I2S mode
+
+<6>[    1.615412] usb 1-1: new high-speed USB device number 2 using msm_hsic_host
+
+<6>[    1.616114] tabla codec probe...
+
+<6>[    1.683168] usb 1-1: New USB device found, idVendor=05c6, idProduct=9008
+
+<6>[    1.683473] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+
+<6>[    1.683778] usb 1-1: Product: QHSUSB__BULK
+
+<6>[    1.683931] usb 1-1: Manufacturer: Qualcomm CDMA Technologies MSM
+
+<6>[    1.721654] asoc: snd-soc-dummy-dai <-> MultiMedia1 mapping ok
+
+<6>[    1.721989] mmc0: new HS200 MMC card at address 0001
+
+<6>[    1.722997] asoc: snd-soc-dummy-dai <-> MultiMedia2 mapping ok
+
+<6>[    1.723058] mmcblk0: mmc0:0001 016G92 14.6 GiB 
+
+<6>[    1.724370] asoc: snd-soc-dummy-dai <-> CS-VOICE mapping ok
+
+<6>[    1.725560] asoc: snd-soc-dummy-dai <-> VoIP mapping ok
+
+<6>[    1.726629] asoc: snd-soc-dummy-dai <-> MultiMedia3 mapping ok
+
+<6>[    1.727849] asoc: snd-soc-dummy-dai <-> SLIMBUS0_HOSTLESS mapping ok
+
+<4>[    1.728216] Alternate GPT is invalid, using primary GPT.
+
+<6>[    1.728765]  mmcblk0: p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25
+
+<6>[    1.728887] asoc: snd-soc-dummy-dai <-> INT_FM_HOSTLESS mapping ok
+
+<6>[    1.729620] asoc: msm-stub-rx <-> msm-dai-q6.241 mapping ok
+
+<6>[    1.730688] asoc: msm-stub-tx <-> msm-dai-q6.240 mapping ok
+
+<6>[    1.731725] asoc: snd-soc-dummy-dai <-> MultiMedia4 mapping ok
+
+<6>[    1.733038] asoc: snd-soc-dummy-dai <-> AUXPCM_HOSTLESS mapping ok
+
+<6>[    1.734014] asoc: snd-soc-dummy-dai <-> HDMI_HOSTLESS mapping ok
+
+<6>[    1.735266] asoc: snd-soc-dummy-dai <-> VOICE_STUB mapping ok
+
+<6>[    1.736395] asoc: snd-soc-dummy-dai <-> VoLTE mapping ok
+
+<6>[    1.737677] asoc: snd-soc-dummy-dai <-> MultiMedia5 mapping ok
+
+<6>[    1.739630] asoc: tabla_rx1 <-> msm-dai-q6.16384 mapping ok
+
+<6>[    1.746131] asoc: tabla_tx1 <-> msm-dai-q6.16385 mapping ok
+
+<6>[    1.747077] asoc: msm-stub-rx <-> msm-dai-q6.12288 mapping ok
+
+<6>[    1.748115] asoc: msm-stub-tx <-> msm-dai-q6.12289 mapping ok
+
+<6>[    1.749092] asoc: msm-stub-rx <-> msm-dai-q6.12292 mapping ok
+
+<6>[    1.750160] asoc: msm-stub-tx <-> msm-dai-q6.12293 mapping ok
+
+<6>[    1.751106] asoc: msm-stub-rx <-> msm-dai-q6-hdmi.8 mapping ok
+
+<6>[    1.752235] asoc: msm-stub-rx <-> msm-dai-q6.224 mapping ok
+
+<6>[    1.753181] asoc: msm-stub-tx <-> msm-dai-q6.225 mapping ok
+
+<6>[    1.754280] asoc: msm-stub-rx <-> msm-dai-q6.2 mapping ok
+
+<6>[    1.755165] asoc: msm-stub-tx <-> msm-dai-q6.3 mapping ok
+
+<6>[    1.756264] asoc: tabla_rx2 <-> msm-dai-stub mapping ok
+
+<6>[    1.757179] asoc: tabla_tx1 <-> msm-dai-stub mapping ok
+
+<6>[    1.758278] asoc: msm-stub-rx <-> msm-dai-q6.16386 mapping ok
+
+<6>[    1.759072] asoc: msm-stub-tx <-> msm-dai-q6.16387 mapping ok
+
+<6>[    1.760201] asoc: tabla_tx2 <-> msm-dai-q6.16389 mapping ok
+
+<6>[    1.761269] asoc: tabla_rx3 <-> msm-dai-q6.16388 mapping ok
+
+<6>[    1.762307] asoc: msm-stub-rx <-> msm-dai-q6.16392 mapping ok
+
+<6>[    1.763222] asoc: msm-stub-tx <-> msm-dai-q6.16393 mapping ok
+
+<6>[    1.764321] asoc: tabla_tx3 <-> msm-dai-stub mapping ok
+
+<6>[    1.765359] asoc: msm-stub-rx <-> msm-dai-q6.16390 mapping ok
+
+<6>[    1.766458] asoc: msm-stub-tx <-> msm-dai-q6.16391 mapping ok
+
+<6>[    1.770425] input: apq8064-tabla-snd-card Button Jack as /devices/platform/soc-audio.0/sound/card0/input3
+
+<6>[    1.771249] input: apq8064-tabla-snd-card Headset Jack as /devices/platform/soc-audio.0/sound/card0/input4
+
+<6>[    1.778910] oprofile: using arm/armv7-krait
+
+<6>[    1.779307] u32 classifier
+
+<6>[    1.779612]     Actions configured
+
+<6>[    1.779826] Netfilter messages via NETLINK v0.30.
+
+<6>[    1.780131] nf_conntrack version 0.5.0 (16384 buckets, 65536 max)
+
+<6>[    1.781809] ctnetlink v0.93: registering with nfnetlink.
+
+<6>[    1.782084] NF_TPROXY: Transparent proxy support initialized, version 4.1.0
+
+<6>[    1.782389] NF_TPROXY: Copyright (c) 2006-2007 BalaBit IT Ltd.
+
+<6>[    1.783030] xt_time: kernel timezone is -0000
+
+<6>[    1.784220] ip_tables: (C) 2000-2006 Netfilter Core Team
+
+<6>[    1.785045] arp_tables: (C) 2002 David S. Miller
+
+<6>[    1.785563] TCP: cubic registered
+
+<6>[    1.785746] Initializing XFRM netlink socket
+
+<6>[    1.787242] NET: Registered protocol family 10
+
+<6>[    1.794262] Mobile IPv6
+
+<6>[    1.794506] ip6_tables: (C) 2000-2006 Netfilter Core Team
+
+<6>[    1.795177] IPv6 over IPv4 tunneling driver
+
+<6>[    1.796825] NET: Registered protocol family 17
+
+<6>[    1.797070] NET: Registered protocol family 15
+
+<6>[    1.797649] Bluetooth: RFCOMM TTY layer initialized
+
+<6>[    1.797863] Bluetooth: RFCOMM socket layer initialized
+
+<6>[    1.798046] Bluetooth: RFCOMM ver 1.11
+
+<6>[    1.798382] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+
+<6>[    1.798565] Bluetooth: BNEP filters: protocol multicast
+
+<6>[    1.798870] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+
+<6>[    1.799206] L2TP core driver, V2.0
+
+<6>[    1.799450] PPPoL2TP kernel driver, V2.0
+
+<6>[    1.800213] VFP support v0.3: implementor 51 architecture 64 part 6f variant 0 rev 2
+
+<5>[    1.800763] Registering SWP/SWPB emulation handler
+
+<6>[    1.800976] clock_late_init: Removing enables held for handed-off clocks
+
+<6>[    1.806378] [MPDEC]: msm_mpdec_init init complete.
+
+<6>[    1.809797] MSM Watchdog Initialized
+
+<6>[    1.826278] registered taskstats version 1
+
+<6>[    1.827407] rtc-pm8xxx rtc-pm8xxx: setting system clock to 2017-09-30 17:21:30 UTC (1506792090)
+
+<3>[    1.829269] read_ocv_trim: program rev reg is 0x4d
+
+<3>[    1.829604] pm8921_is_usb_chg_plugged_in: called before init
+
+<3>[    1.849778] pm8921_is_usb_chg_plugged_in: called before init
+
+<3>[    1.851030] pm8921_is_usb_chg_plugged_in: called before init
+
+<6>[    1.851304] ocv_ir_compensation: comp ocv = 4160133, ocv = 4152228, ibatt_ua = 36100, rbatt_mohm = 219
+
+<0>[    1.851732] calculate_unusable_charge_uah: Using shutdown_iavg_ma = 500 in all samples
+
+<3>[    1.852037] pm8921_is_batfet_closed: called before init
+
+<3>[    1.875537] pm8921_is_usb_chg_plugged_in: called before init
+
+<6>[    1.875904] adjust_soc: ibat_ua = 291000, vbat_uv = 4068096, soc = 86, batt_temp=371
+
+<3>[    1.878650] pm8921_get_batt_state: called before init
+
+<6>[    1.878864] pm8921_bms_probe: OK battery_capacity_at_boot=86 volt = 4068540 ocv = 4196780
+
+<3>[    1.880848] power_supply usb: driver failed to report `present' property: 4294967274
+
+<3>[    1.881184] power_supply usb: driver failed to report `present' property: 4294967274
+
+<3>[    1.881703] power_supply pm8921-dc: driver failed to report `present' property: 4294967274
+
+<3>[    1.882130] power_supply pm8921-dc: driver failed to report `present' property: 4294967274
+
+<3>[    1.883961] pm8921_get_batt_state: called before init
+
+<3>[    1.886830] pm8921_get_batt_state: called before init
+
+<6>[    1.898977] wlc: bq51051b_wlc_probe: probe
+
+<6>[    1.899282] wlc: bq51051b_wlc_hw_init: hw_init
+
+<3>[    1.899801] power_supply wireless: driver failed to report `present' property: 4294967274
+
+<6>[    1.900412] [Touch] CHARGER = 1
+
+<3>[    1.900442] power_supply wireless: driver failed to report `present' property: 4294967274
+
+<6>[    1.900930] batt_temp_ctrl_init 
+
+<6>[    1.901236] batt_temp_ctrl_probe
+
+<6>[    1.903280] android_vibrator: default amplitude 88 
+
+<6>[    1.903738] android vibrator probed
+
+<6>[    1.904227] fsa8008 init
+
+<6>[    1.904990] fsa8008 probe
+
+<7>[    1.905478] hsd_probe: hi->irq_detect = 370
+
+<7>[    1.905936] hsd_probe: hi->irq_key = 371
+
+<6>[    1.906851] input: hs_detect as /devices/virtual/input/input5
+
+<6>[    1.907462] ALSA device list:
+
+<6>[    1.907675]   #0: apq8064-tabla-snd-card
+
+<6>[    1.909781] Freeing init memory: 1036K
+
+<7>[    1.926232] SELinux: 2048 avtab hash slots, 5318 rules.
+
+<7>[    1.929955] SELinux: 2048 avtab hash slots, 5318 rules.
+
+<7>[    1.929986] SELinux:  1 users, 2 roles, 436 types, 0 bools, 1 sens, 1024 cats
+
+<7>[    1.930016] SELinux:  86 classes, 5318 rules
+
+<7>[    1.930810] SELinux:  Completing initialization.
+
+<7>[    1.930810] SELinux:  Setting up existing superblocks.
+
+<7>[    1.930840] SELinux: initialized (dev sysfs, type sysfs), uses genfs_contexts
+
+<7>[    1.930840] SELinux: initialized (dev rootfs, type rootfs), uses genfs_contexts
+
+<7>[    1.931634] SELinux: initialized (dev bdev, type bdev), not configured for labeling
+
+<7>[    1.931664] SELinux: initialized (dev proc, type proc), uses genfs_contexts
+
+<7>[    1.931695] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+
+<7>[    1.931725] SELinux: initialized (dev debugfs, type debugfs), uses genfs_contexts
+
+<7>[    1.940637] SELinux: initialized (dev sockfs, type sockfs), uses task SIDs
+
+<7>[    1.940637] SELinux: initialized (dev pipefs, type pipefs), uses task SIDs
+
+<7>[    1.940668] SELinux: initialized (dev anon_inodefs, type anon_inodefs), not configured for labeling
+
+<7>[    1.940698] SELinux: initialized (dev devpts, type devpts), uses transition SIDs
+
+<7>[    1.940698] SELinux: initialized (dev selinuxfs, type selinuxfs), uses genfs_contexts
+
+<7>[    1.940820] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+
+<7>[    1.940851] SELinux: initialized (dev sysfs, type sysfs), uses genfs_contexts
+
+<6>[    2.005707] unplug_check_worker: usb_now=500, usb_target = 500
+
+<6>[    2.035800] msm_otg msm_otg: Avail curr from USB = 500
+
+<6>[    2.036044] msm_otg msm_otg: current: 0 -> 500 (mA)
+
+<6>[    2.036227] pm_power_set_property_usb: usb_target_ma 0
+
+<6>[    2.040073] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_RESET_EVENT received
+
+<5>[    2.125988] type=1403 audit(1506792090.790:2): policy loaded auid=4294967295 ses=4294967295
+
+<5>[    2.134045] type=1404 audit(1506792090.790:3): enforcing=1 old_enforcing=0 auid=4294967295 ses=4294967295
+
+<6>[    2.205737] unplug_check_worker: Stopping Unplug Check Worker USB == 500mA
+
+<3>[    2.418342] init: /init.rc: 67: invalid command 'load_system_props'
+
+<3>[    2.418495] init: could not import file '/init.recovery.logd.rc' from '/init.rc'
+
+<3>[    2.418708] init: could not import file '/init.recovery.vold_decrypt.rc' from '/init.rc'
+
+<3>[    2.418831] init: could not import file '/init.recovery.mako.rc' from '/init.rc'
+
+<3>[    2.421822] healthd: wakealarm_init: timerfd_create failed
+
+<7>[    2.979917] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+
+<3>[    2.986052] enable_store: android_usb: already disabled
+
+<3>[    2.986693] init: Unable to open persistent property directory /data/property errno: 2
+
+<3>[    2.986815] init: Unable to open persistent property directory /data/property errno: 2
+
+<6>[    2.994658] adb_open
+
+<6>[    2.994872] adb_bind_config
+
+<5>[    2.997131] type=1400 audit(1506792091.660:4): avc:  denied  { write } for  pid=153 comm="setenforce" name="enforce" dev="selinuxfs" ino=4 scontext=u:r:recovery:s0 tcontext=u:object_r:selinuxfs:s0 tclass=file
+
+<5>[    2.997314] type=1400 audit(1506792091.660:5): avc:  denied  { setenforce } for  pid=153 comm="setenforce" scontext=u:r:recovery:s0 tcontext=u:object_r:kernel:s0 tclass=security
+
+<5>[    2.997436] type=1404 audit(1506792091.660:6): enforcing=0 old_enforcing=1 auid=4294967295 ses=4294967295
+
+<6>[    3.026186] recovery (151): undefined instruction: pc=b6cc0748
+
+<6>[    3.026308] Code: 8000f3af 8000f3af f26001f0 e12fff1e (ec510f1e) 
+
+<4>[    3.033236] avc:  denied  { set } for property=twrp.crash_counter scontext=u:r:recovery:s0 tcontext=u:object_r:default_prop:s0 tclass=property_service
+
+<6>[    3.106210] msm_otg msm_otg: Avail curr from USB = 0
+
+<6>[    3.106912] android_work: android_work: did not send uevent (0 0   (null))
+
+<6>[    3.116007] mipi_dsi_controller_cfg: DSI status=8 failed
+
+<6>[    3.116099] mipi_dsi_panel_power: mipi lcd function started status = 1 
+
+<4>[    3.116221] ext_dsv_load: Failed to create debugfs directory
+
+<6>[    3.118724]  mipi_dsi_panel_power : reset start.
+
+<6>[    3.134747] chg_gone_irq_handler: chg_gone=1, usb_valid = 1
+
+<6>[    3.134808] chg_gone_irq_handler: Chg gone fsm_state=3
+
+<6>[    3.134808] chg_gone_irq_handler: schedule to check again here
+
+<6>[    3.140119] mipi_lgit_lcd_on started
+
+<6>[    3.161727] mipi_lgit_lcd_on finished
+
+<6>[    3.166152] android_work: android_work: did not send uevent (0 0   (null))
+
+<6>[    3.184800] lm3530_backlight_off, on: 1
+
+<6>[    3.227102] android_work: android_work: sent uevent USB_STATE=CONNECTED
+
+<6>[    3.231863] android_usb gadget: high-speed config #1: android_usb
+
+<6>[    3.231954] msm_otg msm_otg: Avail curr from USB = 500
+
+<6>[    3.232015] msm_otg msm_otg: current: 0 -> 500 (mA)
+
+<6>[    3.232046] pm_power_set_property_usb: usb_target_ma 0
+
+<6>[    3.235983] mipi_lgit_lcd_off started
+
+<6>[    3.239157] chg_gone_irq_handler: chg_gone=0, usb_valid = 1
+
+<6>[    3.239218] chg_gone_irq_handler: Chg gone fsm_state=3
+
+<6>[    3.286067] android_work: android_work: sent uevent USB_STATE=CONFIGURED
+
+<6>[    3.375980] mipi_lgit_lcd_off finished
+
+<6>[    3.376041] mipi_dsi_panel_power: mipi lcd function started status = 0 
+
+<6>[    3.382176] lm3530_backlight_off, on: 0
+
+<6>[    3.385441] mipi_dsi_panel_power: mipi lcd function started status = 1 
+
+<6>[    3.387120]  mipi_dsi_panel_power : reset start.
+
+<6>[    3.408087] mipi_lgit_lcd_on started
+
+<6>[    3.466320] mipi_lgit_lcd_on finished
+
+<6>[    3.477857] lm3530_backlight_on, ++ lm3530_backlight_on  
+
+<5>[    3.563100] type=1400 audit(1506792092.221:7): avc:  denied  { write } for  pid=151 comm="recovery" name="etc" dev="rootfs" ino=4393 scontext=u:r:recovery:s0 tcontext=u:object_r:rootfs:s0 tclass=dir
+
+<5>[    3.563619] type=1400 audit(1506792092.221:8): avc:  denied  { add_name } for  pid=151 comm="recovery" name="mtab" scontext=u:r:recovery:s0 tcontext=u:object_r:rootfs:s0 tclass=dir
+
+<5>[    3.563985] type=1400 audit(1506792092.221:9): avc:  denied  { create } for  pid=151 comm="recovery" name="mtab" scontext=u:r:recovery:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+
+<5>[    3.564565] type=1400 audit(1506792092.221:10): avc:  denied  { remove_name } for  pid=151 comm="recovery" name="recovery.fstab" dev="rootfs" ino=4395 scontext=u:r:recovery:s0 tcontext=u:object_r:rootfs:s0 tclass=dir
+
+<6>[    4.037143] unplug_usbcheck_work: usb_vin : 4673532, max_voltage_mv=4360
+
+<6>[    4.725896] EXT4-fs (mmcblk0p23): recovery complete
+
+<6>[    4.727117] EXT4-fs (mmcblk0p23): mounted filesystem with ordered data mode. Opts: 
+
+<7>[    4.727453] SELinux: initialized (dev mmcblk0p23, type ext4), uses xattr
+
+<6>[    4.879871] EXT4-fs (mmcblk0p23): mounted filesystem with ordered data mode. Opts: 
+
+<7>[    4.880238] SELinux: initialized (dev mmcblk0p23, type ext4), uses xattr
+
+<6>[    5.008057] EXT4-fs (mmcblk0p23): mounted filesystem with ordered data mode. Opts: 
+
+<7>[    5.008301] SELinux: initialized (dev mmcblk0p23, type ext4), uses xattr
+
+<6>[    5.108438] EXT4-fs (mmcblk0p23): mounted filesystem with ordered data mode. Opts: 
+
+<7>[    5.108805] SELinux: initialized (dev mmcblk0p23, type ext4), uses xattr
+
+<6>[    5.189012] EXT4-fs (mmcblk0p22): recovery complete
+
+<6>[    5.190080] EXT4-fs (mmcblk0p22): mounted filesystem with ordered data mode. Opts: 
+
+<7>[    5.190447] SELinux: initialized (dev mmcblk0p22, type ext4), uses xattr
+
+<6>[    5.190782] SELinux:  Context u:object_r:cache_recovery_file:s0 is not valid (left unmapped).
+
+<6>[    5.219410] EXT4-fs (mmcblk0p21): mounted filesystem with ordered data mode. Opts: 
+
+<7>[    5.219655] SELinux: initialized (dev mmcblk0p21, type ext4), uses xattr
+
+<6>[    5.307584] SELinux:  Context u:object_r:bootchart_data_file:s0 is not valid (left unmapped).
+
+<6>[    5.314268] SELinux:  Context u:object_r:bluetooth_logs_data_file:s0 is not valid (left unmapped).
+
+<6>[    5.318266] SELinux:  Context u:object_r:gatekeeper_data_file:s0 is not valid (left unmapped).
+
+<6>[    5.324980] SELinux:  Context u:object_r:textclassifier_data_file:s0 is not valid (left unmapped).
+
+<6>[    5.330596] SELinux:  Context u:object_r:hostapd_socket:s0 is not valid (left unmapped).
+
+<6>[    5.336731] SELinux:  Context u:object_r:perfprofd_data_file:s0 is not valid (left unmapped).
+
+<6>[    5.338226] SELinux:  Context u:object_r:method_trace_data_file:s0 is not valid (left unmapped).
+
+<6>[    5.338959] SELinux:  Context u:object_r:vold_data_file:s0 is not valid (left unmapped).
+
+<6>[    5.339447] SELinux:  Context u:object_r:audioserver_data_file:s0 is not valid (left unmapped).
+
+<6>[    5.340393] SELinux:  Context u:object_r:boottrace_data_file:s0 is not valid (left unmapped).
+
+<6>[    5.341126] SELinux:  Context u:object_r:update_engine_data_file:s0 is not valid (left unmapped).
+
+<6>[    5.341828] SELinux:  Context u:object_r:reboot_data_file:s0 is not valid (left unmapped).
+
+<6>[    5.342865] SELinux:  Context u:object_r:user_profile_data_file:s0 is not valid (left unmapped).
+
+<6>[    5.394628] SELinux:  Context u:object_r:profman_dump_data_file:s0 is not valid (left unmapped).
+
+<6>[    5.395635] SELinux:  Context u:object_r:bootstat_data_file:s0 is not valid (left unmapped).
+
+<6>[    5.395849] SELinux:  Context u:object_r:misc_logd_file:s0 is not valid (left unmapped).
+
+<6>[    5.518571] SELinux:  Context u:object_r:ota_data_file:s0 is not valid (left unmapped).
+
+<6>[    5.521196] SELinux:  Context u:object_r:ota_package_file:s0 is not valid (left unmapped).
+
+<6>[    5.537158] SELinux:  Context u:object_r:heapdump_data_file:s0 is not valid (left unmapped).
+
+<6>[    5.691286] SELinux:  Context u:object_r:cache_private_backup_file:s0 is not valid (left unmapped).
+
+<4>[    5.925743] audit_printk_skb: 345 callbacks suppressed
+
+<5>[    5.925835] type=1400 audit(1506792094.583:126): avc:  denied  { read } for  pid=151 comm="recovery" name="0" dev="mmcblk0p23" ino=228033 scontext=u:r:recovery:s0 tcontext=u:object_r:media_rw_data_file:s0 tclass=dir
+
+<5>[    5.926079] type=1400 audit(1506792094.593:127): avc:  denied  { open } for  pid=151 comm="recovery" name="0" dev="mmcblk0p23" ino=228033 scontext=u:r:recovery:s0 tcontext=u:object_r:media_rw_data_file:s0 tclass=dir
+
+<5>[    5.937891] type=1400 audit(1506792094.603:128): avc:  denied  { getattr } for  pid=151 comm="recovery" path="/sdcard/.userReturn" dev="mmcblk0p23" ino=228883 scontext=u:r:recovery:s0 tcontext=u:object_r:media_rw_data_file:s0 tclass=file
+
+<5>[    6.627926] type=1400 audit(1506792095.294:129): avc:  denied  { read } for  pid=151 comm="recovery" name=".twrps" dev="mmcblk0p23" ino=228127 scontext=u:r:recovery:s0 tcontext=u:object_r:media_rw_data_file:s0 tclass=file
+
+<5>[    6.628475] type=1400 audit(1506792095.294:130): avc:  denied  { open } for  pid=151 comm="recovery" name=".twrps" dev="mmcblk0p23" ino=228127 scontext=u:r:recovery:s0 tcontext=u:object_r:media_rw_data_file:s0 tclass=file
+
+<5>[    6.663207] type=1400 audit(1506792095.324:131): avc:  denied  { sys_time } for  pid=151 comm="recovery" capability=25  scontext=u:r:recovery:s0 tcontext=u:r:recovery:s0 tclass=capability
+
+<4>[    6.665740] avc:  denied  { set } for property=sys.usb.config scontext=u:r:recovery:s0 tcontext=u:object_r:system_radio_prop:s0 tclass=property_service
+
+<6>[    6.666778] adb_release
+
+<6>[    6.668396] mtp_bind_config
+
+<6>[    6.668670] adb_bind_config
+
+<6>[    6.671936] msm_otg msm_otg: Avail curr from USB = 2
+
+<6>[    6.672302] msm_otg msm_otg: current: 500 -> 2 (mA)
+
+<6>[    6.672485] pm_power_set_property_usb: usb_target_ma 0
+
+<6>[    6.672791] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_SUSPEND_EVENT received
+
+<6>[    6.700656] chg_gone_irq_handler: chg_gone=1, usb_valid = 1
+
+<6>[    6.701022] chg_gone_irq_handler: Chg gone fsm_state=3
+
+<6>[    6.701205] chg_gone_irq_handler: schedule to check again here
+
+<6>[    6.703219] EXT4-fs (mmcblk0p21): mounted filesystem with ordered data mode. Opts: 
+
+<7>[    6.703464] SELinux: initialized (dev mmcblk0p21, type ext4), uses xattr
+
+<6>[    6.706271] adjust_soc: ibat_ua = 122400, vbat_uv = 4074429, soc = 86, batt_temp=370
+
+<5>[    6.767953] type=1400 audit(1506792095.100:132): avc:  denied  { create } for  pid=151 comm="recovery" name="orsin" scontext=u:r:recovery:s0 tcontext=u:object_r:rootfs:s0 tclass=fifo_file
+
+<5>[    6.768655] type=1400 audit(1506792095.100:133): avc:  denied  { read } for  pid=151 comm="recovery" name="orsin" dev="rootfs" ino=6882 scontext=u:r:recovery:s0 tcontext=u:object_r:rootfs:s0 tclass=fifo_file
+
+<5>[    6.769052] type=1400 audit(1506792095.100:134): avc:  denied  { open } for  pid=151 comm="recovery" name="orsin" dev="rootfs" ino=6882 scontext=u:r:recovery:s0 tcontext=u:object_r:rootfs:s0 tclass=fifo_file
+
+<6>[    6.832076] msm_otg msm_otg: Avail curr from USB = 0
+
+<6>[    6.832443] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+
+<6>[    6.871692] android_work: android_work: sent uevent USB_STATE=CONNECTED
+
+<6>[    6.875598] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+
+<6>[    6.955684] android_work: android_work: sent uevent USB_STATE=CONNECTED
+
+<6>[    6.960445] android_usb gadget: high-speed config #1: android_usb
+
+<6>[    6.960689] msm_otg msm_otg: Avail curr from USB = 500
+
+<6>[    6.961025] msm_otg msm_otg: current: 0 -> 500 (mA)
+
+<6>[    6.961178] pm_power_set_property_usb: usb_target_ma 0
+
+<6>[    6.968380] chg_gone_irq_handler: chg_gone=0, usb_valid = 1
+
+<6>[    6.968594] chg_gone_irq_handler: Chg gone fsm_state=3
+
+<6>[    7.016297] android_work: android_work: sent uevent USB_STATE=CONFIGURED
+
+<6>[    7.037784] unplug_usbcheck_work: usb_vin : 4661648, max_voltage_mv=4360
+
+<6>[    7.046207] msm_ta_detect_work: USB exit ta detection - frindex
+
+<5>[    7.477216] type=1400 audit(1506792095.810:135): avc:  denied  { read write } for  pid=180 comm="recovery" name="mtp_usb" dev="tmpfs" ino=6580 scontext=u:r:recovery:s0 tcontext=u:object_r:mtp_device:s0 tclass=chr_file
+
+<6>[    7.477399] mtp_open
+
+<6>[   20.283686] [MPDEC]: CPU[3] on->off | Mask=[1110] | time online: 20287
+
+<6>[   20.543293] [MPDEC]: CPU[2] on->off | Mask=[1100] | time online: 20546
+
+<6>[   20.803570] [MPDEC]: CPU[1] on->off | Mask=[1000] | time online: 20806
+
+<6>[   22.106851] adjust_soc: ibat_ua = -180000, vbat_uv = 4186239, soc = 86, batt_temp=367
+
+<6>[   42.106912] adjust_soc: ibat_ua = -181700, vbat_uv = 4193691, soc = 86, batt_temp=364
+
+<6>[   62.106912] adjust_soc: ibat_ua = -179500, vbat_uv = 4199061, soc = 86, batt_temp=361
+
+<6>[   68.590904] lm3530_backlight_off, on: 1
+
+<6>[   68.636899] mipi_lgit_lcd_off started
+
+<6>[   68.766793] mipi_lgit_lcd_off finished
+
+<6>[   68.766885] mipi_dsi_panel_power: mipi lcd function started status = 0 
+
+<6>[   68.773752] lm3530_backlight_off, on: 0
+
+<6>[   82.106882] adjust_soc: ibat_ua = -296900, vbat_uv = 4229172, soc = 86, batt_temp=360
+
+<6>[  102.106851] adjust_soc: ibat_ua = -298600, vbat_uv = 4234542, soc = 86, batt_temp=360
+
+<6>[  122.106912] adjust_soc: ibat_ua = -294000, vbat_uv = 4237521, soc = 87, batt_temp=359
+
+<6>[  142.106912] adjust_soc: ibat_ua = -299700, vbat_uv = 4241994, soc = 87, batt_temp=358
+
+<6>[  162.106912] adjust_soc: ibat_ua = -300300, vbat_uv = 4244379, soc = 87, batt_temp=357
