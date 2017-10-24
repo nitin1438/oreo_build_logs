@@ -1,0 +1,1145 @@
+in_freq 1000 1000 664
+[  129.816253] type=1400 audit(1508833657.063:46): avc: granted { getattr } for pid=930 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  129.816589] type=1400 audit(1508833657.403:47): avc: granted { getattr } for pid=939 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  129.985961] type=1400 audit(1508833657.403:47): avc: granted { getattr } for pid=939 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  129.986633] type=1400 audit(1508833657.573:48): avc: granted { getattr } for pid=944 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  130.388549] type=1400 audit(1508833657.573:48): avc: granted { getattr } for pid=944 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  130.388763] type=1400 audit(1508833657.974:49): avc: granted { getattr } for pid=951 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  130.844238] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  130.844512] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  130.846740] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  130.846984] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  131.567077] type=1400 audit(1508833657.974:49): avc: granted { getattr } for pid=951 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  131.567565] type=1400 audit(1508833659.155:50): avc: granted { getattr } for pid=966 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  132.090545] healthd: battery l=74 v=4028 t=35.2 h=2 st=2 c=64 chg=u
+[  132.636138] init: computing context for service 'sensors'
+[  132.636718] init: starting service 'sensors'...
+[  132.637786] init: property_set("ro.boottime.sensors", "132625570802") failed: property already set
+[  132.706604] ch_notify on a closed smd_pkt_dev id:18
+[  132.708831] init: Service 'sensors' (pid 970) killed by signal 6
+[  132.710266] init: Sending signal 9 to service 'sensors' (pid 970) process group...
+[  132.791900] init: kill(970, 9) failed: No such process
+[  132.994659] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  132.994842] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  132.997070] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  132.997283] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  135.314178] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  135.314331] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  135.359497] type=1400 audit(1508833659.155:50): avc: granted { getattr } for pid=966 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  135.359710] type=1400 audit(1508833662.949:51): avc: granted { getattr } for pid=994 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  135.843200] type=1400 audit(1508833662.949:51): avc: granted { getattr } for pid=994 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  135.843414] type=1400 audit(1508833663.439:52): avc: granted { getattr } for pid=1001 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  136.665161] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  136.665435] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  136.864685] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  136.864929] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  137.637329] init: computing context for service 'sensors'
+[  137.637847] init: starting service 'sensors'...
+[  137.638916] init: property_set("ro.boottime.sensors", "137626699952") failed: property already set
+[  137.729217] ch_notify on a closed smd_pkt_dev id:18
+[  137.730712] init: Service 'sensors' (pid 1014) killed by signal 6
+[  137.730804] init: Sending signal 9 to service 'sensors' (pid 1014) process group...
+[  137.792144] init: kill(1014, 9) failed: No such process
+[  137.935241] type=1400 audit(1508833663.439:52): avc: granted { getattr } for pid=1001 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  137.935394] type=1400 audit(1508833665.521:53): avc: granted { getattr } for pid=1023 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  138.115570] type=1400 audit(1508833665.521:53): avc: granted { getattr } for pid=1023 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  138.115844] type=1400 audit(1508833665.701:54): avc: granted { getattr } for pid=1028 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  138.484924] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  138.485168] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  138.486938] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  138.487152] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  138.909515] type=1400 audit(1508833665.701:54): avc: granted { getattr } for pid=1028 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  138.909729] type=1400 audit(1508833666.492:55): avc: granted { getattr } for pid=1041 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  140.455291] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  140.455474] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  140.458862] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  140.459106] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  142.088134] healthd: battery l=74 v=3942 t=35.3 h=2 st=2 c=571 chg=u
+[  142.121856] adjust_soc: ibat_ua = 324500, vbat_uv = 3950223, soc = 74, batt_temp=353
+[  142.638427] init: computing context for service 'sensors'
+[  142.638946] init: starting service 'sensors'...
+[  142.663665] init: property_set("ro.boottime.sensors", "142627798586") failed: property already set
+[  142.869232] ch_notify on a closed smd_pkt_dev id:18
+[  142.871826] init: Service 'sensors' (pid 1062) killed by signal 6
+[  142.871917] init: Sending signal 9 to service 'sensors' (pid 1062) process group...
+[  142.891906] init: kill(1062, 9) failed: No such process
+[  143.013824] type=1400 audit(1508833666.492:55): avc: granted { getattr } for pid=1041 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  143.013977] type=1400 audit(1508833670.606:56): avc: granted { getattr } for pid=1067 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  143.566467] type=1400 audit(1508833670.606:56): avc: granted { getattr } for pid=1067 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  143.566680] type=1400 audit(1508833671.157:57): avc: granted { getattr } for pid=1072 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  143.975067] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  143.975311] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  143.978363] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  143.978607] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  144.567321] type=1400 audit(1508833671.157:57): avc: granted { getattr } for pid=1072 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  144.567535] type=1400 audit(1508833672.158:58): avc: granted { getattr } for pid=1085 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  145.038238] type=1400 audit(1508833672.158:58): avc: granted { getattr } for pid=1085 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  145.038726] type=1400 audit(1508833672.628:59): avc: granted { getattr } for pid=1092 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  145.274993] type=1400 audit(1508833672.628:59): avc: granted { getattr } for pid=1092 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  145.275665] type=1400 audit(1508833672.868:60): avc: granted { getattr } for pid=1097 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  147.024475] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  147.024749] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  147.026672] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  147.026855] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  147.639556] init: computing context for service 'sensors'
+[  147.640136] init: starting service 'sensors'...
+[  147.641174] init: property_set("ro.boottime.sensors", "147628958252") failed: property already set
+[  147.726257] ch_notify on a closed smd_pkt_dev id:18
+[  147.727691] init: Service 'sensors' (pid 1112) killed by signal 6
+[  147.727874] init: Sending signal 9 to service 'sensors' (pid 1112) process group...
+[  147.821899] init: kill(1112, 9) failed: No such process
+[  149.888061] type=1400 audit(1508833672.868:60): avc: granted { getattr } for pid=1097 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  149.888702] type=1400 audit(1508833677.473:61): avc: granted { getattr } for pid=1122 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  150.336090] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  150.336395] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  150.338592] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  150.338836] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  150.791290] type=1400 audit(1508833677.473:61): avc: granted { getattr } for pid=1122 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  150.795135] type=1400 audit(1508833678.374:62): avc: granted { getattr } for pid=1139 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  151.124420] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  151.124603] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  151.476959] type=1400 audit(1508833678.374:62): avc: granted { getattr } for pid=1139 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  151.477172] type=1400 audit(1508833679.064:63): avc: granted { getattr } for pid=1151 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  151.864501] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  151.864715] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  151.866546] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  151.866912] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  152.088623] healthd: battery l=74 v=3976 t=35.4 h=2 st=2 c=50 chg=u
+[  152.192840] type=1400 audit(1508833679.064:63): avc: granted { getattr } for pid=1151 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  152.193054] type=1400 audit(1508833679.785:64): avc: granted { getattr } for pid=1168 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  152.640716] init: computing context for service 'sensors'
+[  152.641265] init: starting service 'sensors'...
+[  152.642486] init: property_set("ro.boottime.sensors", "152630301027") failed: property already set
+[  152.721099] ch_notify on a closed smd_pkt_dev id:18
+[  152.722717] init: Service 'sensors' (pid 1170) killed by signal 6
+[  152.722808] init: Sending signal 9 to service 'sensors' (pid 1170) process group...
+[  152.771881] init: kill(1170, 9) failed: No such process
+[  152.914550] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  152.914886] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  152.917205] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  152.917480] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  153.940673] type=1400 audit(1508833679.785:64): avc: granted { getattr } for pid=1168 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  153.941375] type=1400 audit(1508833681.527:65): avc: granted { getattr } for pid=1190 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  154.184082] type=1400 audit(1508833681.527:65): avc: granted { getattr } for pid=1190 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  154.184234] type=1400 audit(1508833681.777:66): avc: granted { getattr } for pid=1195 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  154.388183] type=1400 audit(1508833681.777:66): avc: granted { getattr } for pid=1195 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  154.388397] type=1400 audit(1508833681.977:67): avc: granted { getattr } for pid=1200 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  154.608917] type=1400 audit(1508833681.977:67): avc: granted { getattr } for pid=1200 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  154.609130] type=1400 audit(1508833682.197:68): avc: granted { getattr } for pid=1205 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  154.924835] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  154.925537] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  154.974761] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  154.974975] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  155.168975] type=1400 audit(1508833682.197:68): avc: granted { getattr } for pid=1205 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  155.169158] type=1400 audit(1508833682.758:69): avc: granted { getattr } for pid=1218 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  156.286224] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  156.286987] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  156.334320] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  156.334564] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  157.642059] init: computing context for service 'sensors'
+[  157.642578] init: starting service 'sensors'...
+[  157.643646] init: property_set("ro.boottime.sensors", "157631430177") failed: property already set
+[  157.720428] ch_notify on a closed smd_pkt_dev id:18
+[  157.722198] init: Service 'sensors' (pid 1236) killed by signal 6
+[  157.722381] init: Sending signal 9 to service 'sensors' (pid 1236) process group...
+[  157.744384] init: kill(1236, 9) failed: No such process
+[  158.574737] type=1400 audit(1508833682.758:69): avc: granted { getattr } for pid=1218 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  158.574890] type=1400 audit(1508833686.161:70): avc: granted { getattr } for pid=1245 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  159.224670] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  159.224945] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  159.227447] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  159.227691] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  160.073669] type=1400 audit(1508833686.161:70): avc: granted { getattr } for pid=1245 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  160.074310] type=1400 audit(1508833687.663:71): avc: granted { getattr } for pid=1262 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  160.527587] type=1400 audit(1508833687.663:71): avc: granted { getattr } for pid=1262 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  160.527801] type=1400 audit(1508833688.113:72): avc: granted { getattr } for pid=1267 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  161.000823] type=1400 audit(1508833688.113:72): avc: granted { getattr } for pid=1267 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  161.000976] type=1400 audit(1508833688.584:73): avc: granted { getattr } for pid=1272 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  161.507904] type=1400 audit(1508833688.584:73): avc: granted { getattr } for pid=1272 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  161.508117] type=1400 audit(1508833689.094:74): avc: granted { getattr } for pid=1277 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  162.008239] type=1400 audit(1508833689.094:74): avc: granted { getattr } for pid=1277 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  162.008422] type=1400 audit(1508833689.595:75): avc: granted { getattr } for pid=1282 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  162.088134] healthd: battery l=74 v=3985 t=35.5 h=2 st=2 c=-67 chg=u
+[  162.121826] adjust_soc: ibat_ua = 192500, vbat_uv = 3988023, soc = 74, batt_temp=355
+[  162.643188] init: computing context for service 'sensors'
+[  162.643707] init: starting service 'sensors'...
+[  162.644775] init: property_set("ro.boottime.sensors", "162632559327") failed: property already set
+[  162.720581] ch_notify on a closed smd_pkt_dev id:18
+[  162.722595] init: Service 'sensors' (pid 1284) killed by signal 6
+[  162.722717] init: Sending signal 9 to service 'sensors' (pid 1284) process group...
+[  162.761871] init: kill(1284, 9) failed: No such process
+[  163.074188] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  163.074401] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  163.174377] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  163.174621] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  165.253143] type=1400 audit(1508833689.595:75): avc: granted { getattr } for pid=1282 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  165.253326] type=1400 audit(1508833692.848:76): avc: granted { getattr } for pid=1304 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  166.174438] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  166.175476] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  166.177185] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  166.177917] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  167.335021] type=1400 audit(1508833692.848:76): avc: granted { getattr } for pid=1304 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  167.335235] type=1400 audit(1508833694.930:77): avc: granted { getattr } for pid=1321 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  167.624298] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  167.624542] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  167.626342] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  167.626586] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  167.644287] init: computing context for service 'sensors'
+[  167.644836] init: starting service 'sensors'...
+[  167.645904] init: property_set("ro.boottime.sensors", "167633657960") failed: property already set
+[  167.726654] ch_notify on a closed smd_pkt_dev id:18
+[  167.728057] init: Service 'sensors' (pid 1332) killed by signal 6
+[  167.728240] init: Sending signal 9 to service 'sensors' (pid 1332) process group...
+[  167.762817] init: kill(1332, 9) failed: No such process
+[  167.861724] type=1400 audit(1508833694.930:77): avc: granted { getattr } for pid=1321 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  167.862060] type=1400 audit(1508833695.440:78): avc: granted { getattr } for pid=1339 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  168.286956] type=1400 audit(1508833695.440:78): avc: granted { getattr } for pid=1339 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  168.287658] type=1400 audit(1508833695.871:79): avc: granted { getattr } for pid=1346 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  169.134246] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  169.134490] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  169.184722] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  169.184997] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  170.125244] type=1400 audit(1508833695.871:79): avc: granted { getattr } for pid=1346 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  170.125396] type=1400 audit(1508833697.713:80): avc: granted { getattr } for pid=1365 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  170.660644] type=1400 audit(1508833697.713:80): avc: granted { getattr } for pid=1365 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  170.662322] type=1400 audit(1508833698.243:81): avc: granted { getattr } for pid=1370 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  171.111846] type=1400 audit(1508833698.243:81): avc: granted { getattr } for pid=1370 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  171.112060] type=1400 audit(1508833698.694:82): avc: granted { getattr } for pid=1375 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  171.515838] type=1400 audit(1508833698.694:82): avc: granted { getattr } for pid=1375 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  171.516296] type=1400 audit(1508833699.104:83): avc: granted { getattr } for pid=1380 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  171.764343] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  171.764587] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  172.089324] healthd: battery l=74 v=3988 t=35.6 h=2 st=2 c=179 chg=u
+[  172.098541] type=1400 audit(1508833699.104:83): avc: granted { getattr } for pid=1380 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  172.098754] type=1400 audit(1508833699.685:84): avc: granted { getattr } for pid=1391 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  172.645416] init: computing context for service 'sensors'
+[  172.647308] init: starting service 'sensors'...
+[  172.648315] init: property_set("ro.boottime.sensors", "172636099365") failed: property already set
+[  172.714782] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  172.715026] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  172.717590] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  172.718109] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  172.725189] ch_notify on a closed smd_pkt_dev id:18
+[  172.727233] init: Service 'sensors' (pid 1396) killed by signal 6
+[  172.727355] init: Sending signal 9 to service 'sensors' (pid 1396) process group...
+[  172.781890] init: kill(1396, 9) failed: No such process
+[  173.209228] type=1400 audit(1508833699.685:84): avc: granted { getattr } for pid=1391 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  173.209442] type=1400 audit(1508833700.796:85): avc: granted { getattr } for pid=1409 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  173.491821] type=1400 audit(1508833700.796:85): avc: granted { getattr } for pid=1409 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  173.492462] type=1400 audit(1508833701.076:86): avc: granted { getattr } for pid=1418 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  173.784271] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  173.784515] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  173.934173] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  173.934417] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  174.346893] type=1400 audit(1508833701.076:86): avc: granted { getattr } for pid=1418 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  174.352416] type=1400 audit(1508833701.937:87): avc: granted { getattr } for pid=1435 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  175.024230] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  175.024536] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  175.026458] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  175.026702] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  175.979736] type=1400 audit(1508833701.937:87): avc: granted { getattr } for pid=1435 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  175.979949] type=1400 audit(1508833703.568:88): avc: granted { getattr } for pid=1452 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  176.409332] type=1400 audit(1508833703.568:88): avc: granted { getattr } for pid=1452 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  176.409515] type=1400 audit(1508833703.999:89): avc: granted { getattr } for pid=1457 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  177.004241] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  177.004486] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  177.054290] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  177.054565] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  177.647827] init: computing context for service 'sensors'
+[  177.648345] init: starting service 'sensors'...
+[  177.649536] init: property_set("ro.boottime.sensors", "177637198000") failed: property already set
+[  177.795959] ch_notify on a closed smd_pkt_dev id:18
+[  177.797332] init: Service 'sensors' (pid 1470) killed by signal 6
+[  177.797454] init: Sending signal 9 to service 'sensors' (pid 1470) process group...
+[  177.821899] init: kill(1470, 9) failed: No such process
+[  178.104675] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  178.104858] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  178.216522] type=1400 audit(1508833703.999:89): avc: granted { getattr } for pid=1457 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  178.217163] type=1400 audit(1508833705.801:90): avc: granted { getattr } for pid=1483 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  178.554412] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  178.555145] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  178.853515] type=1400 audit(1508833705.801:90): avc: granted { getattr } for pid=1483 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  178.854156] type=1400 audit(1508833706.441:91): avc: granted { getattr } for pid=1494 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  179.223480] type=1400 audit(1508833706.441:91): avc: granted { getattr } for pid=1494 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  179.224151] type=1400 audit(1508833706.811:92): avc: granted { getattr } for pid=1499 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  179.465270] type=1400 audit(1508833706.811:92): avc: granted { getattr } for pid=1499 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  179.465759] type=1400 audit(1508833707.052:93): avc: granted { getattr } for pid=1506 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  179.713836] type=1400 audit(1508833707.052:93): avc: granted { getattr } for pid=1506 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  179.715332] type=1400 audit(1508833707.302:94): avc: granted { getattr } for pid=1511 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  180.181304] type=1400 audit(1508833707.302:94): avc: granted { getattr } for pid=1511 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  180.181518] type=1400 audit(1508833707.762:95): avc: granted { getattr } for pid=1516 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  181.314147] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  181.314392] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  181.364501] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  181.364746] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  182.087982] healthd: battery l=74 v=3898 t=35.6 h=2 st=2 c=36 chg=u
+[  182.121826] adjust_soc: ibat_ua = 327300, vbat_uv = 3953796, soc = 74, batt_temp=356
+[  182.265197] healthd: battery l=74 v=3970 t=35.6 h=2 st=2 c=304 chg=u
+[  182.648956] init: computing context for service 'sensors'
+[  182.649505] init: starting service 'sensors'...
+[  182.650512] init: property_set("ro.boottime.sensors", "182638296632") failed: property already set
+[  182.720306] ch_notify on a closed smd_pkt_dev id:18
+[  182.722534] init: Service 'sensors' (pid 1533) killed by signal 6
+[  182.722717] init: Sending signal 9 to service 'sensors' (pid 1533) process group...
+[  182.731201] type=1400 audit(1508833707.762:95): avc: granted { getattr } for pid=1516 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  182.731353] type=1400 audit(1508833710.315:96): avc: granted { getattr } for pid=1538 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  182.741973] init: kill(1533, 9) failed: No such process
+[  182.946289] type=1400 audit(1508833710.315:96): avc: granted { getattr } for pid=1538 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  182.946594] type=1400 audit(1508833710.535:97): avc: granted { getattr } for pid=1543 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  183.165893] type=1400 audit(1508833710.535:97): avc: granted { getattr } for pid=1543 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  183.166381] type=1400 audit(1508833710.755:98): avc: granted { getattr } for pid=1548 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  183.384124] type=1400 audit(1508833710.755:98): avc: granted { getattr } for pid=1548 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  183.384765] type=1400 audit(1508833710.976:99): avc: granted { getattr } for pid=1553 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  183.874542] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  183.874786] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  184.074615] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  184.074890] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  184.708374] type=1400 audit(1508833710.976:99): avc: granted { getattr } for pid=1553 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  184.708648] type=1400 audit(1508833712.297:100): avc: granted { getattr } for pid=1570 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  185.044952] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  185.045135] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  185.047851] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  185.048095] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  185.475494] type=1400 audit(1508833712.297:100): avc: granted { getattr } for pid=1570 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  185.475708] type=1400 audit(1508833713.068:101): avc: granted { getattr } for pid=1585 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  185.894317] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  185.894561] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  186.055725] type=1400 audit(1508833713.068:101): avc: granted { getattr } for pid=1585 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  186.055908] type=1400 audit(1508833713.648:102): avc: granted { getattr } for pid=1596 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  186.686645] type=1400 audit(1508833713.648:102): avc: granted { getattr } for pid=1596 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  186.686981] type=1400 audit(1508833714.279:103): avc: granted { getattr } for pid=1603 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  187.343536] healthd: battery l=74 v=3988 t=35.6 h=2 st=2 c=20 chg=u
+[  187.429687] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  187.429992] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  187.430603] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  187.430816] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  187.650054] init: computing context for service 'sensors'
+[  187.650573] init: starting service 'sensors'...
+[  187.651641] init: property_set("ro.boottime.sensors", "187639425782") failed: property already set
+[  187.726654] ch_notify on a closed smd_pkt_dev id:18
+[  187.729217] init: Service 'sensors' (pid 1616) killed by signal 6
+[  187.729309] init: Sending signal 9 to service 'sensors' (pid 1616) process group...
+[  187.801910] init: kill(1616, 9) failed: No such process
+[  188.471252] type=1400 audit(1508833714.279:103): avc: granted { getattr } for pid=1603 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  188.471405] type=1400 audit(1508833716.051:104): avc: granted { getattr } for pid=1625 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  188.894531] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  188.894775] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  189.339355] type=1400 audit(1508833716.051:104): avc: granted { getattr } for pid=1625 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  189.339660] type=1400 audit(1508833716.921:105): avc: granted { getattr } for pid=1636 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  189.974182] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  189.974487] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  189.976898] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  189.977142] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  190.717926] type=1400 audit(1508833716.921:105): avc: granted { getattr } for pid=1636 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  190.718078] type=1400 audit(1508833718.303:106): avc: granted { getattr } for pid=1649 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  190.914093] type=1400 audit(1508833718.303:106): avc: granted { getattr } for pid=1649 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  190.914550] type=1400 audit(1508833718.503:107): avc: granted { getattr } for pid=1658 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  192.074157] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  192.074401] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  192.089569] healthd: battery l=74 v=3974 t=35.7 h=2 st=2 c=119 chg=u
+[  192.525360] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  192.525543] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  192.651184] init: computing context for service 'sensors'
+[  192.651855] init: starting service 'sensors'...
+[  192.652832] init: property_set("ro.boottime.sensors", "192640615968") failed: property already set
+[  192.719909] ch_notify on a closed smd_pkt_dev id:18
+[  192.721588] init: Service 'sensors' (pid 1671) killed by signal 6
+[  192.721801] init: Sending signal 9 to service 'sensors' (pid 1671) process group...
+[  192.769531] init: kill(1671, 9) failed: No such process
+[  194.910095] type=1400 audit(1508833718.503:107): avc: granted { getattr } for pid=1658 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  194.910308] type=1400 audit(1508833722.497:108): avc: granted { getattr } for pid=1681 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  195.354583] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  195.354858] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  195.356658] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  195.356842] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  195.877685] type=1400 audit(1508833722.497:108): avc: granted { getattr } for pid=1681 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  195.878112] type=1400 audit(1508833723.468:109): avc: granted { getattr } for pid=1698 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  196.404907] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  196.405090] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  196.408386] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  196.408966] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  197.532684] type=1400 audit(1508833723.468:109): avc: granted { getattr } for pid=1698 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  197.532836] type=1400 audit(1508833725.129:110): avc: granted { getattr } for pid=1715 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  197.652374] init: computing context for service 'sensors'
+[  197.652954] init: starting service 'sensors'...
+[  197.654022] init: property_set("ro.boottime.sensors", "197641806153") failed: property already set
+[  197.743438] ch_notify on a closed smd_pkt_dev id:18
+[  197.745178] init: Service 'sensors' (pid 1717) killed by signal 6
+[  197.745330] init: Sending signal 9 to service 'sensors' (pid 1717) process group...
+[  197.771911] init: kill(1717, 9) failed: No such process
+[  197.951507] type=1400 audit(1508833725.129:110): avc: granted { getattr } for pid=1715 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  197.951660] type=1400 audit(1508833725.540:111): avc: granted { getattr } for pid=1725 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  199.314270] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  199.314514] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  199.316833] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  199.317016] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  201.427185] type=1400 audit(1508833725.540:111): avc: granted { getattr } for pid=1725 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  201.427856] type=1400 audit(1508833729.013:112): avc: granted { getattr } for pid=1742 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  201.891632] type=1400 audit(1508833729.013:112): avc: granted { getattr } for pid=1742 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  201.891845] type=1400 audit(1508833729.474:113): avc: granted { getattr } for pid=1747 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  202.087677] healthd: battery l=74 v=4002 t=35.9 h=2 st=2 c=-55 chg=u
+[  202.121826] adjust_soc: ibat_ua = 135400, vbat_uv = 4001415, soc = 74, batt_temp=358
+[  202.344146] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  202.344390] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  202.346191] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  202.346435] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  202.653564] init: computing context for service 'sensors'
+[  202.654083] init: starting service 'sensors'...
+[  202.655151] init: property_set("ro.boottime.sensors", "202642904786") failed: property already set
+[  202.741943] ch_notify on a closed smd_pkt_dev id:18
+[  202.743011] init: Service 'sensors' (pid 1760) killed by signal 6
+[  202.743194] init: Sending signal 9 to service 'sensors' (pid 1760) process group...
+[  202.762115] init: kill(1760, 9) failed: No such process
+[  202.809051] type=1400 audit(1508833729.474:113): avc: granted { getattr } for pid=1747 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  202.809234] type=1400 audit(1508833730.394:114): avc: granted { getattr } for pid=1767 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  203.291229] type=1400 audit(1508833730.394:114): avc: granted { getattr } for pid=1767 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  203.291442] type=1400 audit(1508833730.875:115): avc: granted { getattr } for pid=1774 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  203.844329] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  203.844573] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  203.895843] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  203.896087] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  204.651611] type=1400 audit(1508833730.875:115): avc: granted { getattr } for pid=1774 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  204.652618] type=1400 audit(1508833732.236:116): avc: granted { getattr } for pid=1791 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  205.364624] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  205.364868] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  205.414154] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  205.414398] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  206.401733] type=1400 audit(1508833732.236:116): avc: granted { getattr } for pid=1791 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  206.401947] type=1400 audit(1508833733.988:117): avc: granted { getattr } for pid=1808 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  206.667358] type=1400 audit(1508833733.988:117): avc: granted { getattr } for pid=1808 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  206.667999] type=1400 audit(1508833734.258:118): avc: granted { getattr } for pid=1813 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  207.654663] init: computing context for service 'sensors'
+[  207.655242] init: starting service 'sensors'...
+[  207.656250] init: property_set("ro.boottime.sensors", "207644064453") failed: property already set
+[  207.664215] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  207.664489] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  207.714447] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  207.714630] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  207.741577] ch_notify on a closed smd_pkt_dev id:18
+[  207.743530] init: Service 'sensors' (pid 1818) killed by signal 6
+[  207.743652] init: Sending signal 9 to service 'sensors' (pid 1818) process group...
+[  207.771911] init: kill(1818, 9) failed: No such process
+[  209.316284] type=1400 audit(1508833734.258:118): avc: granted { getattr } for pid=1813 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  209.316955] type=1400 audit(1508833736.901:119): avc: granted { getattr } for pid=1835 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  209.704528] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  209.704742] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  209.707000] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  209.707244] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  209.974121] type=1400 audit(1508833736.901:119): avc: granted { getattr } for pid=1835 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  209.974395] type=1400 audit(1508833737.561:120): avc: granted { getattr } for pid=1851 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  210.434539] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  210.435668] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  210.436737] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  210.436950] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  210.796691] type=1400 audit(1508833737.561:120): avc: granted { getattr } for pid=1851 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  210.797058] type=1400 audit(1508833738.382:121): avc: granted { getattr } for pid=1870 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  211.294281] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  211.294555] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  211.296539] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  211.296783] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  211.991973] type=1400 audit(1508833738.382:121): avc: granted { getattr } for pid=1870 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  211.992187] type=1400 audit(1508833739.583:122): avc: granted { getattr } for pid=1887 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  212.088684] healthd: battery l=74 v=3989 t=35.9 h=2 st=2 c=189 chg=u
+[  212.355072] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  212.355346] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  212.363983] mmc0: mmc_start_bkops: raw_bkops_status=0x2, from_exception=1
+[  212.521179] type=1400 audit(1508833739.583:122): avc: granted { getattr } for pid=1887 comm="dex2oat" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:dex2oat:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  212.521392] type=1400 audit(1508833740.104:123): avc: denied { sys_module } for pid=287 comm="Binder:186_2" capability=16 scontext=u:r:netd:s0 tcontext=u:r:netd:s0 tclass=capability permissive=1
+[  212.655792] init: computing context for service 'sensors'
+[  212.656311] init: starting service 'sensors'...
+[  212.657928] init: property_set("ro.boottime.sensors", "212645681886") failed: property already set
+[  212.854766] ch_notify on a closed smd_pkt_dev id:18
+[  212.904846] init: Service 'sensors' (pid 1914) killed by signal 6
+[  212.904968] init: Sending signal 9 to service 'sensors' (pid 1914) process group...
+[  212.907257] acc_open
+[  212.907348] acc_release
+[  212.912261] init: kill(1914, 9) failed: No such process
+[  213.149261] type=1400 audit(1508833740.104:123): avc: denied { sys_module } for pid=287 comm="Binder:186_2" capability=16 scontext=u:r:netd:s0 tcontext=u:r:netd:s0 tclass=capability permissive=1
+[  213.149414] type=1400 audit(1508833740.735:124): avc: denied { search } for pid=325 comm="thermald" name="leds" dev="sysfs" ino=4639 scontext=u:r:thermald:s0 tcontext=u:object_r:sysfs_leds:s0 tclass=dir permissive=1
+[  213.151519] type=1400 audit(1508833740.735:124): avc: denied { search } for pid=325 comm="thermald" name="leds" dev="sysfs" ino=4639 scontext=u:r:thermald:s0 tcontext=u:object_r:sysfs_leds:s0 tclass=dir permissive=1
+[  213.151763] type=1400 audit(1508833740.735:125): avc: denied { read } for pid=325 comm="thermald" name="lcd-backlight" dev="sysfs" ino=8667 scontext=u:r:thermald:s0 tcontext=u:object_r:sysfs_leds:s0 tclass=lnk_file permissive=1
+[  213.629608] type=1400 audit(1508833740.735:125): avc: denied { read } for pid=325 comm="thermald" name="lcd-backlight" dev="sysfs" ino=8667 scontext=u:r:thermald:s0 tcontext=u:object_r:sysfs_leds:s0 tclass=lnk_file permissive=1
+[  213.629760] type=1400 audit(1508833741.215:126): avc: denied { write } for pid=670 comm="system_server" name="properties" dev="mmcblk0p20" ino=29 scontext=u:r:system_server:s0 tcontext=u:object_r:persist_file:s0 tclass=dir permissive=1
+[  215.037811] wlan: loading driver v3.2.3.23
+[  215.040649] ueventd: firmware: loading 'wlan/prima/WCNSS_qcom_cfg.ini' for '/devices/platform/wcnss_wlan.0/firmware/wcnss_wlan.0'
+[  215.042266] wlan: [193:E :HDD] hdd_apply_cfg_ini: Reg Parameter gEmptyScanRefreshPeriod < allowed Minimum [0 < 1000]. Enforcing Default= 0
+[  215.043762] ueventd: loading /devices/platform/wcnss_wlan.0/firmware/wcnss_wlan.0 took 0.00338745 seconds
+[  215.049377] ueventd: firmware: loading 'wlan/prima/WCNSS_qcom_wlan_nv.bin' for '/devices/platform/wcnss_wlan.0/firmware/wcnss_wlan.0'
+[  215.050384] wlan: [193:E :VOS] INFO: NV binary file version=0 Driver default NV version=1, continue...
+[  215.050384] 
+[  215.050628] wlan: [193:E :VOS] !!!WARNING: Using Coupler Type field instead of Fw Config table,
+[  215.050628] Make sure that this is intented or may impact performance!!!
+[  215.050628] 
+[  215.050933] DefaultCountry is WS
+[  215.052490] ueventd: loading /devices/platform/wcnss_wlan.0/firmware/wcnss_wlan.0 took 0.00259399 seconds
+[  215.054382] ueventd: firmware: loading 'wlan/prima/WCNSS_cfg.dat' for '/devices/platform/wcnss_wlan.0/firmware/wcnss_wlan.0'
+[  215.062133] ueventd: loading /devices/platform/wcnss_wlan.0/firmware/wcnss_wlan.0 took 0.00814819 seconds
+[  215.063018] ueventd: firmware: loading 'wlan/prima/WCNSS_cfg.dat' for '/devices/platform/wcnss_wlan.0/firmware/wcnss_wlan.0'
+[  215.064788] ueventd: loading /devices/platform/wcnss_wlan.0/firmware/wcnss_wlan.0 took 0.00204468 seconds
+[  215.084503] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  215.084869] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  215.087341] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  215.087524] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  215.191436] type=1400 audit(1508833741.215:126): avc: denied { write } for pid=670 comm="system_server" name="properties" dev="mmcblk0p20" ino=29 scontext=u:r:system_server:s0 tcontext=u:object_r:persist_file:s0 tclass=dir permissive=1
+[  215.191650] type=1400 audit(1508833742.777:127): avc: granted { getattr } for pid=1984 comm="sdcard" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:sdcardd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  215.230133] SELinux: initialized (dev fuse, type fuse), uses genfs_contexts
+[  215.230926] SELinux: initialized (dev fuse, type fuse), uses genfs_contexts
+[  215.232452] SELinux: initialized (dev fuse, type fuse), uses genfs_contexts
+[  215.289062] init: computing context for service 'webview_zygote32'
+[  215.289611] init: starting service 'webview_zygote32'...
+[  215.293884] init: Created socket '/dev/socket/webview_zygote', mode 660, user 1053, group 1000
+[  215.343109] wlan: WCNSS WLAN version 1.4.1.2
+[  215.343261] wlan: WCNSS software version 201078
+[  215.343322] wlan: WCNSS hardware version WCN v2.0 RadioPhy vIris_TSMC_2.0 with 48MHz XO
+[  215.343627] DefaultCountry is WS
+[  215.343963] ieee80211 phy0: info: cfg80211 reg_notifier callback for country 00
+[  215.343994] ieee80211 phy0: country: WS set by driver
+[  215.363769] wlan: driver loaded
+[  215.364746] wlan: [193:E :SME] PMC: STA not associated with an AP with single active session. BMPS cannot be entered
+[  215.365295] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[  215.407226] pm8xxx-led pm8xxx-led: resume red set 255
+[  215.407836] pm8xxx-led pm8xxx-led: resume green set 255
+[  215.408264] pm8xxx-led pm8xxx-led: resume blue set 0
+[  215.460632] init: computing context for service 'wpa_supplicant'
+[  215.461334] init: starting service 'wpa_supplicant'...
+[  215.463745] init: Created socket '/dev/socket/wpa_wlan0', mode 660, user 1010, group 1010
+[  215.678131] mdm_modem_ioctl: invalid ioctl code to mdm id 0
+[  215.916900] mdm_modem_ioctl: invalid ioctl code to mdm id 0
+[  215.918365] type=1400 audit(1508833742.777:127): avc: granted { getattr } for pid=1984 comm="sdcard" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:sdcardd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  215.918518] type=1400 audit(1508833743.507:128): avc: denied { ioctl } for pid=2094 comm="Loc_hal_worker" path="socket:[12258]" dev="sockfs" ino=12258 ioctlcmd=c304 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=socket permissive=1
+[  215.993347] msm_vidc_venc: Inside vid_enc_open()
+[  215.993530] 
+[  215.993530]  msm_vidc_enc: Inside vid_enc_open_client()
+[  215.993743] 
+[  215.993743] res_trk_download_firmware(): Request firmware download
+[  215.996765] ueventd: firmware: loading 'vidc_1080p.fw' for '/devices/platform/msm_vidc.0/firmware/msm_vidc.0'
+[  216.006713] wlan: [2046:E :SME] PMC: STA not associated with an AP with single active session. BMPS cannot be entered
+[  216.007263] ADDRCONF(NETDEV_UP): p2p0: link is not ready
+[  216.087127] ueventd: loading /devices/platform/msm_vidc.0/firmware/msm_vidc.0 took 0.0906677 seconds
+[  216.112091] fw_version 9:23:2014
+[  216.116424] 
+[  216.116424]  msm_vidc_enc: Inside vid_enc_release()
+[  216.116699] 
+[  216.116699]  msm_vidc_enc: Inside vid_enc_close_client()
+[  216.143035] 
+[  216.143035]  msm_vidc_enc: Return from vid_enc_release()
+[  216.146362] msm_vidc_venc: Inside vid_enc_open()
+[  216.146575] 
+[  216.146575]  msm_vidc_enc: Inside vid_enc_open_client()
+[  216.166046] mdm_modem_ioctl: invalid ioctl code to mdm id 0
+[  216.175384] fw_version 9:23:2014
+[  216.183471] 
+[  216.183471]  msm_vidc_enc: Inside vid_enc_release()
+[  216.183746] 
+[  216.183746]  msm_vidc_enc: Inside vid_enc_close_client()
+[  216.206634] 
+[  216.206634]  msm_vidc_enc: Return from vid_enc_release()
+[  216.209503] msm_vidc_venc: Inside vid_enc_open()
+[  216.209655] 
+[  216.209655]  msm_vidc_enc: Inside vid_enc_open_client()
+[  216.232299] fw_version 9:23:2014
+[  216.246276] 
+[  216.246276]  msm_vidc_enc: Inside vid_enc_release()
+[  216.246551] 
+[  216.246551]  msm_vidc_enc: Inside vid_enc_close_client()
+[  216.267395] 
+[  216.267395]  msm_vidc_enc: Return from vid_enc_release()
+[  216.372070] msm_vidc_dec: Inside vid_dec_open()
+[  216.391998] fw_version 9:23:2014
+[  216.400268] msm_vidc_dec: Inside vid_dec_release()
+[  216.417510] msm_vidc_dec: Return from vid_dec_release()
+[  216.442291] ueventd: firmware: loading 'vidc.mdt' for '/devices/platform/pil_vidc/pil2/firmware/pil2'
+[  216.444885] ueventd: loading /devices/platform/pil_vidc/pil2/firmware/pil2 took 0.00274658 seconds
+[  216.451965] wlan: [2046:E :HDD] hdd_conf_arp_offload: 
+[  216.451965] 
+[  216.452514] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  216.452667] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  216.452728] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  216.452880] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  216.453033] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  216.455932] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  216.456146] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  216.456268] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  216.456359] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  216.456512] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  216.456665] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  216.459472] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  216.459625] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  216.459777] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  216.459899] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  216.460052] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  216.460205] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  216.460357] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  216.460540] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  216.460693] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  216.460845] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  216.460906] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  216.461059] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  216.461212] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  216.461395] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  216.461517] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  216.461822] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  216.461975] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  216.462066] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  216.462188] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  216.462341] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  216.462463] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  216.462615] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  216.462768] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  216.462860] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  216.463012] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  216.463165] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  216.463317] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  216.464843] ueventd: firmware: loading 'vidc.b02' for '/devices/platform/pil_vidc/pil2/firmware/pil2'
+[  216.482086] ueventd: loading /devices/platform/pil_vidc/pil2/firmware/pil2 took 0.0304565 seconds
+[  216.489685] ueventd: firmware: loading 'vidc.b03' for '/devices/platform/pil_vidc/pil2/firmware/pil2'
+[  216.491821] ueventd: loading /devices/platform/pil_vidc/pil2/firmware/pil2 took 0.00238037 seconds
+[  216.524749] pil pil2: vidc: Brought out of reset
+[  216.546813] fw_version 9:23:2014
+[  216.547149] Securing...
+[  216.564971] msm_vidc_dec: Inside vid_dec_release_secure()
+[  216.581787] Unsecuring....
+[  216.612915] msm_vidc_dec: Return from vid_dec_release_secure()
+[  216.617706] msm_vidc_dec: Inside vid_dec_open()
+[  216.642059] fw_version 9:23:2014
+[  216.651123] msm_vidc_dec: Inside vid_dec_release()
+[  216.666412] msm_vidc_dec: Return from vid_dec_release()
+[  216.669860] msm_vidc_dec: Inside vid_dec_open()
+[  216.701812] fw_version 9:23:2014
+[  216.711547] msm_vidc_dec: Inside vid_dec_release()
+[  216.735748] msm_vidc_dec: Return from vid_dec_release()
+[  216.739196] msm_vidc_dec: Inside vid_dec_open()
+[  216.753051] type=1400 audit(1508833743.507:128): avc: denied { ioctl } for pid=2094 comm="Loc_hal_worker" path="socket:[12258]" dev="sockfs" ino=12258 ioctlcmd=c304 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=socket permissive=1
+[  216.753356] type=1400 audit(1508833744.348:129): avc: granted { execute } for pid=670 comm="system_server" path="/data/dalvik-cache/arm/system@priv-app@Telecom@Telecom.apk@classes.dex" dev="mmcblk0p23" ino=472380 scontext=u:r:system_server:s0 tcontext=u:object_r:dalvikcache_data_file:s0 tclass=file
+[  216.762878] fw_version 9:23:2014
+[  216.777923] msm_vidc_dec: Inside vid_dec_release()
+[  216.787536] msm_enqueue: queue eventdata new max is 1
+[  216.797576] msm_vidc_dec: Return from vid_dec_release()
+[  216.903594] type=1400 audit(1508833744.348:129): avc: granted { execute } for pid=670 comm="system_server" path="/data/dalvik-cache/arm/system@priv-app@Telecom@Telecom.apk@classes.dex" dev="mmcblk0p23" ino=472380 scontext=u:r:system_server:s0 tcontext=u:object_r:dalvikcache_data_file:s0 tclass=file
+[  216.905029] type=1400 audit(1508833744.498:130): avc: granted { execute } for pid=670 comm="system_server" path="/data/dalvik-cache/arm/system@priv-app@FusedLocation@FusedLocation.apk@classes.dex" dev="mmcblk0p23" ino=472400 scontext=u:r:system_server:s0 tcontext=u:object_r:dalvikcache_data_file:s0 tclass=file
+[  216.950347] init: processing action (bluetooth.hciattach=true)
+[  216.950592] init: starting service 'hciattach'...
+[  217.657531] init: computing context for service 'sensors'
+[  217.658172] init: starting service 'sensors'...
+[  217.659240] init: property_set("ro.boottime.sensors", "217646994141") failed: property already set
+[  217.729675] ch_notify on a closed smd_pkt_dev id:18
+[  217.732025] init: Service 'sensors' (pid 2341) killed by signal 6
+[  217.732177] init: Sending signal 9 to service 'sensors' (pid 2341) process group...
+[  217.761932] init: kill(2341, 9) failed: No such process
+[  217.942321] msm_enqueue: queue control new max is 1
+[  217.945404] type=1400 audit(1508833744.498:130): avc: granted { execute } for pid=670 comm="system_server" path="/data/dalvik-cache/arm/system@priv-app@FusedLocation@FusedLocation.apk@classes.dex" dev="mmcblk0p23" ino=472400 scontext=u:r:system_server:s0 tcontext=u:object_r:dalvikcache_data_file:s0 tclass=file
+[  217.945648] type=1400 audit(1508833745.539:131): avc: denied { execmod } for pid=2346 comm="mm-qcamera-daem" path="/system/lib/libmmcamera_faceproc.so" dev="mmcblk0p21" ino=1385 scontext=u:r:camera:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+[  217.958923] lm3559_flash_set_led_state: led_state = 3
+[  217.972930] type=1400 audit(1508833745.539:131): avc: denied { execmod } for pid=2346 comm="mm-qcamera-daem" path="/system/lib/libmmcamera_faceproc.so" dev="mmcblk0p21" ino=1385 scontext=u:r:camera:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+[  217.973144] type=1400 audit(1508833745.569:132): avc: denied { execmod } for pid=484 comm="Binder:215_1" path="/system/lib/libmorpho_noise_reduction.so" dev="mmcblk0p21" ino=1398 scontext=u:r:cameraserver:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+[  217.984283] lm3559_flash_set_led_state: led_state = 4
+[  217.984344] lm3559_config_gpio_off
+[  217.987762] msm_release_ion_client Calling ion_client_destroy
+[  218.019592] mmc0: mmc_start_bkops: Starting bkops
+[  218.084228] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  218.084716] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  218.162628] init: Service 'hciattach' (pid 2252) exited with status 0
+[  219.485015] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  219.485229] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  222.092956] healthd: battery l=74 v=4000 t=36.2 h=2 st=2 c=171 chg=u
+[  222.121856] adjust_soc: ibat_ua = 161400, vbat_uv = 3994272, soc = 74, batt_temp=362
+[  222.662048] init: computing context for service 'sensors'
+[  222.662811] init: starting service 'sensors'...
+[  222.664154] init: property_set("ro.boottime.sensors", "222651815919") failed: property already set
+[  222.735626] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  222.735900] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  222.751892] ch_notify on a closed smd_pkt_dev id:18
+[  222.756072] init: Service 'sensors' (pid 2436) killed by signal 6
+[  222.756256] init: Sending signal 9 to service 'sensors' (pid 2436) process group...
+[  222.781921] init: kill(2436, 9) failed: No such process
+[  223.336425] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  223.336639] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  223.984558] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  223.985198] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  223.987121] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  223.987548] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  224.344573] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  224.344879] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  225.494293] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  225.494567] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  225.647247] init: Service 'bootanim' (pid 403) exited with status 0
+[  225.668853] ieee80211 phy0: info: cfg80211 reg_notifier callback for country 00
+[  225.668884] ieee80211 phy0: country: IN set by driver
+[  225.668914] ieee80211 phy0: info: cfg80211 reg_notifier callback for country 00
+[  225.668945] ieee80211 phy0: country: IN set by driver
+[  225.755645] init: processing action (sys.usb.config=none && sys.usb.configfs=0)
+[  225.755798] init: Sending signal 9 to service 'adbd' (pid 205) process group...
+[  225.756896] adb_release
+[  225.802673] init: Service 'adbd' (pid 205) killed by signal 9
+[  225.802856] init: Sending signal 9 to service 'adbd' (pid 205) process group...
+[  225.803009] init: failed to open /acct/uid_0/pid_205/cgroup.procs: No such file or directory
+[  225.803283] init: killProcessGroup(0, 205, 9) failed: Device or resource busy
+[  225.803466] init: kill(205, 9) failed: No such process
+[  225.809295] init: processing action (sys.usb.config=adb && sys.usb.configfs=0)
+[  225.809570] enable_store: android_usb: already disabled
+[  225.810150] init: starting service 'adbd'...
+[  225.811309] init: property_set("ro.boottime.adbd", "225799063233") failed: property already set
+[  225.815246] init: Created socket '/dev/socket/adbd', mode 660, user 1000, group 1000
+[  225.820587] adb_open
+[  225.820678] adb_bind_config
+[  225.824035] msm_otg msm_otg: Avail curr from USB = 2
+[  225.824188] msm_otg msm_otg: current: 500 -> 2 (mA)
+[  225.824371] pm_power_set_property_usb: usb_target_ma 0
+[  225.824462] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_SUSPEND_EVENT received
+[  225.833129] healthd: battery l=74 v=3807 t=36.3 h=2 st=3 c=567 chg=u
+[  225.835235] pm8xxx-led pm8xxx-led: resume red set 0
+[  225.835388] pm8xxx-led pm8xxx-led: resume green set 0
+[  225.835479] pm8xxx-led pm8xxx-led: resume blue set 0
+[  225.840026] init: processing action (sys.boot_completed=1)
+[  225.840270] init: processing action (sys.boot_completed=1 && sys.logbootcomplete=1)
+[  225.840759] init: computing context for service 'exec 2 (/system/bin/bootstat)'
+[  225.841247] init: starting service 'exec 2 (/system/bin/bootstat)'...
+[  225.842285] init: SVC_EXEC pid 2650 (uid 0 gid 0+0 context default) started; waiting...
+[  225.864257] chg_gone_irq_handler: chg_gone=1, usb_valid = 1
+[  225.864379] chg_gone_irq_handler: Chg gone fsm_state=3
+[  225.864501] chg_gone_irq_handler: schedule to check again here
+[  225.871917] adjust_soc: ibat_ua = 1184400, vbat_uv = 3791595, soc = 74, batt_temp=362
+[  225.878143] healthd: battery l=74 v=3778 t=36.3 h=2 st=3 c=1184 chg=u
+[  225.878814] init: Service 'exec 2 (/system/bin/bootstat)' (pid 2650) exited with status 0 waiting took 0.038239 seconds
+[  225.879150] init: computing context for service 'exec 3 (/system/bin/bootstat)'
+[  225.879669] init: starting service 'exec 3 (/system/bin/bootstat)'...
+[  225.880584] init: SVC_EXEC pid 2660 (uid 0 gid 0+0 context default) started; waiting...
+[  225.887084] healthd: battery l=74 v=3789 t=36.2 h=2 st=3 c=1112 chg=u
+[  225.893676] healthd: battery l=74 v=3795 t=36.3 h=2 st=3 c=1144 chg=u
+[  225.898986] init: Service 'exec 3 (/system/bin/bootstat)' (pid 2660) exited with status 0 waiting took 0.019775 seconds
+[  225.899322] init: computing context for service 'exec 4 (/system/bin/bootstat)'
+[  225.899841] init: starting service 'exec 4 (/system/bin/bootstat)'...
+[  225.900177] healthd: battery l=74 v=3804 t=36.3 h=2 st=3 c=1144 chg=u
+[  225.900817] init: SVC_EXEC pid 2661 (uid 0 gid 0+0 context default) started; waiting...
+[  225.907226] healthd: battery l=74 v=3798 t=36.3 h=2 st=3 c=1131 chg=u
+[  225.921752] init: Service 'exec 4 (/system/bin/bootstat)' (pid 2661) exited with status 0 waiting took 0.022339 seconds
+[  225.922088] init: computing context for service 'exec 5 (/system/bin/bootstat)'
+[  225.922607] init: starting service 'exec 5 (/system/bin/bootstat)'...
+[  225.923583] init: SVC_EXEC pid 2662 (uid 0 gid 0+0 context default) started; waiting...
+[  225.944427] init: Service 'exec 5 (/system/bin/bootstat)' (pid 2662) exited with status 0 waiting took 0.022308 seconds
+[  225.944702] init: processing action (sys.boot_completed=1 && sys.wifitracing.started=0)
+[  225.945617] selinux: SELinux: Could not get canonical path for /sys/kernel/debug/tracing/instances/wifi restorecon: No such file or directory.
+[  225.945648] 
+[  225.945953] init: write_file: Unable to open '/sys/kernel/debug/tracing/instances/wifi/tracing_on': No such file or directory
+[  225.946197] init: write_file: Unable to open '/sys/kernel/debug/tracing/instances/wifi/buffer_size_kb': No such file or directory
+[  225.946441] init: write_file: Unable to open '/sys/kernel/debug/tracing/instances/wifi/trace_options': No such file or directory
+[  225.946685] init: write_file: Unable to open '/sys/kernel/debug/tracing/instances/wifi/events/cfg80211/cfg80211_gtk_rekey_notify/enable': No such file or directory
+[  225.946990] init: write_file: Unable to open '/sys/kernel/debug/tracing/instances/wifi/events/cfg80211/rdev_add_key/enable': No such file or directory
+[  225.947204] init: write_file: Unable to open '/sys/kernel/debug/tracing/instances/wifi/events/cfg80211/rdev_assoc/enable': No such file or directory
+[  225.947448] init: write_file: Unable to open '/sys/kernel/debug/tracing/instances/wifi/events/cfg80211/rdev_auth/enable': No such file or directory
+[  225.947662] init: write_file: Unable to open '/sys/kernel/debug/tracing/instances/wifi/events/cfg80211/rdev_connect/enable': No such file or directory
+[  225.947875] init: write_file: Unable to open '/sys/kernel/debug/tracing/instances/wifi/events/cfg80211/rdev_set_default_key/enable': No such file or directory
+[  225.948150] init: write_file: Unable to open '/sys/kernel/debug/tracing/instances/wifi/events/cfg80211/rdev_set_default_mgmt_key/enable': No such file or directory
+[  225.948394] init: write_file: Unable to open '/sys/kernel/debug/tracing/instances/wifi/events/cfg80211/rdev_set_rekey_data/enable': No such file or directory
+[  225.948608] init: write_file: Unable to open '/sys/kernel/debug/tracing/instances/wifi/events/net/filter': No such file or directory
+[  225.948852] init: write_file: Unable to open '/sys/kernel/debug/tracing/instances/wifi/events/net/net_dev_queue/enable': No such file or directory
+[  225.949066] init: write_file: Unable to open '/sys/kernel/debug/tracing/instances/wifi/events/net/net_dev_xmit/enable': No such file or directory
+[  225.949371] init: write_file: Unable to open '/sys/kernel/debug/tracing/instances/wifi/events/net/netif_rx/enable': No such file or directory
+[  225.949584] init: write_file: Unable to open '/sys/kernel/debug/tracing/instances/wifi/events/net/netif_receive_skb/enable': No such file or directory
+[  225.950439] init: processing action (dev.bootcomplete=1)
+[  225.950622] init: write_file: Unable to open '/sys/devices/virtual/graphics/fb1/hdmi_boot_completed': No such file or directory
+[  226.037322] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+[  226.053100] unplug_usbcheck_work: usb_vin : 33944, max_voltage_mv=4360
+[  226.066711] healthd: battery l=74 v=3862 t=36.3 h=2 st=3 c=818 chg=u
+[  226.075439] healthd: battery l=74 v=3861 t=36.3 h=2 st=3 c=743 chg=u
+[  226.082397] healthd: battery l=74 v=3879 t=36.2 h=2 st=3 c=766 chg=u
+[  226.128417] android_work: android_work: sent uevent USB_STATE=CONNECTED
+[  226.132293] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+[  226.237792] android_work: android_work: sent uevent USB_STATE=CONNECTED
+[  226.344299] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  226.344635] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  226.345764] android_usb gadget: high-speed config #1: android_usb
+[  226.345855] msm_otg msm_otg: Avail curr from USB = 500
+[  226.346038] msm_otg msm_otg: current: 2 -> 500 (mA)
+[  226.346099] pm_power_set_property_usb: usb_target_ma 0
+[  226.353240] chg_gone_irq_handler: chg_gone=0, usb_valid = 1
+[  226.353424] chg_gone_irq_handler: Chg gone fsm_state=3
+[  226.354644] healthd: battery l=74 v=3795 t=36.3 h=2 st=3 c=1063 chg=u
+[  226.377960] healthd: battery l=74 v=3889 t=36.2 h=2 st=2 c=557 chg=u
+[  226.379394] pm8xxx-led pm8xxx-led: resume red set 255
+[  226.379486] pm8xxx-led pm8xxx-led: resume green set 255
+[  226.379547] pm8xxx-led pm8xxx-led: resume blue set 0
+[  226.385345] healthd: battery l=74 v=3900 t=36.2 h=2 st=2 c=582 chg=u
+[  226.392883] healthd: battery l=74 v=3894 t=36.3 h=2 st=2 c=582 chg=u
+[  226.402008] android_work: android_work: sent uevent USB_STATE=CONFIGURED
+[  226.403350] healthd: battery l=74 v=3900 t=36.3 h=2 st=2 c=565 chg=u
+[  226.421081] healthd: battery l=74 v=3869 t=36.3 h=2 st=2 c=723 chg=u
+[  227.145080] type=1400 audit(1508833745.569:132): avc: denied { execmod } for pid=484 comm="Binder:215_1" path="/system/lib/libmorpho_noise_reduction.so" dev="mmcblk0p21" ino=1398 scontext=u:r:cameraserver:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+[  227.145355] type=1400 audit(1508833753.938:133): avc: granted { getattr } for pid=2426 comm=496E666C6174657254687265616420 path="/" dev="rootfs" ino=1 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:rootfs:s0 tclass=dir
+[  227.149780] type=1400 audit(1508833753.938:135): avc: granted { getattr } for pid=2426 comm=496E666C6174657254687265616420 path="/" dev="rootfs" ino=1 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:rootfs:s0 tclass=dir duplicate messages suppressed
+[  227.149993] type=1400 audit(1508833753.938:136): avc: granted { getattr } for pid=2427 comm=496E666C6174657254687265616420 path="/" dev="rootfs" ino=1 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:rootfs:s0 tclass=dir
+[  227.151824] type=1400 audit(1508833753.938:138): avc: granted { getattr } for pid=2427 comm=496E666C6174657254687265616420 path="/" dev="rootfs" ino=1 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:rootfs:s0 tclass=dir duplicate messages suppressed
+[  227.152160] type=1400 audit(1508833753.938:139): avc: granted { getattr } for pid=2425 comm=496E666C6174657254687265616420 path="/" dev="rootfs" ino=1 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:rootfs:s0 tclass=dir
+[  227.158111] type=1400 audit(1508833753.948:144): avc: granted { getattr } for pid=2425 comm=496E666C6174657254687265616420 path="/" dev="rootfs" ino=1 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:rootfs:s0 tclass=dir duplicate messages suppressed
+[  227.158447] type=1400 audit(1508833753.948:145): avc: granted { getattr } for pid=2426 comm=496E666C6174657254687265616420 path="/" dev="rootfs" ino=1 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:rootfs:s0 tclass=dir
+[  227.167724] type=1400 audit(1508833753.948:147): avc: granted { getattr } for pid=2426 comm=496E666C6174657254687265616420 path="/" dev="rootfs" ino=1 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:rootfs:s0 tclass=dir duplicate messages suppressed
+[  227.167938] type=1400 audit(1508833753.958:148): avc: granted { getattr } for pid=2427 comm=496E666C6174657254687265616420 path="/" dev="rootfs" ino=1 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:rootfs:s0 tclass=dir
+[  227.200286] bcm2079x-i2c 0-a1fa: 10,92
+[  227.510833] bcm2079x-i2c 0-a1fa: bcm2079x_dev_unlocked_ioctl, unknown cmd (fa07, 77)
+[  227.510955] qup_i2c qup_i2c.0: QUP: I2C status flags :0x1300a0, irq:226
+[  227.511138] bcm2079x-i2c 0-a1fa: failed to write -1245344
+[  227.511199] bcm2079x-i2c 0-a1fa: bcm2079x_dev_unlocked_ioctl, BCMNFC_CHANGE_ADDR (fa02, 77):
+[  227.511352] bcm2079x-i2c 0-a1fa: Change client device from (0x0079) flag = 0000, addr_data[9] = 69
+[  227.511779] bcm2079x-i2c 0-a1fa: Change client device changed to (0x0077) flag = 0000, ret = 10
+[  227.664489] init: computing context for service 'sensors'
+[  227.666015] init: starting service 'sensors'...
+[  227.667480] init: property_set("ro.boottime.sensors", "227654475659") failed: property already set
+[  227.743560] ch_notify on a closed smd_pkt_dev id:18
+[  227.748016] init: Service 'sensors' (pid 2856) killed by signal 6
+[  227.748138] init: Sending signal 9 to service 'sensors' (pid 2856) process group...
+[  227.822540] init: kill(2856, 9) failed: No such process
+[  228.862945] type=1400 audit(1508833753.958:150): avc: granted { getattr } for pid=2427 comm=496E666C6174657254687265616420 path="/" dev="rootfs" ino=1 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:rootfs:s0 tclass=dir duplicate messages suppressed
+[  228.863159] type=1400 audit(1508833755.649:151): avc: denied { read write } for pid=845 comm="android.anim" name="fb0" dev="tmpfs" ino=8315 scontext=u:r:system_server:s0 tcontext=u:object_r:graphics_device:s0 tclass=chr_file permissive=1
+[  228.864654] type=1400 audit(1508833755.649:151): avc: denied { read write } for pid=845 comm="android.anim" name="fb0" dev="tmpfs" ino=8315 scontext=u:r:system_server:s0 tcontext=u:object_r:graphics_device:s0 tclass=chr_file permissive=1
+[  228.868927] type=1400 audit(1508833755.649:152): avc: denied { open } for pid=845 comm="android.anim" name="fb0" dev="tmpfs" ino=8315 scontext=u:r:system_server:s0 tcontext=u:object_r:graphics_device:s0 tclass=chr_file permissive=1
+[  228.869415] type=1400 audit(1508833755.649:152): avc: denied { open } for pid=845 comm="android.anim" name="fb0" dev="tmpfs" ino=8315 scontext=u:r:system_server:s0 tcontext=u:object_r:graphics_device:s0 tclass=chr_file permissive=1
+[  228.869689] type=1400 audit(1508833755.649:153): avc: denied { ioctl } for pid=845 comm="android.anim" path="/dev/graphics/fb0" dev="tmpfs" ino=8315 ioctlcmd=4602 scontext=u:r:system_server:s0 tcontext=u:object_r:graphics_device:s0 tclass=chr_file permissive=1
+[  232.097106] healthd: battery l=74 v=3895 t=36.6 h=2 st=2 c=625 chg=u
+[  232.666900] init: computing context for service 'sensors'
+[  232.667510] init: starting service 'sensors'...
+[  232.673583] init: property_set("ro.boottime.sensors", "232660569670") failed: property already set
+[  232.743591] ch_notify on a closed smd_pkt_dev id:18
+[  232.745910] init: Service 'sensors' (pid 3207) killed by signal 6
+[  232.746032] init: Sending signal 9 to service 'sensors' (pid 3207) process group...
+[  232.773895] init: kill(3207, 9) failed: No such process
+[  236.895050] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  236.895996] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  237.195159] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  237.195434] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  237.673065] init: computing context for service 'sensors'
+[  237.673828] init: starting service 'sensors'...
+[  237.674957] init: property_set("ro.boottime.sensors", "237662064981") failed: property already set
+[  237.740661] ch_notify on a closed smd_pkt_dev id:18
+[  237.742553] init: Service 'sensors' (pid 3242) killed by signal 6
+[  237.742736] init: Sending signal 9 to service 'sensors' (pid 3242) process group...
+[  237.792572] init: kill(3242, 9) failed: No such process
+[  242.088592] healthd: battery l=74 v=3952 t=36.6 h=2 st=2 c=187 chg=u
+[  242.122467] adjust_soc: ibat_ua = 316600, vbat_uv = 3960045, soc = 74, batt_temp=366
+[  242.132598] healthd: battery l=74 v=3945 t=36.6 h=2 st=2 c=316 chg=u
+[  242.196716] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  242.197052] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  242.199371] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  242.199523] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  242.674407] init: computing context for service 'sensors'
+[  242.675048] init: starting service 'sensors'...
+[  242.676147] init: property_set("ro.boottime.sensors", "242663255168") failed: property already set
+[  242.791290] ch_notify on a closed smd_pkt_dev id:18
+[  242.793029] init: Service 'sensors' (pid 3265) killed by signal 6
+[  242.793212] init: Sending signal 9 to service 'sensors' (pid 3265) process group...
+[  242.822540] init: kill(3265, 9) failed: No such process
+[  243.146514] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  243.146759] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  245.455993] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  245.456665] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  246.152374] type=1400 audit(1508833755.649:153): avc: denied { ioctl } for pid=845 comm="android.anim" path="/dev/graphics/fb0" dev="tmpfs" ino=8315 ioctlcmd=4602 scontext=u:r:system_server:s0 tcontext=u:object_r:graphics_device:s0 tclass=chr_file permissive=1
+[  246.159240] type=1400 audit(1508833773.040:154): avc: denied { ioctl } for pid=467 comm="netmgrd" path="socket:[49478]" dev="sockfs" ino=49478 ioctlcmd=8914 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=1
+[  246.161163] type=1400 audit(1508833773.040:154): avc: denied { ioctl } for pid=467 comm="netmgrd" path="socket:[49478]" dev="sockfs" ino=49478 ioctlcmd=8914 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=1
+[  246.161773] type=1400 audit(1508833773.050:155): avc: denied { ioctl } for pid=3301 comm="netmgrd" path="socket:[50219]" dev="sockfs" ino=50219 ioctlcmd=8916 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=1
+[  246.164459] type=1400 audit(1508833773.050:155): avc: denied { ioctl } for pid=3301 comm="netmgrd" path="socket:[50219]" dev="sockfs" ino=50219 ioctlcmd=8916 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=1
+[  246.164916] type=1400 audit(1508833773.050:156): avc: denied { ioctl } for pid=3301 comm="netmgrd" path="socket:[50219]" dev="sockfs" ino=50219 ioctlcmd=8927 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=1
+[  246.207366] type=1400 audit(1508833773.050:156): avc: denied { ioctl } for pid=3301 comm="netmgrd" path="socket:[50219]" dev="sockfs" ino=50219 ioctlcmd=8927 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=1
+[  246.207580] type=1400 audit(1508833773.100:157): avc: denied { ioctl } for pid=3301 comm="netmgrd" path="socket:[50219]" dev="sockfs" ino=50219 ioctlcmd=891c scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=1
+[  246.208007] type=1400 audit(1508833773.100:157): avc: denied { ioctl } for pid=3301 comm="netmgrd" path="socket:[50219]" dev="sockfs" ino=50219 ioctlcmd=891c scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=1
+[  246.208221] type=1400 audit(1508833773.100:158): avc: denied { ioctl } for pid=3301 comm="netmgrd" path="socket:[50219]" dev="sockfs" ino=50219 ioctlcmd=890b scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=1
+[  246.208526] type=1400 audit(1508833773.100:158): avc: denied { ioctl } for pid=3301 comm="netmgrd" path="socket:[50219]" dev="sockfs" ino=50219 ioctlcmd=890b scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=1
+[  246.208709] type=1400 audit(1508833773.100:159): avc: denied { ioctl } for pid=467 comm="netmgrd" path="socket:[49488]" dev="sockfs" ino=49488 ioctlcmd=8922 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=1
+[  246.398315] type=1400 audit(1508833773.100:159): avc: denied { ioctl } for pid=467 comm="netmgrd" path="socket:[49488]" dev="sockfs" ino=49488 ioctlcmd=8922 scontext=u:r:netmgrd:s0 tcontext=u:r:netmgrd:s0 tclass=udp_socket permissive=1
+[  246.398498] type=1400 audit(1508833773.290:160): avc: granted { getattr } for pid=3306 comm="iptables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  246.406188] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  246.406921] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  246.409027] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  246.409606] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  246.426391] type=1400 audit(1508833773.290:160): avc: granted { getattr } for pid=3306 comm="iptables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  246.426605] type=1400 audit(1508833773.320:161): avc: granted { getattr } for pid=3314 comm="ip6tables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  246.475769] type=1400 audit(1508833773.320:161): avc: granted { getattr } for pid=3314 comm="ip6tables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  246.476409] type=1400 audit(1508833773.370:162): avc: granted { getattr } for pid=3317 comm="iptables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  246.517639] type=1400 audit(1508833773.370:162): avc: granted { getattr } for pid=3317 comm="iptables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  246.517822] type=1400 audit(1508833773.410:163): avc: granted { getattr } for pid=3319 comm="ip6tables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  246.558319] init: processing action (sys.sysctl.tcp_def_init_rwnd=*)
+[  246.569763] init: processing action (sys.sysctl.tcp_def_init_rwnd=*)
+[  246.860565] type=1400 audit(1508833773.410:163): avc: granted { getattr } for pid=3319 comm="ip6tables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  246.861206] type=1400 audit(1508833773.751:164): avc: granted { getattr } for pid=3341 comm="iptables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  246.878845] type=1400 audit(1508833773.751:164): avc: granted { getattr } for pid=3341 comm="iptables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  246.879058] type=1400 audit(1508833773.771:165): avc: granted { getattr } for pid=3342 comm="ip6tables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  246.898803] type=1400 audit(1508833773.771:165): avc: granted { getattr } for pid=3342 comm="ip6tables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  246.898956] type=1400 audit(1508833773.791:166): avc: granted { getattr } for pid=3343 comm="iptables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  246.921691] type=1400 audit(1508833773.791:166): avc: granted { getattr } for pid=3343 comm="iptables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  246.922332] type=1400 audit(1508833773.811:167): avc: granted { getattr } for pid=3345 comm="ip6tables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  246.940521] type=1400 audit(1508833773.811:167): avc: granted { getattr } for pid=3345 comm="ip6tables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  246.940704] type=1400 audit(1508833773.831:168): avc: granted { getattr } for pid=3347 comm="iptables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  246.963531] type=1400 audit(1508833773.831:168): avc: granted { getattr } for pid=3347 comm="iptables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  246.963684] type=1400 audit(1508833773.851:169): avc: granted { getattr } for pid=3348 comm="ip6tables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  246.982543] type=1400 audit(1508833773.851:169): avc: granted { getattr } for pid=3348 comm="ip6tables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  246.984222] type=1400 audit(1508833773.871:170): avc: granted { getattr } for pid=3349 comm="iptables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  247.005249] type=1400 audit(1508833773.871:170): avc: granted { getattr } for pid=3349 comm="iptables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  247.005462] type=1400 audit(1508833773.901:171): avc: granted { getattr } for pid=3350 comm="ip6tables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  247.024627] type=1400 audit(1508833773.901:171): avc: granted { getattr } for pid=3350 comm="ip6tables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  247.024841] type=1400 audit(1508833773.921:172): avc: granted { getattr } for pid=3351 comm="iptables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  247.044372] type=1400 audit(1508833773.921:172): avc: granted { getattr } for pid=3351 comm="iptables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  247.044525] type=1400 audit(1508833773.941:173): avc: granted { getattr } for pid=3352 comm="ip6tables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  247.064331] type=1400 audit(1508833773.941:173): avc: granted { getattr } for pid=3352 comm="ip6tables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  247.064575] type=1400 audit(1508833773.961:174): avc: granted { getattr } for pid=3353 comm="iptables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  247.085937] type=1400 audit(1508833773.961:174): avc: granted { getattr } for pid=3353 comm="iptables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  247.086761] type=1400 audit(1508833773.981:175): avc: granted { getattr } for pid=3354 comm="ip6tables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  247.104461] type=1400 audit(1508833773.981:175): avc: granted { getattr } for pid=3354 comm="ip6tables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  247.104675] type=1400 audit(1508833774.001:176): avc: granted { getattr } for pid=3355 comm="iptables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  247.124542] type=1400 audit(1508833774.001:176): avc: granted { getattr } for pid=3355 comm="iptables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  247.124786] type=1400 audit(1508833774.021:177): avc: granted { getattr } for pid=3356 comm="ip6tables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  247.145050] type=1400 audit(1508833774.021:177): avc: granted { getattr } for pid=3356 comm="ip6tables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  247.145324] type=1400 audit(1508833774.041:178): avc: granted { getattr } for pid=3357 comm="iptables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  247.165344] type=1400 audit(1508833774.041:178): avc: granted { getattr } for pid=3357 comm="iptables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  247.165771] type=1400 audit(1508833774.061:179): avc: granted { getattr } for pid=3358 comm="ip6tables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  247.185089] type=1400 audit(1508833774.061:179): avc: granted { getattr } for pid=3358 comm="ip6tables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  247.185455] type=1400 audit(1508833774.081:180): avc: granted { getattr } for pid=3359 comm="iptables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  247.205230] type=1400 audit(1508833774.081:180): avc: granted { getattr } for pid=3359 comm="iptables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  247.205688] type=1400 audit(1508833774.101:181): avc: granted { getattr } for pid=3360 comm="ip6tables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  247.226287] type=1400 audit(1508833774.101:181): avc: granted { getattr } for pid=3360 comm="ip6tables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  247.226928] type=1400 audit(1508833774.121:182): avc: granted { getattr } for pid=3361 comm="iptables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  247.251892] type=1400 audit(1508833774.121:182): avc: granted { getattr } for pid=3361 comm="iptables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  247.252105] type=1400 audit(1508833774.141:183): avc: granted { getattr } for pid=3362 comm="ip6tables" path="/vendor" dev="rootfs" ino=4769 scontext=u:r:netd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file
+[  247.333709] healthd: battery l=74 v=3942 t=36.6 h=2 st=2 c=289 chg=u
+[  247.676269] init: computing context for service 'sensors'
+[  247.676879] init: starting service 'sensors'...
+[  247.677978] init: property_set("ro.boottime.sensors", "247664471742") failed: property already set
+[  247.746643] ch_notify on a closed smd_pkt_dev id:18
+[  247.750274] init: Service 'sensors' (pid 3365) killed by signal 6
+[  247.750549] init: Sending signal 9 to service 'sensors' (pid 3365) process group...
+[  247.814086] init: kill(3365, 9) failed: No such process
+[  250.629760] init: processing action (sys.sysctl.tcp_def_init_rwnd=*)
+[  250.638885] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  250.639465] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  250.687896] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  250.688140] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  252.094757] healthd: battery l=74 v=4021 t=36.6 h=2 st=2 c=99 chg=u
+[  252.677459] init: computing context for service 'sensors'
+[  252.678009] init: starting service 'sensors'...
+[  252.679046] init: property_set("ro.boottime.sensors", "252665569659") failed: property already set
+[  252.736083] ch_notify on a closed smd_pkt_dev id:18
+[  252.738220] init: Service 'sensors' (pid 3390) killed by signal 6
+[  252.738403] init: Sending signal 9 to service 'sensors' (pid 3390) process group...
+[  252.753631] init: kill(3390, 9) failed: No such process
+[  256.182952] rmnet_usb0: no IPv6 routers present
+[  257.515563] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  257.515808] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  257.678558] init: computing context for service 'sensors'
+[  257.679138] init: starting service 'sensors'...
+[  257.680175] init: property_set("ro.boottime.sensors", "257666698809") failed: property already set
+[  257.743743] ch_notify on a closed smd_pkt_dev id:18
+[  257.745941] init: Service 'sensors' (pid 3399) killed by signal 6
+[  257.746063] init: Sending signal 9 to service 'sensors' (pid 3399) process group...
+[  257.783172] init: kill(3399, 9) failed: No such process
+[  259.048339] lm3530_backlight_off, on: 1
+[  259.149322] lm3530_backlight_off, on: 0
+[  259.172973] mipi_lgit_lcd_off started
+[  259.302978] mipi_lgit_lcd_off finished
+[  259.303009] mipi_dsi_panel_power: mipi lcd function started status = 0 
+[  259.308197] lm3530_backlight_off, on: 0
+[  259.308746] EXT_COMMON: hdmi_common_wta_hpd: '1' (unchanged)
+[  259.309783] request_suspend_state: sleep (0->3) at 259296886799 (2017-10-24 08:29:46.211598673 UTC)
+[  259.309936] early_suspend: call handlers
+[  259.310089] [Touch D]touch disable
+[  259.315612] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  259.315948] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  259.335174] active wake lock PowerManagerService.Broadcasts
+[  259.335327] active wake lock msm_hsic_host
+[  259.335388] active wake lock PowerManagerService.WakeLocks
+[  259.335510] active wake lock pm8921_eoc
+[  259.335571] active wake lock msm_otg
+[  259.335662] PM: Syncing filesystems...
+[  259.345336] wlan: [2046:E :HDD] hdd_conf_arp_offload: 
+[  259.345336] 
+[  259.345520] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  259.345642] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  259.345794] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  259.345916] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  259.346069] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  259.346191] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  259.346282] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  259.346405] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  259.346527] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  259.346679] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  259.346801] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  259.346954] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  259.347076] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  259.347167] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  259.347290] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  259.347412] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  259.347564] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  259.347686] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  259.347839] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  259.347961] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  259.348052] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  259.348175] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  259.348327] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  259.348449] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  259.348602] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  259.348724] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  259.348785] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  259.348937] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  259.349060] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  259.349304] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  259.349456] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  259.349578] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  259.349670] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  259.349792] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  259.349945] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  259.350128] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  259.350280] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  259.350402] wlan: [1955:E :WDA] Failure in host offload REQ WDI API, free all the memory 
+[  259.366851] sync done.
+[  260.365753] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  260.365966] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  261.865905] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  261.866149] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  262.091491] healthd: battery l=74 v=4028 t=36.5 h=2 st=2 c=-70 chg=u
+[  262.123077] adjust_soc: ibat_ua = 26400, vbat_uv = 4027605, soc = 74, batt_temp=365
+[  262.679718] init: computing context for service 'sensors'
+[  262.680450] init: starting service 'sensors'...
+[  262.681518] init: property_set("ro.boottime.sensors", "262668041583") failed: property already set
+[  262.756622] ch_notify on a closed smd_pkt_dev id:18
+[  262.758392] init: Service 'sensors' (pid 3433) killed by signal 6
+[  262.758544] init: Sending signal 9 to service 'sensors' (pid 3433) process group...
+[  262.783325] init: kill(3433, 9) failed: No such process
+[  263.566436] ueventd: fixup /sys/devices/system/cpu/cpu1/cpufreq/scaling_max_freq 1000 1000 664
+[  263.566650] ueventd: fixup /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq 1000 1000 664
+[  263.618103] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  263.618347] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  263.621429] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  263.621673] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  267.215637] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  267.216308] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  267.681060] init: computing context for service 'sensors'
+[  267.681579] init: starting service 'sensors'...
+[  267.682647] init: property_set("ro.boottime.sensors", "267669170732") failed: property already set
+[  267.754577] ch_notify on a closed smd_pkt_dev id:18
+[  267.756225] init: Service 'sensors' (pid 3463) killed by signal 6
+[  267.756408] init: Sending signal 9 to service 'sensors' (pid 3463) process group...
+[  267.783203] init: kill(3463, 9) failed: No such process
+[  269.465789] ueventd: fixup /sys/devices/system/cpu/cpu1/cpufreq/scaling_max_freq 1000 1000 664
+[  269.466491] ueventd: fixup /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq 1000 1000 664
+[  271.846496] ueventd: fixup /sys/devices/system/cpu/cpu1/cpufreq/scaling_max_freq 1000 1000 664
+[  271.846740] ueventd: fixup /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq 1000 1000 664
+[  272.089416] healthd: battery l=74 v=4027 t=36.5 h=2 st=2 c=15 chg=u
+[  272.195983] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  272.196197] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  272.548248] adb_release
+[  272.549743] init: Service 'adbd' (pid 2637) exited with status 1
+[  272.549896] init: Sending signal 9 to service 'adbd' (pid 2637) process group...
+[  272.564056] init: kill(2637, 9) failed: No such process
+[  272.565521] init: starting service 'adbd'...
+[  272.567565] init: property_set("ro.boottime.adbd", "272553631182") failed: property already set
+[  272.567993] init: Created socket '/dev/socket/adbd', mode 660, user 1000, group 1000
+[  272.578063] adb_bind_config
+[  272.581207] msm_otg msm_otg: Avail curr from USB = 2
+[  272.581329] msm_otg msm_otg: current: 500 -> 2 (mA)
+[  272.581451] pm_power_set_property_usb: usb_target_ma 0
+[  272.581512] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_SUSPEND_EVENT received
+[  272.613494] chg_gone_irq_handler: chg_gone=1, usb_valid = 1
+[  272.613586] chg_gone_irq_handler: Chg gone fsm_state=3
+[  272.613739] chg_gone_irq_handler: schedule to check again here
+[  272.623107] adjust_soc: ibat_ua = 401900, vbat_uv = 3962724, soc = 74, batt_temp=365
+[  272.627014] healthd: battery l=74 v=3956 t=36.5 h=2 st=3 c=401 chg=u
+[  272.629333] pm8xxx-led pm8xxx-led: resume red set 0
+[  272.629699] pm8xxx-led pm8xxx-led: resume green set 0
+[  272.629882] pm8xxx-led pm8xxx-led: resume blue set 0
+[  272.640533] healthd: battery l=74 v=3938 t=36.5 h=2 st=3 c=473 chg=u
+[  272.645965] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  272.646575] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  272.659118] healthd: battery l=74 v=3945 t=36.5 h=2 st=3 c=499 chg=u
+[  272.669128] healthd: battery l=74 v=3901 t=36.5 h=2 st=3 c=552 chg=u
+[  272.682159] init: computing context for service 'sensors'
+[  272.682708] init: starting service 'sensors'...
+[  272.683837] init: property_set("ro.boottime.sensors", "272670360919") failed: property already set
+[  272.683868] healthd: battery l=74 v=3908 t=36.5 h=2 st=3 c=628 chg=u
+[  272.692871] healthd: battery l=74 v=3903 t=36.5 h=2 st=3 c=657 chg=u
+[  272.748596] ch_notify on a closed smd_pkt_dev id:18
+[  272.750427] init: Service 'sensors' (pid 3496) killed by signal 6
+[  272.750610] init: Sending signal 9 to service 'sensors' (pid 3496) process group...
+[  272.794830] init: kill(3496, 9) failed: No such process
+[  272.850830] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+[  272.948516] android_work: android_work: sent uevent USB_STATE=CONNECTED
+[  272.948913] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+[  273.052185] android_work: android_work: sent uevent USB_STATE=CONNECTED
+[  273.054656] unplug_usbcheck_work: usb_vin : 33552, max_voltage_mv=4360
+[  273.070251] healthd: battery l=74 v=3932 t=36.5 h=2 st=3 c=645 chg=u
+[  273.076385] android_usb gadget: high-speed config #1: android_usb
+[  273.076629] msm_otg msm_otg: Avail curr from USB = 500
+[  273.076812] msm_otg msm_otg: current: 2 -> 500 (mA)
+[  273.077026] pm_power_set_property_usb: usb_target_ma 0
+[  273.081573] healthd: battery l=74 v=3930 t=36.5 h=2 st=3 c=427 chg=u
+[  273.084411] chg_gone_irq_handler: chg_gone=0, usb_valid = 1
+[  273.084564] chg_gone_irq_handler: Chg gone fsm_state=3
+[  273.095794] healthd: battery l=74 v=3939 t=36.5 h=2 st=2 c=471 chg=u
+[  273.097045] pm8xxx-led pm8xxx-led: resume red set 255
+[  273.097198] pm8xxx-led pm8xxx-led: resume green set 255
+[  273.097290] pm8xxx-led pm8xxx-led: resume blue set 0
+[  273.111663] healthd: battery l=74 v=4036 t=36.5 h=2 st=2 c=-19 chg=u
+[  273.123199] healthd: battery l=74 v=4024 t=36.5 h=2 st=2 c=-31 chg=u
+[  273.134033] android_work: android_work: sent uevent USB_STATE=CONFIGURED
+[  273.141754] healthd: battery l=74 v=4027 t=36.5 h=2 st=2 c=-10 chg=u
+[  273.154418] healthd: battery l=74 v=4022 t=36.5 h=2 st=2 c=12 chg=u
+[  273.163360] healthd: battery l=74 v=3999 t=36.5 h=2 st=2 c=54 chg=u
+[  273.173553] healthd: battery l=74 v=3993 t=36.5 h=2 st=2 c=157 chg=u
+[  273.197174] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  273.197387] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  274.176605] ueventd: fixup /sys/devices/system/cpu/cpu1/cpufreq/scaling_max_freq 1000 1000 664
+[  274.176849] ueventd: fixup /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq 1000 1000 664
+[  277.683380] init: computing context for service 'sensors'
+[  277.683929] init: starting service 'sensors'...
+[  277.684997] init: property_set("ro.boottime.sensors", "277671551105") failed: property already set
+[  277.747741] ch_notify on a closed smd_pkt_dev id:18
+[  277.749633] init: Service 'sensors' (pid 3520) killed by signal 6
+[  277.749755] init: Sending signal 9 to service 'sensors' (pid 3520) process group...
+[  277.773834] init: kill(3520, 9) failed: No such process
+[  278.142730] request_suspend_state: wakeup (3->0) at 278129803056 (2017-10-24 08:30:05.044514930 UTC)
+[  278.142822] late_resume: call handlers
+[  278.142974] [Touch D]touch enable
+[  278.145874] mipi_dsi_panel_power: mipi lcd function started status = 1 
+[  278.150695] late_resume: done
+[  278.152618]  mipi_dsi_panel_power : reset start.
+[  278.166351] wlan: [2046:E :HDD] hdd_conf_arp_offload: 
+[  278.166351] 
+[  278.166412] wlan: [2046:E :SME] sme_8023MulticastList: Unable to find the right session
+[  278.171783] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  278.171813] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  278.171844] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  278.171844] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  278.171875] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  278.171875] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  278.171905] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  278.171905] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  278.171936] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  278.171966] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  278.171966] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  278.171997] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  278.171997] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  278.172027] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  278.172027] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  278.172058] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  278.172088] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  278.172088] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  278.172119] wlan: [1955:E :CTL]  WDI_ProcessHostOffloadReq : Association for this BSSID does not exist 00:00:00:00:00:00
+[  278.187896] mipi_lgit_lcd_on started
+[  278.243286] mipi_lgit_lcd_on finished
+[  278.249725] lm3530_backlight_on, ++ lm3530_backlight_on  
+[  278.255859] EXT_COMMON: hdmi_common_wta_hpd: '1' (unchanged)
+[  278.258758] mdp4_overlay_mdp_perf_upd mdp clk is changed [1] from 0 to 96000000
+[  279.156219] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  279.156402] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  279.158233] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  279.158508] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  282.089416] healthd: battery l=74 v=3991 t=36.5 h=2 st=2 c=-46 chg=u
+[  282.123077] adjust_soc: ibat_ua = 203200, vbat_uv = 3996951, soc = 74, batt_temp=365
+[  282.157897] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq 1000 1000 664
+[  282.158142] ueventd: fixup /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 1000 1000 664
+[  282.161590] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq 1000 1000 664
+[  282.162109] ueventd: fixup /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 1000 1000 664
+[  282.684570] init: computing context for service 'sensors'
+[  282.685241] init: starting service 'sensors'...
+[  282.686340] init: property_set("ro.boottime.sensors", "282672802324") failed: property already set
+[  282.756591] ch_notify on a closed smd_pkt_dev id:18
+[  282.758483] init: Service 'sensors' (pid 3559) killed by signal 6
+[  282.758819] init: Sending signal 9 to service 'sensors' (pid 3559) process group...
+[  282.793121] init: kill(3559, 9) failed: No such process
+[  283.506072] ueventd: fixup /sys/devices/system/cpu/cpu1/cpufreq/scaling_max_freq 1000 1000 664
+[  283.506866] ueventd: fixup /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq 1000 1000 664
