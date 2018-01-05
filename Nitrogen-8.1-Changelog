@@ -1,15 +1,127 @@
 ====================
+     01-04-2018
+====================
+
+
+   * system/nfc/
+ebaf593 bcm2079x: fix chip id format strings
+d4458f0 bcm2079x: Add checks to prevent NULL pointer deference in gki_init_free_queue()
+415da0c bcm2079x: Replace pthread_exit with return to avoid memory leak
+2a708b8 bcm2079x: [DNM] Hardcode nci_ctrl_size to Nougat value
+6797996 bcm2079x: fix crash in userial_close_thread()
+
+====================
+     01-03-2018
+====================
+
+
+   * build/make/
+adc2fda1a Build support for 32-bit armv8-a
+
+====================
+     01-02-2018
+====================
+
+
+====================
+     01-01-2018
+====================
+
+
+   * device/oneplus/oneplus3/
+af63f99 init.qcom.usb: fix rndis after removing init.qcom.usb.sh
+100f901 init.qcom.power: block some wakelocks
+
+   * external/strace/
+ceffe59c Revert "Update strace to 4.18."
+
+   * kernel/oneplus/msm8996/
+848b414efad wakeup: add some wakelocks from cheeseburger
+
+====================
+     12-31-2017
+====================
+
+
+====================
+     12-30-2017
+====================
+
+
+====================
+     12-29-2017
+====================
+
+
+   * device/oneplus/oneplus3/
+0260b1c init.qcom.power: Tweak interactive governor by By Sasha (aka Inkyz \ Sycreed) Link - https://4pda.ru/forum/index.php?showtopic=752764&st=9280#entry68532585
+
+====================
+     12-28-2017
+====================
+
+
+   * frameworks/base/
+383340b30b0 Brightness on footer: improve vpn footer warnings layout
+5d300246fbf Battery tile: fix label when charging
+905e6f842a3 [1/2] base: poor man battery style tweaks
+d97941156af Allow to disable qs footer warnings [1/2]
+
+   * kernel/xiaomi/kenzo/
+584f7c9cf85 proc: Remove additional SafetyNet flags from /proc/cmdline
+4c7b50b55d9 proc: Remove verifiedbootstate flag from /proc/cmdline
+d41b936ea0f Revert "SafetyNet bypass: Show androidboot.verifiedbootstate=green"
+
+====================
      12-27-2017
 ====================
 
 
+   * device/oneplus/oneplus3/
+5612a84 Use hardware feature definition to indicate Passpoint support Bug: 36886243 Test: Manual test Change-Id: I1a78cb4ca7fd48b47467c7be92a4a821ff4908d0
+
    * device/xiaomi/kenzo/
+bf0a04a Use hardware feature definition to indicate Passpoint support Bug: 36886243 Test: Manual test Change-Id: I1a78cb4ca7fd48b47467c7be92a4a821ff4908d0
+
+   * hardware/qcom/bt/
+070e117 Fix msm8960 building
+
+   * hardware/qcom/gps/
+a9af0ed msm8960: Add support for IPV6 in AGPS Interface
+
+   * hardware/qcom/media/
+11ccf93 libstagefrighthw: Remove padding in encoder_nativehandle_buffer_type
+3a74eb5 mm-video-legacy: venc: update metadata-type used for HAL1 based  recording
+31d1764 mm-video: vidc: Remove hardcoding of BufCountActual
+215b747 mm-video: venc: update color format in port-def
+16e600f mm-video: venc: Use correct flag for buffer index selection
+c22488c mm-video-legacy: venc: update allocation-size check for meta-buffer
+d0e6256 media: vdec: Include nativebase headers
+dcf629b media: Also add msm8960 symlink to msm8974
+
+   * packages/apps/NitrogenSettings/
+513f9af Allow to disable qs footer warnings [2/2]
+
+   * packages/apps/Settings/
+8930ea93e2 PowerUsageSummary: Remove cross-listed preferences
+040eff3036 [2/2] Settings: poor man battery style tweaks for now just add hide/show image and or percentage
+
+====================
+     12-26-2017
+====================
+
+
+   * device/oneplus/oneplus3/
+eab9ccd Fix bluetooth selinux denial
+3a07fd1 sepolicy: fix netutils_wrapper denied { read write } for pid=2509 comm="iptables-wrappe" path="socket:[30699]" dev="sockfs" ino=30699 scontext=u:r:netutils_wrapper:s0 tcontext=u:r:netmgrd:s0 tclass=netlink_socket
+e87a5aa ramdisk: remove init.qcom.usb.sh Thanks @maxwen for idea
+
+   * device/xiaomi/kenzo/
+a5478a1 BoardConfig: add USE_DEVICE_SPECIFIC_GPS
 31bcf94 kenzo: Update to WiFi 1.1
 
-   * external/strace/
-1aa1354d Revert "Update strace to 4.18."
-
    * frameworks/base/
+381eb36c84f Brightness footer slider: improve animation when on 2nd QS page
 e323d78b6c4 Footer brightness buttons: make touch area more reliable
 2fc8b4d9f07 Footer brightness slider: improve hide/show animation
 41ae5ee798a Brightness slider buttons: make them dynamic (auto and manual)
@@ -20,7 +132,6 @@ fcf57c15dae Make use of the brightness slider buttons
 3fe453b11f6 frameworks: base: Port password retention feature
 
    * hardware/qcom/audio/
-25c334e Add msm_audio_calibration.h to avaoid build error
 c854ebc hardware: qcom: audio: Add build barrier for CAF and AOSP
 
    * hardware/qcom/display/
@@ -28,477 +139,13 @@ c854ebc hardware: qcom: audio: Add build barrier for CAF and AOSP
 ec8271ff display: add CAF vs. AOSP hal separation ifdef
 
    * hardware/qcom/gps/
-defcce1 msm8960: Add support for IPV6 in AGPS Interface
 ec7a742 gps: Add guard makefile
 
    * hardware/qcom/media/
-09e52f6 libstagefrighthw: Remove padding in encoder_nativehandle_buffer_type
-6658689 mm-video-legacy: venc: update metadata-type used for HAL1 based  recording
-f667e6f mm-video: vidc: Remove hardcoding of BufCountActual
-f80cb09 mm-video: venc: update color format in port-def
-54fe993 mm-video: venc: Use correct flag for buffer index selection
-46244d6 mm-video-legacy: venc: update allocation-size check for meta-buffer
-ae33858 media: vdec: Include nativebase headers
-1468840 media: Also add msm8960 symlink to msm8974
 8f6400f media: add CAF vs. AOSP hal separation ifdef
+
+   * packages/apps/DUI/
+3cac5a0 Smartbar custom icon scaling option: fix white buttons on white navbar
 
    * packages/apps/Settings/
 6bff647d7d Changelog: Fix text selection with dot
-
-   * system/bt/
-d5db2d97 Prevent abort in case of command timeout
-62c6859f Bluetooth: Read BLE vendor capability to proceed on Secure conn
-
-====================
-     12-26-2017
-====================
-
-
-   * device/oneplus/oneplus3/
-013e046 op3(t): Update to WiFi 1.1
-
-   * frameworks/base/
-f6e7b2b6717 fwb: Add brazilian portuguese translations
-58941cadf0c SystemUI: Add statusbar NFC icon * added blacklist switch to enable/disable it
-
-   * kernel/oneplus/msm8996/
-f90415128c4 Linux 3.18.90
-726116bb680 fm10k: ensure we process SM mbx when processing VF mbx
-80401f4c3c4 scsi: lpfc: PLOGI failures during NPIV testing
-5d72dd56849 scsi: lpfc: Fix secure firmware updates
-fcf5733e24a PCI/AER: Report non-fatal errors only to the affected endpoint
-8bee518a4e9 igb: check memory allocation failure
-7e2ea4a1a76 PCI: Create SR-IOV virtfn/physfn links before attaching driver
-2675e08cd95 scsi: cxgb4i: fix Tx skb leak
-9e6ad012ce3 PCI: Avoid bus reset if bridge itself is broken
-f54711b1c1d net: phy: at803x: Change error to EINVAL for invalid MAC
-a891a57353f crypto: crypto4xx - increase context and scatter ring buffer elements
-711d711d299 backlight: pwm_bl: Fix overflow condition
-9c0a695ed9b cpuidle: powernv: Pass correct drv->cpumask for registration
-ac6f1070cd3 ARM: dma-mapping: disallow dma_get_sgtable() for non-kernel managed memory
-2b8ce5b54d3 xhci: plat: Register shutdown for xhci_plat
-e19f6703014 isdn: kcapi: avoid uninitialized data
-e9af61e45dc ARM: dts: am335x-evmsk: adjust mmc2 param to allow suspend
-64af520851c netfilter: nf_nat_snmp: Fix panic when snmp_trap_helper fails to register
-ad15cdca337 netfilter: nfnl_cthelper: fix a race when walk the nf_ct_helper_hash table
-1413957849b irda: vlsi_ir: fix check for DMA mapping errors
-fd8e5d2886e i40e: Do not enable NAPI on q_vectors that have no rings
-c381e3c2826 net: Do not allow negative values for busy_read and busy_poll sysctl interfaces
-9b0976956c8 s390/qeth: no ETH header for outbound AF_IUCV
-d90eaa4459c HID: xinmo: fix for out of range for THT 2P arcade controller.
-92b3ec1d5d0 hwmon: (asus_atk0110) fix uninitialized data access
-de338d6c56c ARM: dts: ti: fix PCI bus dtc warnings
-debd9814587 KVM: x86: correct async page present tracepoint
-82b28fba4f6 scsi: lpfc: Fix PT2PT PRLI reject
-8e7f5f93b50 netfilter: nfnl_cthelper: Fix memory leak
-f33f68f72e9 netfilter: nfnl_cthelper: fix runtime expectation policy updates
-5e2c2b92231 usb: gadget: udc: remove pointer dereference after free
-6e5e0d9af87 usb: gadget: f_uvc: Sanity check wMaxPacketSize for SuperSpeed
-fe3d5fd0332 net: qmi_wwan: Add USB IDs for MDM6600 modem on Motorola Droid 4
-135e67cfdeb crypto: deadlock between crypto_alg_sem/rtnl_mutex/genl_mutex
-f667183a23d r8152: fix the list rx_done may be used without initialization
-250f236ae71 cpuidle: Validate cpu_dev in cpuidle_add_sysfs()
-4ca2b128a79 ALSA: hda - add support for docking station for HP 820 G2
-fa899fa79af arm64: Initialise high_memory global variable earlier
-61ac490aae4 defconfig: disable CONFIG_FW_CACHE
-fd96afd9b64 firmware_class: make firmware caching configurable
-
-====================
-     12-25-2017
-====================
-
-
-   * device/oneplus/oneplus3/
-5151bb4 Oneplus3Parts: remove vibration test button
-
-   * device/xiaomi/kenzo/
-5a9fabc Kenzo: Added PL translation
-8955675 XiaomiParts: remove vibration test button
-
-   * frameworks/av/
-12db2abbe services: audioflinger: Threads: increase max tracks per uid
-
-   * frameworks/base/
-d2edc1177e0 Revert "Themes: Expose resolver hardcoded colors"
-df1fe1798cb Revert "SystemUI: Expose QS edit item decoration background color"
-6232f65adff Ambient: Disable by default (1/2)
-fdfb38e281b Added PL translation
-6ff14512b41 App name in screenshot file: replace all special chars with underscore
-263ebebd720 SystemUI: Add zh_rCN translation
-
-   * packages/apps/Settings/
-403cc27707 Ambient: Disable by default (2/2)
-65a4ae382e Reset battery stats [2/2] @xyyx: fix UI updating after resetting
-
-====================
-     12-24-2017
-====================
-
-
-   * frameworks/base/
-c61856a09d9 Reset battery stats [1/2]
-0875ad6d97f Added show volume panel tile to QS
-4868a1b6987 SystemUI: Add tile for enable/disable HW keys
-
-   * packages/apps/NitrogenSettings/
-c11eee4 DUI: fix my bad merging
-
-   * packages/apps/Settings/
-73d85cb74b Export ButtonSettings for tile
-
-====================
-     12-23-2017
-====================
-
-
-   * device/oneplus/oneplus3/
-a9ec11c Revert "Oneplus3Parts: Add Always On preference"
-6bd6cc5 op3(t): overlay: enable AOD
-bd4a41a Oneplus3Parts: Add vibration value https://imgur.com/a/DJG4R
-d2ae256 init.qcom.power: disable wakelocks
-
-   * device/xiaomi/kenzo/
-3b68c7d XiaomiParts: Add vibration value https://imgur.com/a/DJG4R
-e79e8a4 init.qcom.post_boot: disable wakelocks
-9978077 Add cs and sk translation
-5b64733 XiaomiParts: fresh look UI
-
-   * external/DUtils/
-324c539 Fix smartbar Ime switcher icon not showing [1/2]
-
-   * kernel/xiaomi/kenzo/
-ad6b2327306 drivers: wakeup: block some bastard wakeups
-
-   * packages/apps/DUI/
-0890268 Fix smartbar Ime switcher icon not showing [2/2]
-7dcf353 Fix smartbar editor edit popups not showing sometimes
-
-====================
-     12-22-2017
-====================
-
-
-   * device/oneplus/oneplus3/
-c388382 Oneplus3Parts: fresh look UI
-
-   * frameworks/base/
-280873dd8ba Weather: hide lockscreen weather when dozing Thanks @ezio (I kanged code from lockscreen torch commit)
-62f728e07a2 Add cs and sk translation
-
-   * kernel/oneplus/msm8996/
-41f08e765f1 Linux 3.18.89
-247299964c4 usb: musb: da8xx: fix babble condition handling
-1ac33cf08d5 ath9k: fix tx99 potential info leak
-c1e82dd4d3c macvlan: Only deliver one copy of the frame to the macvlan interface
-31abef750e1 udf: Avoid overflow when session starts at large offset
-4de07acb880 scsi: bfa: integer overflow in debugfs
-880b06d674b scsi: scsi_devinfo: Add REPORTLUN2 to EMC SYMMETRIX blacklist entry
-2a61962480d raid5: Set R5_Expanded on parity devices as well as data.
-7b4f2520c7e pinctrl: adi2: Fix Kconfig build problem
-855c17cce24 tty fix oops when rmmod 8250
-9c551bccc1f PCI: Detach driver before procfs & sysfs teardown on device remove
-5140024d11f xfs: fix log block underflow during recovery cycle verification
-6b6cd1272f9 bcache: fix wrong cache_misses statistics
-6f6114def1a bcache: explicitly destroy mutex while exiting
-d2b540d03f5 GFS2: Take inode off order_write list when setting jdata flag
-2c71af85166 thermal/drivers/step_wise: Fix temperature regulation misbehavior
-796f8c3ce60 ppp: Destroy the mutex when cleanup
-4df12b92ed8 clk: tegra: Fix cclk_lp divisor register
-69450c65724 mm: Handle 0 flags in _calc_vm_trans() macro
-6e47b89ee4e arm-ccn: perf: Prevent module unload while PMU is in use
-f8be0fa4ee5 target/file: Do not return error for UNMAP if length is zero
-946d6abb631 target:fix condition return in core_pr_dump_initiator_port()
-1b07033f1d4 iscsi-target: fix memory leak in lio_target_tiqn_addtpg()
-45c81d67fbd target/iscsi: Fix a race condition in iscsit_add_reject_from_cmd()
-c80026731cf powerpc/ipic: Fix status get and status clear
-7c10492752c powerpc/opal: Fix EBUSY bug in acquiring tokens
-af414b61bcc powerpc/powernv/cpufreq: Fix the frequency read by /proc/cpuinfo
-e71d06b2d09 PCI/PME: Handle invalid data when reading Root Status
-fe4465c26bb video: fbdev: au1200fb: Return an error code if a memory allocation fails
-0629a083d35 video: fbdev: au1200fb: Release some resources if a memory allocation fails
-deb6d077b1f video: udlfb: Fix read EDID timeout
-efd1763e3b6 fbdev: controlfb: Add missing modes to fix out of bounds access
-f85a23d2ccb target: Use system workqueue for ALUA transitions
-1645c255e54 btrfs: add missing memset while reading compressed inline extents
-88ca0b9e717 NFSv4.1 respect server's max size in CREATE_SESSION
-80c0e6956e2 perf symbols: Fix symbols__fixup_end heuristic for corner cases
-20dff407849 afs: Fix afs_kill_pages()
-bea361847fd afs: Fix page leak in afs_write_begin()
-f59e8bfcd56 afs: Populate and use client modification time
-ec983418d5c afs: Fix the maths in afs_fs_store_data()
-2a9e6bea956 afs: Flush outstanding writes when an fd is closed
-047f60d6db9 afs: Adjust mode bits processing
-125f7bc6c0f afs: Populate group ID from vnode status
-96442df9139 afs: Fix missing put_page()
-d4881303927 drm/radeon: reinstate oland workaround for sclk
-3eff55b2d9b sched/deadline: Use deadline instead of period when calculating overflow
-50311000191 drm/radeon/si: add dpm quirk for Oland
-2a790368969 openrisc: fix issue handling 8 byte get_user calls
-d0373ceaf4d net: Resend IGMP memberships upon peer notification.
-7f83eef6a19 dmaengine: Fix array index out of bounds warning in __get_unmap_pool()
-82aa522b285 net: wimax/i2400m: fix NULL-deref at probe
-7dcdcf38102 Input: i8042 - add TUXEDO BU1406 (N24_25BU) to the nomux list
-00edad758b1 NFSD: fix nfsd_reset_versions for NFSv4.
-90e3835320a NFSD: fix nfsd_minorversion(.., NFSD_AVAIL)
-63de1cea8a5 net: bcmgenet: Power up the internal PHY before probing the MII
-4bff70ab46c net: bcmgenet: correct MIB access of UniMAC RUNT counters
-7d9370cff0e net: bcmgenet: correct the RBUF_OVFL_CNT and RBUF_ERR_CNT MIB values
-765c162f0cf usb: phy: isp1301: Add OF device ID table
-f33991958e1 mac80211: Fix addition of mesh configuration element
-91eb976b96b KEYS: Don't permit request_key() to construct a new keyring
-cec02e02094 Don't leak a key reference if request_key() tries to use a revoked keyring
-f899f752f71 ext4: fix crash when a directory's i_size is too small
-f3e96e85881 xhci: Don't add a virt_dev to the devs array before it's fully allocated
-ee4bcff450a usbip: fix stub_send_ret_submit() vulnerability to null transfer_buffer
-7119b1d117e USB: core: prevent malicious bNumInterfaces overflow
-d85b9dff39c USB: uas and storage: Add US_FL_BROKEN_FUA for another JMicron JMS567 ID
-8405e48207c autofs: fix careless error in recent commit
-0b7f393413d crypto: salsa20 - fix blkcipher_walk API usage
-7b6e54a2a4a crypto: hmac - require that the underlying hash algorithm is unkeyed
-aa6270c8036 Linux 3.18.88
-ad202d4a0fd usb: gadget: ffs: Forbid usb_ep_alloc_request from sleeping
-8516eb41bab arm: KVM: Fix VTTBR_BADDR_MASK BUG_ON off-by-one
-61f5d13b6c1 audit: ensure that 'audit=1' actually enables audit for PID 1
-7a3c296c350 afs: Connect up the CB.ProbeUuid
-5fa920335d2 IB/mlx5: Assign send CQ and recv CQ of UMR QP
-7af36ddbb71 IB/mlx4: Increase maximal message size under UD QP
-f397f10a6e9 xfrm: Copy policy family in clone_policy
-6664cbbf87e atm: horizon: Fix irq release error
-e84668f36af sctp: use the right sk after waking up from wait_buf sleep
-12536a40e0c sctp: do not free asoc when it is already dead in sctp_sendmsg
-bdae6f4b13b sparc64/mm: set fields in deferred pages
-d28e5db93b5 sunrpc: Fix rpc_task_begin trace point
-c34228cdf2c NFS: Fix a typo in nfs_rename()
-d595c7c3ce5 dynamic-debug-howto: fix optional/omitted ending line number to be LARGE instead of 0
-332a8be64e9 lib/genalloc.c: make the avail variable an atomic_long_t
-d45bfa274d0 route: update fnhe_expires for redirect when the fnhe exists
-d4e126a6f78 route: also update fnhe_genid when updating a route cache
-966f2d43c4c EDAC, i5000, i5400: Fix definition of NRECMEMB register
-5562f803885 EDAC, i5000, i5400: Fix use of MTR_DRAM_WIDTH macro
-1e2aa992cc7 axonram: Fix gendisk handling
-9fd60542a77 i2c: riic: fix restart condition
-a0beb327434 crypto: s5p-sss - Fix completing crypto request in IRQ handler
-3cde0b78bcf ipv6: reorder icmpv6_init() and ip6_mr_init()
-ccee3f07b0f bnx2x: fix possible overrun of VFPF multicast addresses array
-fc8cc97363e spi_ks8995: fix "BUG: key accdaa28 not in .data!"
-0bf10794bdd arm: KVM: Survive unknown traps from guests
-75eae189014 KVM: nVMX: reset nested_run_pending if the vCPU is going to be reset
-847db59dc0f irqchip/crossbar: Fix incorrect type of register size
-c2b2a941a3f scsi: lpfc: Fix crash during Hardware error recovery on SLI3 adapters
-c566790582c workqueue: trigger WARN if queue_delayed_work() is called with NULL @wq
-3336cdf2c73 libata: drop WARN from protocol error in ata_sff_qc_issue()
-7951da93e9b USB: gadgetfs: Fix a potential memory leak in 'dev_config()'
-573aa2469ba usb: gadget: configs: plug memory leak
-ea32d5364da selftest/powerpc: Fix false failures for skipped tests
-340383aeb71 Revert "s390/kbuild: enable modversions for symbols exported from asm"
-62618ba0153 Revert "drm/armada: Fix compile fail"
-e2dc9983172 net/packet: fix a race in packet_bind() and packet_notifier()
-d5487ebc047 sit: update frag_off info
-8da7bb15f9e rds: Fix NULL pointer dereference in __rds_rdma_map
-f55c15a41e5 arm64: fpsimd: Prevent registers leaking from dead tasks
-34e3e5f287d KVM: VMX: remove I/O port 0x80 bypass on Intel hosts
-157fd8ceb2f arm64: KVM: fix VTTBR_BADDR_MASK BUG_ON off-by-one
-8e116a74499 media: dvb: i2c transfers over usb cannot be done from stack
-80ba50766a4 kdb: Fix handling of kallsyms_symbol_next() return value
-19073fca176 iommu/vt-d: Fix scatterlist offset handling
-d82d480d114 ALSA: usb-audio: Add check return value for usb_string()
-dadfbc40887 ALSA: usb-audio: Fix out-of-bound error
-81a26532908 ALSA: seq: Remove spurious WARN_ON() at timer check
-ac3ac62624e ALSA: pcm: prevent UAF in snd_pcm_info
-39fc4ddbb87 x86/PCI: Make broadcom_postcore_init() check acpi_disabled
-34c8de309e2 X.509: reject invalid BIT STRING for subjectPublicKey
-e159e94727f KEYS: add missing permission check for request_key() destination
-36582f778fd ASN.1: check for error from ASN1_OP_END__ACT actions
-1dd1c4d516b efi: Move some sysfs files to be read-only by root
-0240c09188d isa: Prevent NULL dereference in isa_bus driver callbacks
-772eeceb29d hv: kvp: Avoid reading past allocated blocks from KVP file
-bd5455f2b3c virtio: release virtio index when fail to device_register
-4d4748b4faf can: usb_8dev: cancel urb on -EPIPE and -EPROTO
-ac18d7e4988 can: esd_usb2: cancel urb on -EPIPE and -EPROTO
-0f7247b07d9 can: ems_usb: cancel urb on -EPIPE and -EPROTO
-9ee0da1e6cd can: kvaser_usb: cancel urb on -EPIPE and -EPROTO
-4bb234bcb2e can: kvaser_usb: ratelimit errors if incomplete messages are received
-7511561f09f can: kvaser_usb: Fix comparison bug in kvaser_usb_read_bulk_callback()
-423204505af can: kvaser_usb: free buf in error paths
-b49207c196b Linux 3.18.87
-fbd9f23efe1 usb: host: fix incorrect updating of offset
-eba4572649a USB: usbfs: Filter flags passed in from user space
-3567bcb5fa4 USB: devio: Prevent integer overflow in proc_do_submiturb()
-75be72c1341 USB: Increase usbfs transfer limit
-8fc1f8772c7 usb: hub: Cycle HUB power when initialization fails
-d8608188af6 serial: 8250_pci: Add Amazon PCI serial device ID
-60c53e177d8 usb: quirks: Add no-lpm quirk for KY-688 USB 3.1 Type-C Hub
-f8c6100bb56 uas: Always apply US_FL_NO_ATA_1X quirk to Seagate devices
-b32dc9b698a ima: fix hash algorithm initialization
-85a4dce7a69 net: fec: fix multicast filtering hardware setup
-dc88aa5a9fb mm: avoid returning VM_FAULT_RETRY from ->page_mkwrite handlers
-986cdc05fb0 tipc: fix cleanup at module unload
-3c73a2d2762 net: sctp: fix array overrun read on sctp_timer_tbl
-6610c8d6c9d NFSv4: Fix client recovery when server reboots multiple times
-4897ec50459 net/appletalk: Fix kernel memory disclosure
-9695bc60574 vti6: fix device register to report IFLA_INFO_KIND
-caeea2deede ARM: OMAP1: DMA: Correct the number of logical channels
-20608e0fa17 perf test attr: Fix ignored test case result
-addd7b0530c sysrq : fix Show Regs call trace on ARM
-7145e3b4da1 EDAC, sb_edac: Fix missing break in switch
-84b0aa4227c spi: sh-msiof: Fix DMA transfer size check
-2c6bbb35eb9 serial: 8250_fintek: Fix rs485 disablement on invalid ioctl()
-a16de9cbb83 bcache: recover data from backing when data is clean
-cd54e4b64ae bcache: only permit to recovery read error when cache device is clean
-a4845e71031 Linux 3.18.86
-90fea3882ea drm/i915: Prevent zero length "index" write
-db22d97ab00 drm/i915: Don't try indexed reads to alternate slave addresses
-845f89efee6 NFS: revalidate "." etc correctly on "open".
-e26cdb006bc drm/panel: simple: Add missing panel_simple_unprepare() calls
-b946140f139 eeprom: at24: check at24_read/write arguments
-cfc0d6ec860 KVM: x86: inject exceptions produced by x86_decode_insn
-1fca18ad53d KVM: x86: Exit to user-mode on #UD intercept when emulator requires
-2966c19698f btrfs: clear space cache inode generation always
-6ee699b1599 mm/madvise.c: fix madvise() infinite loop under special circumstances
-3bf0bec65ed mm, thp: Do not make page table dirty unconditionally in touch_p[mu]d()
-e77b3bc7589 ipsec: Fix aborted xfrm policy dump crash
-968f8f0332f netlink: add a start callback for starting a netlink dump
-
-   * packages/apps/Dialer/
-1927efc7c Disable answer false touch detection by default
-
-   * packages/apps/NitrogenSettings/
-3960881 Update cs and sk translation
-
-   * packages/apps/Terminal/
-d78d276 Add cs and sk translation
-
-====================
-     12-21-2017
-====================
-
-
-   * device/oneplus/oneplus3/
-cec4249 Oneplus3Parts: remove launchMode
-
-   * frameworks/base/
-d5f8656d5a2 Append app name to screenshot file
-
-====================
-     12-20-2017
-====================
-
-
-   * device/xiaomi/kenzo/
-b78b91f XiaomiParts: remove launchMode
-
-   * frameworks/base/
-f60f9678c01 Statusbar battery level device filter: add a few more ones
-2b76294bbd8 SystemSensorManager: sensor block per-package
-4eaeedd5765 Configurable 0, 90, 180 and 270 degree rotation
-e5b4401c0c4 fwcore: Enable power save config of system apps
-
-   * packages/apps/DUI/
-9318db4 DUI: Updated polish translation
-
-   * packages/apps/NitrogenSettings/
-cd59f27 Update zh-rCN
-a6ccfbb Update PL translation
-
-   * packages/apps/Settings/
-d7f1006a02 Settings: Update Polish translation
-b527fbe124 Settings: allow disabling themes
-9ca9c1e08f Configurable 0, 90, 180 and 270 degree rotation [2/2]
-
-   * packages/providers/DownloadProvider/
-4680541 DownloadProvider: Added polish translation
-
-   * vendor/nitrogen/
-74193c1 Vendor: Add adaptive icons
-
-====================
-     12-19-2017
-====================
-
-
-   * build/make/
-4c2d1ca00 soong_config: Add TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS
-5c21e48a4 soong_config: Add TARGET_HAS_LEGACY_CAMERA_HAL1 variable
-f5de813aa soong_config: Add TARGET_USES_MEDIA_EXTENSIONS variable
-
-   * device/oneplus/oneplus3/
-db37e4e sepolicy: Use noatsecure for everything
-
-   * frameworks/av/
-f4840379f CameraService: Fix deadlock in binder death cleanup.
-
-   * frameworks/base/
-eb8c0a5e52d SystemUI: Expose QS edit item decoration background color
-7fa781574b4 Themes: Expose resolver hardcoded colors
-8cce178ad0b Set Persisting Mobile Data connection off by default [2/2]
-e67ffe21d44 Quick settings: Add Haptic Feedback to tiles [1/2]
-266312d6cc8 theme: eradicate blue-gray
-bb876d0101f [1/2] base: configure SystemUI theme
-
-   * packages/apps/DUI/
-5d23bf2 Be sure to set buttons darkintensity when needed
-5254cd4 Dark custom icons: lower the light of the icon, don't make it black
-dabc789 Update cs and sk translations
-
-   * packages/apps/NitrogenSettings/
-db4cd01 Update Turkish translation
-5530b45 Update cs and sk translations
-d294ff0 Quick settings: Add Haptic Feedback to tiles [2/2]
-d44751e [2/2] configure SystemUI theme
-
-   * packages/apps/Settings/
-7187103a0c Expose switchbar background color
-dfa533a765 Add cs and sk translations
-7751f42491 Set Persisting Mobile Data connection off by default [1/2]
-
-   * system/vold/
-213d64d cryptfs: fix wrong password set by user during bootup
-98307b0 vold: Add Hardware FDE feature
-1aa578c Treat removable UFS card as SD card
-759e6a0 vold: ntfs: Use strlcat
-
-   * vendor/nitrogen/
-21dee35 overlay: Disable SystemUI anti-falsing on lockscreen
-
-====================
-     12-18-2017
-====================
-
-
-   * bionic/
-da22c8b78 linker: Make platform text relocations denial optional
-
-   * build/soong/
-766e49e variables: Add needs_text_relocations product variable
-58b2e3b variables: Add uses_media_extensions product variable
-3d7c9eb variables: Add has_legacy_camera_hal1 product variable
-
-   * device/qcom/sepolicy/
-44fe92c Merge LA.UM.6.4.r1-05400-8x98.0
-
-   * device/xiaomi/kenzo/
-febd9d8 Import Lineage doze from op3 tree
-d884506 Add XiaomiParts Thanks to @maxwen (kanged from op3)
-
-   * packages/apps/NitrogenSettings/
-b513525 Update brazilian portuguese translation
-3f40a94 Update pl strings Corrected translation and added missing strings
-
-   * packages/apps/Settings/
-848f19c525 Settings: Support for PL lang
-
-   * packages/apps/Terminal/
-56dfa84 RU translation
-f8c43a5 Added icons
-
-   * system/bt/
-b060bceb btm_inq: fix build with BTA_HOST_INTERLEAVE_SEARCH
-
-   * system/core/
-2886dc158 adb: Restore support for legacy f_adb interface
-7f8fbf656 libsuspend: Bring back earlysuspend
-
-   * system/sepolicy/
-0ddd2d0e sepolicy: Also allow vendor_file text relocations
-a8891c39 sepolicy: Allow optional platform text relocations
-cd40ba37 sepolicy: Restore support for legacy f_adb interface
